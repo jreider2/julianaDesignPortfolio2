@@ -1,0 +1,64 @@
+@import '/styles/global.css';
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: var(--widest-container-width);    
+}
+
+.heading {
+    font-family: MuseoModerno;
+    font-size: var(--huge-text);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background: var(--Title-Gradient-2);
+    /* var(--Title-Gradient-2, linear-gradient(180deg, #CDD4EB 0%, #F7F9FF 51.04%, #B1B7CC 100%)); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-block-end: 0rem;
+    margin-block-start: 10rem;
+}
+
+.subheading {
+    color: var(--subheading-light-text, #A7B1CF);
+    font-family: SF Pro Text, sans-serif;
+    font-size: var(--subheading-txt, 1.8rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+    text-align: center;
+    margin-block-end: 4rem;
+    margin-block-start: 0rem;
+}
+
+.imageWrapper {
+    position: relative;
+    /*width: 58rem;   Set the width */
+    width : 100%; /* 100% of .headerContainer */
+    height: auto;  /* Height is set to auto to maintain aspect ratio */
+    max-height: 100%; /* Optional: Ensures the image does not exceed a certain height */
+    border-radius: var(--boarder-radius);  /* Optional: if you want rounded corners */
+    overflow: hidden;  /* Ensures the image does not spill outside the border-radius */
+}
+
+
+@media (max-width: 1030px) {
+    /* .headerContainer {
+        width: 80%;    
+    } */
+    /* .imageWrapper {
+        width: 100%;
+    } */
+}
+
+@media (max-width: 714px) {
+    /* .imageWrapper {
+        width: 90%;
+    } */
+}

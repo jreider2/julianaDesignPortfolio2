@@ -1,0 +1,13 @@
+.arrowDown {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+  color: var(--light-text, #D5DCF4);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 150;
+  line-height: normal;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}

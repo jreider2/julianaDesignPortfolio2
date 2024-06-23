@@ -1,0 +1,35 @@
+/* Import Global Styles */
+@import url("/styles/global.css");
+
+/* Rest of the CSS code for the file */
+
+.outterContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-card-gradient, linear-gradient(180deg, #2A4075 0%, #1D3369 100%));
+    color: white; /* Set the text color to white for better contrast */
+    max-width: var(--widest-container-width); 
+    width: var(--widest-container-width);
+    margin: var(--margin-4) auto; /* Optional: Center the box on the page */
+    border-radius: var(--boarder-radius); 
+}
+
+.cardBody{
+    margin-top: var(--margin-4);
+    margin-bottom: var(--margin-3);
+    color: var(--light-text, #D5DCF4);
+    width: var(--innerTxtWidth, 51.25rem);
+}
+
+.imageWrapper {
+    /* position: relative; */
+    width: var(--innerPicWidth, 51rem);
+     /*width : 100%; 100% of .headerContainer */
+    height: auto;  /* Height is set to auto to maintain aspect ratio */
+    max-height: 100%; 
+    border-radius: var(--boarder-radius); 
+    overflow: hidden;
+    margin-bottom: var(--margin-4);
+}

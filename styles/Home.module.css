@@ -1,0 +1,158 @@
+.heroSection {
+  background-color: var(--main-bg);
+  background-image: url('/images/lightCirlce_mainPage.png');
+  background-size: cover;
+  background-position: center -45vh;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  padding-top: 4rem;
+  margin: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  text-align: center;
+  min-height: 120vh;
+  margin-top: 20vh;
+}
+
+/* Gradient overlay */
+.heroSection::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #172C5F 4.17%, rgba(23, 44, 95, 0.69) 41.65%, rgba(23, 44, 95, 0.00) 100%);
+  z-index: 1;
+}
+
+.heroSection h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.heroSection h1 span {
+  font-family: 'MuseoModerno', sans-serif;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.EngineersLens {
+  background: linear-gradient(180deg, #A7B2D9 30%, #F7F9FF 51.04%, #939DBF 75%);
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 6.875rem;
+  /* 110% */
+  letter-spacing: -0.1rem;
+  display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+.designerVision {
+  background: linear-gradient(180deg, #A7B2D9 27%, #F7F9FF 51.04%, #939DBF 77%);
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.5rem;
+  letter-spacing: -0.1rem;
+  /* margin-bottom: 2rem; */
+  display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+.subheadContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.heroSection h2 {
+  color: var(--light-text, #D5DCF4);
+  font-family: SF Pro Rounded, sans-serif; 
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0375rem;
+  text-transform: lowercase;
+  margin-bottom: 0rem;
+  margin-top: .5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.ghost {
+  position: relative;
+  z-index: 2;
+  top:-200px;
+}
+
+@media (max-width: 1030px) {
+  .heroSection {
+    background-position: center -10vh;
+    min-height: 70vh;
+    margin-top: 0vh;
+    padding-top: 10rem;
+  }
+
+  .EngineersLens {
+    font-size: 5rem;
+    line-height: 100%;
+    margin-top: 5vh;
+  }
+
+  .designerVision {
+    font-size: 5rem;
+    line-height: 100%;
+  }
+
+  .heroSection h2 {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 714px) {
+  .EngineersLens {
+    font-size: 2.75rem;
+    line-height: 100%;
+  }
+
+  .designerVision {
+    font-size: 2.75rem;
+    line-height: 100%;
+  }
+
+  .heroSection {
+    background-position: center -10vh;
+    min-height: 75vh;
+    margin-top: 5vh;
+  }
+
+  .subheadContainer {
+    margin-top: 3rem;
+  }  
+
+  .heroSection h2 {
+    font-size: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+  }
+  .heroSection .subhead2 {
+    visibility: hidden;
+  }
+}

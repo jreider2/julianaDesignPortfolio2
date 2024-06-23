@@ -1,0 +1,238 @@
+/* entire page container */
+.useCaseContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*END  entire page container END */
+
+.imageContainer {
+    /* max-width: 60.875rem; */
+    /* This next section is a hack for safari rendering the images properly */
+    width: var(--widest-container-width);
+    height: 0.0625rem;
+    /* border-radius: var(--boarder-radius); */
+    overflow: hidden;
+    position: relative;
+    /* Above section is a hack for safari rendering the images properly */
+    margin-top: var(--margin-4);
+    margin-bottom: var(--margin-4);
+}
+
+/* Card styles */
+.bulletContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: var(--innerTxtWidth, 51.25rem);
+    margin-bottom: var(--margin-4);
+    justify-content: space-around;
+}
+
+.cardBody2{
+    margin-bottom: var(--margin-3);
+    color: var(--light-text, #D5DCF4);
+    width: var(--innerTxtWidth, 51.25rem);
+}
+
+.imageWrapper2{
+    width: var(--innerPicWidth, 51rem);
+    height: auto;  /* Height is set to auto to maintain aspect ratio */
+    max-height: 100%; 
+    border-radius: var(--boarder-radius); 
+    overflow: hidden;
+}
+/* END Card styles END*/
+
+.imageWrapper3{
+    width: var(--widest-container-width); /* may want to change image at top to: width: var(--innerPicWidth, 51rem);*/
+    height: auto;  /* Height is set to auto to maintain aspect ratio */
+    max-height: 100%; 
+    border-radius: var(--boarder-radius); 
+    overflow: hidden;
+}
+
+/* speaker mode icon section */
+.speakerModsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: var(--widest-container-width, 51.25rem);
+    margin-top: var(--margin-3);
+    margin-bottom: var(--margin-3);
+    gap: 10px 10rem;
+}
+
+.sModsPicContainer{
+    width: 6rem;
+    display: flex;
+    height: 80px;
+}
+
+.modHeightLimit {
+    height: 76px;
+}
+
+.middleModContainner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 15rem;
+}
+
+.modeTitle{
+    margin-top: var(--margin-2);
+}
+
+.modeBody{
+    margin-top: .5rem;
+    text-align: center;
+}
+/* END speaker mode icon section END */
+
+.sectionSubheading{
+    color: var(--light-text, #D5DCF4);
+    font-family: var(--round, SF Pro Rounded, sans-serif);
+    font-size: var(--body-text, 1.44rem);
+    font-weight: 400;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+    text-align: left;
+    width: var(--widest-container-width);
+}
+
+.mainInsightTitle {
+    margin-bottom: var(--margin-1);
+    color: var(--subheading-light-text, #A7B1CF);
+    font-family: "SF Pro Rounded";
+    font-size: var(--subheading-txt);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    width: var(--innerTxtWidth, 51.25rem);
+}
+
+.cardCallout {
+    color: var(--subheading-light-text, #A7B1CF);
+    font-family: MuseoModerno;
+    font-size: var(--pull-quote-txt);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    width: var(--innerTxtWidth, 54.125rem);
+}
+
+.whiteTxt {
+    color: white; 
+}
+
+/* Indents and margins */
+.indent{
+    margin-left: 1rem;
+}
+
+.marginBottomNone {
+    margin-bottom: 0px;
+}
+
+.marginBottom{
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.marginBottom1{
+    margin-bottom: var(--margin-2);
+}
+
+.marginBottom2{
+    margin-bottom: var(--margin-4);
+}
+
+.marginTop5{
+    margin-top: var(--margin-5);
+}
+
+.marginTop{
+    margin-top: var(--margin-4);
+}
+
+.marginTop3 {
+    margin-top: var(--margin-3);
+}
+
+.marginTop2{
+    margin-top: var(--margin-2);
+}
+
+.marginTopNone{
+    margin-top: var(--margin-none);
+}
+
+.marginTopSlim{
+    margin-top: var(--margin-1);
+}
+
+.marginSides1{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+/* END Indents and margins END */
+
+@media (max-width: 1030px) {
+    .bulletContainer {
+        justify-content: space-between;
+        gap: 2rem;
+        /* width:90%; */
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 839px) {
+    /* speaker mode icon section */
+    .speakerModsWrapper{
+        gap: 10px 8rem;
+    }
+}
+
+@media (max-width: 800px) {
+    /* speaker mode icon section */
+    .speakerModsWrapper{
+        gap: 3rem 10rem;
+    }
+
+    .marginVpTopSmall{
+        margin-top: var(margin-3);
+    }
+}
+
+@media (max-width: 714px) {
+    .bulletContainer {
+        flex-direction: column;
+        font-size: var(--body-text);
+        margin-left: 1rem;
+    }
+    .speakerModsWrapper{
+        flex-direction: column;
+        row-gap: var(--margin-4);
+    }
+
+    .processImgCon {
+        height: auto;
+        width: 30vh;
+        margin: var(--margin-4)
+    }
+
+    .cardCallout {
+
+    }
+
+    .processContainer{
+        margin-top: var(--margin-4);
+        margin-bottom: var(--margin-4);
+    }
+
+  }

@@ -1,0 +1,82 @@
+/* @import '/styles/global.css'; */
+
+.outterContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: SF Pro Text, sans-serif;
+    margin-top: 10rem;
+    width: var(--widest-container-width);
+    gap: 2rem 0px;
+    justify-content: space-between;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    font-family: SF Pro Text, sans-serif;
+    width: 32%;
+    gap: 1.5rem;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    font-family: SF Pro Text, sans-serif;
+    width: 55%;
+}
+
+.heading{
+    color: var(--light-text, #D5DCF4);
+    font-family: var(--font-fam-round, SF Pro Rounded, sans-serif);
+    font-size: var(--body-text, 1.2rem);
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    margin-top:0px;
+}
+
+.emphasis {
+    color: var(--Light-blue, #D5DCF4);
+    font-weight: 400;
+    line-height: 150%; /* 2.25rem */
+}
+
+.body {
+    color: var(--subheading-light-text, #A7B1CF);
+    font-size: var(--body-text, 1.2rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.marginTopNone {
+    margin-top: 0px;
+}
+
+.marginBottomNone {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1030px) {
+    .outterContainer{
+        margin-top: 6.5rem;
+        gap: 1.5rem 2rem;
+        
+    }
+    .row1{
+        width: 100%;
+    }
+    .row2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 714px) {
+    .outterContainer{
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  margin: 0;
+  font-family: SF Pro Rounded, sans-serif, -apple-system, sans-serif;
+  /* font-size: 16px; */
+}
+
+:root {
+  /* --Title-Light-Text-Gradient: -webkit-linear-gradient(180deg, #CDD4EB 0%, #F7F9FF 51.04%, #B1B7CC 100%); */
+  --Title-Gradient-2: linear-gradient(180deg, #A7B2D9 30%, #F7F9FF 51.04%, #939DBF 70%);
+  --main-bg: #172C5F;
+  --light-text: #D5DCF4;
+  --subheading-light-text: #A7B1CF;
+  --Light-blue: #D5DCF4;
+  background-color: var(--main-bg);
+  /*colors on usecase page*/
+  --background-card-gradient: linear-gradient(180deg, #2A4075 0%, #1D3369 100%);
+
+  /*widths*/
+  --widest-container-width: 58rem;
+  --innerPicWidth: 51rem; /* --widest-container-width minus --margin-4 x 2 (for left and right) */
+  --innerTxtWidth: var(--innerPicWidth);
+  /* --boxTxtWidth: 45rem; */
+  /*sizing*/
+  --boarder-radius: 15px;
+  --round-radius: 60px;
+  --small-icon-size: 35px;
+  /* text sizes */
+  --body-text: 1.2rem;
+  --subheading-txt: 1.44rem;
+  --pull-quote-txt: 1.8rem;
+  --huge-text: 6.25rem;
+  /* text fonts */
+  --font-fam-body: SF Pro Text,sans-serif;
+  --font-fam-round: SF Pro Rounded, sans-serif;
+  --font-fancy: MuseoModerno;
+  
+  /*margins*/
+  --margin-none: 0rem; /* 0 */
+  --margin-1: 1rem; /* 1 */
+  --margin-2: 2.33rem; /* 2 */
+  --margin-3: 2.33rem; /* 3 */
+  --margin-4: 3.5rem; /* 4 */
+  --margin-5: 5rem; /* 5 */
+}
+
+.bodyText {
+  font-size: var(--body-text);
+  color: var(--light-text);
+  color: var(--subheading-light-text, #A7B1CF);
+  font-family: var(--font-fam-body, SF Pro Text, sans-serif);
+  font-weight: 300 ;
+  line-height: 150%; /* 2.25rem */
+  margin-top: var(--margin-2);
+}
+
+.emphasis{
+  font-size: var(--body-text);
+  color: var(--white, #FFF);
+  font-family: var(--font-fam-round, sans-serif);
+  /* font-size: 1.5rem; */
+  font-weight: 600;
+  letter-spacing: 0.024em;
+}
+
+.sectionOutterContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--margin-2);
+  width: var(--widest-container-width);
+}
+
+a {
+  color: #e300f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.marginBottomNone {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1030px) {
+  :root {
+    --widest-container-width: 80%;
+    --innerPicWidth: 80%;
+    /* --innerTextWidth: var(--innerPicWidth + 0.25rem); */
+    /* --body-text: 1.2rem; */
+    /* --pull-quote-txt: 1.8rem; */
+    --subheading-txt: 1.44rem;
+    /* --huge-text: 3.5rem; */
+  }
+}
+
+@media (max-width: 714px) {
+  :root {
+    --widest-container-width: 85%;
+    /* --body-text: 1.2rem; */
+    /* --pull-quote-txt: 1.8rem; */
+    --subheading-txt: 1.2rem;
+    --huge-text: 3.5rem;
+  }
+}

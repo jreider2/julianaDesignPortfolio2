@@ -1,0 +1,43 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    width: var(--widest-container-width);
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: #B892FF; /* #51558F;*/ 
+    border: none;
+    cursor: pointer;
+    border-radius: var(--round-radius, 60px);
+    outline: none;
+    transition: background-color 0.3s ease;
+    /* move later */
+    /* color: var(--Light-blue, #D5DCF4); */
+    color: var(--main-bg);
+    font-family: var(--font-fancy);
+    font-size: var(--body-text);
+    letter-spacing: 0.04rem;
+    margin-top: var(--margin-4);
+}
+
+.button svg {
+    margin-right: 4px; /* Space between icon and text */
+    /* color: var(--main-bg); */
+}
+
+/* .button svg:hover {
+    color: var(--main-bg) !important;
+} */
+
+.buttonText{
+    padding-right: 6px;
+}
+
+.button:hover {
+    background-color: var(--light-text);
+    color: var(--main-bg);
+}

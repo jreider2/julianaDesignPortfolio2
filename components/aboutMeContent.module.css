@@ -1,0 +1,345 @@
+/* Import Global Styles */
+@import url("/styles/global.css");
+
+.fullContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem;
+
+    /* the image in the background */
+    background-image: url('/images/AlternateDarkCircle.png');
+    background-size: cover;
+    /* background-color: var(--main-bg); */
+    background-image: url('/images/lightCirlce_mainPage.png');
+    background-position: center -45vh;
+    position: relative;
+    text-align: center;
+    /* background-attachment: fixed; */
+
+
+    /* background-position: center -110vh; */
+    /* background-position: right -150vh; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 120vh;
+}
+
+/* Gradient overlay */
+.fullContent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 160vh;
+    background: linear-gradient(180deg, #172C5F 8%, rgba(23, 44, 95, .7) 30.65%, rgba(23, 44, 95, .9) 60%);
+    z-index: 1;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8rem;
+    width: 100%;
+    padding-bottom: 3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: MuseoModerno;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.125rem;
+    background: linear-gradient(180deg, #A7B2D9 30%, #F7F9FF 51.04%, #939DBF 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    color: var(--Light-blue, #D5DCF4);
+    font-family: MuseoModerno;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    width: 64%;
+    text-align: center;
+    /* 3rem */
+}
+
+.flexContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: var(--subheading-light-text, #A7B1CF);
+    text-align: start;
+    font-family: SF Pro Text, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60rem;
+    /* 2.25rem */
+    gap: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.imageContainer {
+    fill: lightgray 50% / cover no-repeat, linear-gradient(180deg, #2A4075 0%, #1D3369 100%);
+    mix-blend-mode: luminosity;
+    backdrop-filter: blur(23px);
+    max-width: 20rem;
+    /* This next section is a hack for safari rendering the images properly */
+    width: 20rem;
+    height: 20rem;
+    border-radius: var(--boarder-radius);
+    overflow: hidden;
+    position: relative;
+    /* Above section is a hack for safari rendering the images properly */
+}
+
+.roundedCorners {
+    border-radius: var(--boarder-radius);
+    /* Adjust the radius as needed */
+    overflow: hidden;
+}
+
+.imageSize1 {
+    height: 23rem;
+    width: 17rem;
+}
+
+.imageSize2 {
+    height: 18rem;
+    width: 20rem;
+}
+
+.imageSize3 {
+    height: 18rem;
+    width: 20rem;
+}
+
+.imageSize4 {
+    height: 30rem;
+    width: 20rem;
+}
+
+.f1Text1 {
+    max-width: 30rem;
+}
+
+.f1Text1 p:first-child {
+    margin-top: 0rem;
+}
+
+.emphasis {
+    color: var(--light-text, #D5DCF4);
+    font-weight: 400;
+}
+
+.flexContainer2 {
+    color: var(--subheading-light-text, #A7B1CF);
+    font-family: SF Pro Text, sans-serif;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+    max-width: 65%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.emphasis2 {
+    text-align: center;
+    font-family: MuseoModerno;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 3.75rem */
+    background: linear-gradient(180deg, #A7B2D9 20%, #F7F9FF 51.04%, #939DBF 93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-text, #D5DCF4);
+    font-family: MuseoModerno;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.midTitle {
+    text-align: left;
+    font-family: MuseoModerno;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 3rem */
+    background: linear-gradient(180deg, #CDD4EB 0%, #F7F9FF 51.04%, #B1B7CC 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0rem;
+}
+
+.callout {
+    font-family: MuseoModerno;
+    font-size: 6.25rem;
+    /* same size as title */
+    font-style: normal;
+    font-weight: 200;
+    line-height: 150%;
+    /* 9.375rem */
+    background: var(--Title-Gradient-2, linear-gradient(180deg, #CDD4EB 0%, #F7F9FF 51.04%, #B1B7CC 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    max-width: 90vw;
+    padding-bottom: 1.2rem;
+}
+
+.calloutEmphasis {
+    font-family: MuseoModerno;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 9.375rem */
+    background: var(--Title-Gradient-2, linear-gradient(180deg, #CDD4EB 0%, #F7F9FF 51.04%, #B1B7CC 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.addedPadding {
+    padding-top: 4rem;
+}
+
+.removeBottomMargin {
+    margin-block-end: 0px;
+}
+
+@media (max-width: 1030px) {
+
+    .flexContainer1 {
+        width: 80%;
+    }
+
+    .f1Text1 {
+        width: 100%;
+        max-width: 41rem;
+    }
+
+    .flexContainer2 {
+        font-size: 1.8rem;
+        /* same size as subtitle*/
+        max-width: 60%;
+    }
+
+    .emphasis2 {
+        font-size: 1.8rem;
+        /* same size as subtitle*/
+    }
+
+    .callout {
+        /* keep the same size as title or the other quote 
+        currently it's the same size as */
+        font-size: 4rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    .calloutEmphasis {
+        font-size: 4rem;
+    }
+
+    .imageContainer {
+        max-width: 41rem;
+    }
+
+
+    .imageSize1 {
+        height: 41rem;
+        width:  41rem;
+    }
+
+    .imageSize2 {
+        height: 41rem;
+        width:  41rem;
+    }
+
+    .imageSize3 {
+        height: 41rem;
+        width: 41rem;
+    }
+
+    .imageSize4 {
+       height: 41rem;
+        width:  41rem;
+    }
+
+    .midTitle {
+        padding-top: 1rem;
+    }
+
+}
+
+@media (max-width: 714px) {
+    .fullContent {
+        background-position: center 5vh;
+        background-size: 150%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        width: 85%;
+    }
+
+    .flexContainer1 {
+        width: 85%;
+    }
+
+    .flexContainer2 {
+        font-size: 1.5rem;
+        max-width: 85%;
+    }
+
+    .emphasis2 {
+        font-size: 1.5rem;
+    }
+
+
+    .callout {
+        font-size: 4rem;
+        text-align: center;
+        width: 90%;
+    }
+
+    .calloutEmphasis {
+        font-size: 4rem;
+    }
+}

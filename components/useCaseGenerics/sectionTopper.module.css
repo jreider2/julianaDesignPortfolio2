@@ -1,0 +1,38 @@
+@import '/styles/global.css';
+
+.sectionContainer {
+    /* styles for class1 */
+    width: var(--widest-container-width);
+    
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: var(--margin-2, 2rem);
+}
+
+.circle {
+    margin-right: .5rem;
+}
+
+.sectionTitle {
+    color: var(--light-text, #D5DCF4);
+    font-family: var(--font-fam-round, sans-serif);
+    font-size: var(--body-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sectionSubtitle {
+    color: var(--white, #FFF);
+    font-family: var(--font-fam-round);
+    font-size: var(--pull-quote-txt, 1.8rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.045rem;
+}
+

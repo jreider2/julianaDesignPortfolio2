@@ -1,0 +1,50 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: var(--widest-container-width); /* // change to width?  */
+    border-radius: var(--boarder-radius);
+    border: 1px solid var(--blue-stroke-2, #465F9C);
+    /* margin-top: var(--margin-4); */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #172C5F;
+    gap: var(--margin-4, 3.5rem);
+    width: var(--innerTxtWidth, 54.125rem);
+  }
+  
+  .iconContainer {
+    width: var(--small-icon-size); 
+    min-width: var(--small-icon-size); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 40px; */
+  }
+  
+  .text {
+    flex-grow: 1;
+    margin-top: var(--margin-none, 0rem);
+    color: var(--light-text, #D5DCF4);
+    font-family: var(--font-fam-body, SF Pro Text, sans-serif);
+    font-size: var(--body-text, 1.2rem);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    /* width: var(--boxTxtWidth); */
+  }
+
+  .marginboxOuter{
+    margin: var(--margin-2) auto;
+  }
+
+  .padding {
+    padding: var(--margin-3) var(--margin-4);
+  }
+  

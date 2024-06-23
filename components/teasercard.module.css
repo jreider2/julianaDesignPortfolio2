@@ -122,14 +122,14 @@
 
   .card .imageContainer .image {
     max-height: auto;
-    max-width: 100vw;
+    max-width: 69vw;
   }
 
   .card .top_container .text_content {
     padding: 0;
     padding-left: 1.25rem;
     padding-top: .95rem;
-    padding-right: 1.25rem;
+    padding-right: 0.25rem;
   }
 
   .card .top_container .text_content h3 {

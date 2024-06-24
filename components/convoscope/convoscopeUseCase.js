@@ -38,6 +38,7 @@ import heyConvo from '../../public/images/heyConvo.png'
 import landingPage from '../../public/images/landingPage.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
+import convoHero from '../../public/images/convoHero.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -82,7 +83,7 @@ export default function ConvoscopeUseCase(){
                 heading="ConvoScope" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
                 // image={testVid}
-                image={teaserImage}
+                image={convoHero}
                 />
             <Overview
                 myRole="Lead Product Designer – "

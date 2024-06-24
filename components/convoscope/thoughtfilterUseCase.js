@@ -13,8 +13,6 @@ import processVertical from '../../public/images/processVertial2.png'
 import feedbackIcon from '../../public/images/feedbackIcon.png'
 import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
-import agentsBefore from '../../public/images/agentsBefore.png'
-import agentsAFter from '../../public/images/agentsAfter.png'
 import welcome from '../../public/images/tfWelcome.png'
 import projectHistory from '../../public/images/tfProjectHistory.png'
 import wireframe from '../../public/images/tfWireframe.png'
@@ -30,6 +28,7 @@ import tfColorPallet from '../../public/images/tfColorPallet.png'
 import editHighlight from '../../public/images/editHighlight.png'
 import welcomePage from '../../public/images/tfWelcome.png'
 import InputAndGen from '../../public/images/tfInputAndGen.png'
+import projects from '../../public/images/tfProjects.png';
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -74,7 +73,7 @@ export default function ThoughtFilterUseCase(){
                 heading="ThoughtFilter" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
                 // image={testVid}
-                image={welcome}
+                image={projects}
                 />
             <Overview
                 myRole="Product Designer – "
@@ -165,7 +164,7 @@ export default function ThoughtFilterUseCase(){
             >
                 <div className={styles.imageWrapper2}>
                     <Image
-                        src={projectHistory}
+                        src={projects}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{

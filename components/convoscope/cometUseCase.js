@@ -32,6 +32,7 @@ import oldColors from '../../public/images/oldColors.png'
 import tintedCodeBg from '../../public/images/tintedCodeBg.png'
 import mainMenuBright from '../../public/images/mainMenuBright.png'
 import sketches from '../../public/images/sketches.png'
+import cometHero from '../../public/images/cometTeaser.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -45,7 +46,7 @@ import styles from "./useCase.module.css";
 
 // data
 import { text, takeaways } from '../constants/cometConstants.js';
-import { overviewTextFull, boarder, boarder2} from '../constants/convoscopeConstants';
+import { boarder, boarder2} from '../constants/convoscopeConstants';
 
 
 export default function CometUseCase(){
@@ -76,7 +77,7 @@ export default function CometUseCase(){
                 heading="Comet" 
                 subheading="Reimagining the source code management experience."
                 // image={testVid}
-                image={mainMenuBright}
+                image={cometHero}
                 />
             <Overview
                 myRole="Product Designer – "

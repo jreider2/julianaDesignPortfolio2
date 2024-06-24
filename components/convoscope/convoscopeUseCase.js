@@ -652,7 +652,7 @@ export default function ConvoscopeUseCase(){
             <Card
                 p1= {<div><span className={`emphasis`}>Landing Page– </span> Start a new session or view archive of past sessions.</div> }
             >
-                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                <div className={`${styles.imageWrapper2} `}>
                     <Image
                         src={landingPage}
                         alt="Use Case Image"

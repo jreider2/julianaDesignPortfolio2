@@ -670,7 +670,7 @@ export default function CometUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls autoplay loop muted width="100%" height="auto">
-                        <source src="/video/mergeVid.mp4" type="video/mp4" />
+                        <source src="/video/mergeVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -700,7 +700,7 @@ export default function CometUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls autoplay loop muted width="100%" height="auto">
-                        <source src="/video/stageUnstageVid.mp4" type="video/mp4" />
+                        <source src="/video/stageUnstageVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -709,7 +709,7 @@ export default function CometUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <video controls autoplay loop muted width="100%" height="auto">
-                        <source src="/video/commitHover.mp4" type="video/mp4" />
+                        <source src="/video/commitHoverVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

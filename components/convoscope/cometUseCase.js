@@ -82,7 +82,7 @@ export default function CometUseCase(){
             <Overview
                 myRole="Product Designer – "
                 responsibilities="UX Design, Visual Design, Information Architecture, User Flows, User Research"
-                timeline="Q4 2024"
+                timeline="Q2 2024"
                 status="MVP Design Complete"
                 team={<div>Me, Myself, and I
                 </div>}
@@ -102,9 +102,7 @@ export default function CometUseCase(){
             <SectionTopper
                 sectionTitletxt="Highlights"
                 sectionSubtitleTxt="The power you need coupled with the ease you desire."
-                topParagraphHTML={<div className={'bodyText'}>With ConvoScope, users don’t waste time entering requests into a search tool. When activated, 
-                    the tool listens to the users’ conversation and, with the help of AI, automatically outputs 
-                    succinct information, aiding in a <span className={`emphasis`}>approachable, forgiving and straightforward.</span></div>}
+                topParagraphHTML={<div className={'bodyText'}>With Comet, users don’t waste time memorizing commands, entering them in the wrong order, or taking time to surface useful git log or stash information. Comet results in an <span className={`emphasis`}>approachable, forgiving and straightforward </span>experience.</div>}
             />
 
             <Card
@@ -117,12 +115,12 @@ export default function CometUseCase(){
                 bullets={null}
             >
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2} ${styles.marginTopNone}`}>
-                    <div>In the branch dropdown users can view the current branch, checkout any existing branch, create a new branch or merge branches.</div>
+                    <div>In the branch dropdown, users can view the current branch, check out any existing branch, create a new branch, or merge branches.</div>
                 </div>
             </Card>
 
             {/* Speaker mode icons  */}
-            <div className={`${styles.speakerModsWrapper}`}>
+            {/* <div className={`${styles.speakerModsWrapper}`}>
                 <div className={styles.middleModContainner}>
                     <div className={styles.sModsPicContainer}>
                         <Image
@@ -154,11 +152,11 @@ export default function CometUseCase(){
                     <div className={`bodyText ${styles.modeBody}`}>Forem ipsum dolor<br/>Forem ipsum dolor sit
                     </div> 
                 </div>
-            </div>
+            </div> */}
 
             <Card
                 className={`${styles.marginBottomNone}`}
-                p1= {<div><span className={`emphasis`}>Easy Undo–</span>  If a mistake is made, it’s quick to undo it via the undo button. This is an alternative to looking up less frequently used git commands and hoping to avoid unintentionally destructive git commands that sometimes can be stumbled over.</div> }
+                p1= {<div><span className={`emphasis`}>Easy Undo–</span> If a mistake is made, it can be quickly undone using the undo button. This offers a simpler alternative to searching for less frequently used git commands and helps avoid the risk of executing unintentionally destructive commands that are sometimes easy to stumble upon.</div> }
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <Image
@@ -173,7 +171,7 @@ export default function CometUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginTopNone}`}>
-                    <div><span className={`emphasis`}>Undo Context Menu–</span> Upon reviewing the commit history, it’s simple revert or rename commits.</div>
+                    <div><span className={`emphasis`}>Context Menu–</span> When reviewing the commit history, it’s simple to revert, view, or rename commits.</div>
                 </div>
 
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
@@ -232,7 +230,7 @@ export default function CometUseCase(){
             <Card
                 className={`${styles.marginTop3}`}>
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-                Git is a tool used to get the more important deep work done. It should be quick, <span className={`${styles.whiteTxt}`}>easy to leverage, and as frictionless process as possible.</span>
+                Git is essentially a tool used to get important work done. Leveraging it should be quick, easy, and as <span className={`${styles.whiteTxt}`}>frictionless process as possible.</span>
                 </div>
             </Card>
 
@@ -246,13 +244,13 @@ export default function CometUseCase(){
                 </div> */}
             </div>
 
-            <Box className={styles.marginTop2} txt='Users had difficulty remembering Git commands and sequences, especially infrequently used commands or when learning git for the first time.' icon={bookOpen}>
+            <Box className={styles.marginTop2} txt='Users often struggled to remember git commands, particularly the infrequently used ones or when first learning git.' icon={bookOpen}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='Undoing mistakes with git CLI can be arduous and cause trepidation.' icon={alertIcon}>
+            <Box className={styles.marginTopSlim} txt='Undoing mistakes with git CLI can be arduous and can cause trepidation.' icon={alertIcon}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='The CLI tucks away info that users want quick access too. For example, line by line code changes, and which files are staged or committed.' icon={eyeOffIcon}>
+            <Box className={styles.marginTopSlim} txt='The CLI tucks away info that users want quick access to. For example, line-by-line code changes, and which files are staged or committed.' icon={eyeOffIcon}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='Users want to be able to manage stashes easily and quickly. Stashing is necessary for in many cases.' icon={folderIcon}>
+            <Box className={styles.marginTopSlim} txt='Users want to be able to manage stashes easily and quickly. Stashing is necessary in many cases.' icon={folderIcon}>
             </Box>
             <Box className={styles.marginTopSlim} txt='Those interviewed wanted to see current changes at a glance.' icon={eyeIcon}>
             </Box>
@@ -412,9 +410,9 @@ export default function CometUseCase(){
             {boarder2}
 
             <SectionTopper
-                sectionTitletxt="Initial Directions"
+                sectionTitletxt="Initial Style Directions"
                 sectionSubtitleTxt="From general to specific."
-                topParagraphHTML={<div className={'bodyText'}>I started the brainstorming by jotting down as many varied descriptors as possible, letting it be a stream of consciousness exercise. There was no wrong answer. From that larger list of general adjectives, I grabbed the ones that had potential, and gathered them into themes.  </div>}
+                topParagraphHTML={<div className={'bodyText'}>I started the brainstorming styles by jotting down as many varied descriptors as possible, letting it be a stream of consciousness exercise. There was no wrong answer. From that larger list of general adjectives, I grabbed the ones that had potential, and gathered them into themes.  </div>}
             />
 
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
@@ -431,7 +429,7 @@ export default function CometUseCase(){
 
             <div className={`sectionOutterContainer`}>
                 <div className={`bodyText`}>
-                Narrowing down the list still further, I landed on the descriptors of <span className={`emphasis`}>Powerful, Sleek, and Approachable</span>. I then used these words to focus and guide my styling
+                Narrowing down the list still further, I landed on the descriptors of <span className={`emphasis`}>Powerful, Sleek, and Approachable</span>. I then used these words to focus and guide my styling.
                 </div>
             </div>
 
@@ -443,7 +441,7 @@ export default function CometUseCase(){
 
             {/* Styles and design language */}
             <Card
-                p1= {<div><span className={`emphasis`}>Sleek– </span> I opted for the light theme, over a dark one, to evoke an atmosphere of simplicity and, in turn, create an impression of ease of use.</div>}
+                p1= {<div><span className={`emphasis`}>Sleek– </span> I opted for the light theme, over a dark one, to evoke an atmosphere of simplicity and, in turn, create an impression of ease of use. Below is the dark theme I breifly considered.</div>}
                 className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
@@ -475,7 +473,7 @@ export default function CometUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div><span className={`emphasis`}>Evokes Dynamism and Power–</span> Threw use of straight lines and overall limited use of rounded corners.</div>
+                    <div><span className={`emphasis`}>Evoking Dynamism and Power–</span> Through the use of straight lines and a minimal use of rounded corners.</div>
                 </div>
                 
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
@@ -491,7 +489,7 @@ export default function CometUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2}`}>
-                    <div><span className={`emphasis`}>Approachable</span> I chose  pink and purple specifically for approachability, keeping in mind the users that were new to source control in general. 
+                    <div><span className={`emphasis`}>Approachable–</span> I chose  pink and purple as interactive colors for approachability, keeping in mind users new to source control.
                     <br/><br/>
                     The colors were also chosen for their contrast against the structural elements, aiding in drawing the user’s eyes to things like CTAs and other interactive elements. </div>
                 </div>
@@ -511,7 +509,7 @@ export default function CometUseCase(){
                     Primary CTA Button
                 </div>
             </div>
-            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> The commit button, which is the main CTA for the changes screne, was actually drawing too much focus it reached the level of distracting. </>} icon={thumbsDownIcon}>
+            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> The commit button, which is the main CTA for the changes screen, was actually drawing too much focus, and it became distracting.</>} icon={thumbsDownIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -558,7 +556,7 @@ export default function CometUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek mannor instead, using color as the key.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek mannor instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -579,7 +577,7 @@ export default function CometUseCase(){
                 color Refinement
                 </div>
             </div>
-            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span>The colors in light mode were either too saturated or there was not enough contrast and things became muddled.</>} icon={thumbsDownIcon}>
+            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span>The colors in light mode were either too saturated, or there was not enough contrast and things became muddled.</>} icon={thumbsDownIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -629,7 +627,7 @@ export default function CometUseCase(){
             <SectionTopper
                 sectionTitletxt="Final Design"
                 sectionSubtitleTxt="Complexity hidden under the hood."
-                topParagraphHTML={<div className={`bodyText`}><span className={`emphasis`}></span>Comet is powerful enough to handle all the necessary git capabilities, but simple enough that people new to git will find it approachable, manageable and easy to learn.</div>}
+                topParagraphHTML={<div className={`bodyText`}><span className={`emphasis`}></span>Comet is powerful enough to handle all the necessary git capabilities, but simple enough that people new to git will find it approachable, manageable, and easy to learn.</div>}
             />
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
                 <div className={styles.sectionSubheading}>
@@ -640,7 +638,7 @@ export default function CometUseCase(){
             {/* 5 major screens */}
             <Card
                 className={`${styles.marginBottomNone}`}
-                p1= {<div><span className={`emphasis`}>Main Menu– </span> Welcome screen allows user to quickly do the most common start actions of cloning, creating, or opening exisiting repositories. Additionally, a list of recent repos are available for even quicker access.</div> }
+                p1= {<div><span className={`emphasis`}>Main Menu– </span> The welcome screen allows users to quickly do the most common initial actions of cloning, creating, or opening exisiting repositories. Additionally, a list of recent repos are available for efficient access.</div> }
             >
                 <div className={`${styles.imageWrapper2}`}>
                     <Image
@@ -696,7 +694,7 @@ export default function CometUseCase(){
                     </video>
                 </div>
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div><span className={`emphasis`}>Changes Screen–</span> Swiftly view file changes, and stage, unstage  your changes on the Changes screen.</div>
+                    <div><span className={`emphasis`}>Changes Screen–</span> Swiftly view file updates, and stage or unstage them on this screen.</div>
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls autoplay loop muted width="100%" height="auto">
@@ -705,7 +703,7 @@ export default function CometUseCase(){
                     </video>
                 </div>
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div><span className={`emphasis`}></span> Four most commonly used actions are positioned together, including the CTA, whose contrasting color draws the eye.</div>
+                    <div><span className={`emphasis`}></span> The four most commonly used action buttons are positioned together, including the CTA, whose contrasting color draws the eye.</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <video controls autoplay loop muted width="100%" height="auto">
@@ -720,7 +718,7 @@ export default function CometUseCase(){
             <SectionTopper
                 sectionTitletxt="Reflections"
                 sectionSubtitleTxt="Mirror, mirror, on the wall."
-                topParagraphHTML={<div className={`bodyText`}>As I reflect on the journey of designing Comet, several key insights stand out that not only shaped the development of this tool but also deepened my appreciation for the intersection of user experience and functional design. Here are my main takeaways from this process, which highlight both the<span className={`emphasis`}> achievements and future opportunities for Comet.</span></div>}
+                topParagraphHTML={<div className={`bodyText`}>Here are my main takeaways from this process, which highlight both the<span className={`emphasis`}> achievements and future opportunities for Comet.</span></div>}
             />
 
             <div className={`sectionOutterContainer ${styles.marginTop}`}>

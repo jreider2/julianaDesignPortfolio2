@@ -13,7 +13,6 @@ import processVertical from '../../public/images/processVertial2.png'
 import feedbackIcon from '../../public/images/feedbackIcon.png'
 import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
-import welcome from '../../public/images/tfWelcome.png'
 import projectHistory from '../../public/images/tfProjectHistory.png'
 import wireframe from '../../public/images/tfWireframe.png'
 import branding from '../../public/images/tfBranding.png'
@@ -78,10 +77,10 @@ export default function ThoughtFilterUseCase(){
             <Overview
                 myRole="Product Designer – "
                 responsibilities="Interaction Design, UX Design, Visual Design, User Flows, User Research, and Prototyping"
-                timeline="Q4 2024 Design Stage"
+                timeline="Q1 2024 Design Stage"
                 status="Currently in Development"
                 team={<div>Ayon Bhattacharya, SE Architect<br />
-                Carrie Pack SME
+                Carrie Pack, SME
                 </div>}
                 overviewText={text}
             />
@@ -519,7 +518,7 @@ export default function ThoughtFilterUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> Project History is now front and center on the home screen.</>}  icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> A project/article list is now front and center on the home screen. Versioning will be handled elsewhere.</>}  icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image

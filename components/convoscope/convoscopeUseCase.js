@@ -18,7 +18,6 @@ import tempImg from '../../public/images/mainScrene.png'
 import dataPic1 from '../../public/images/dataViz.png'
 import speakerHighlight from '../../public/images/speakerHighlight.png'
 import participantView from '../../public/images/participantView.png'
-import teaserImage from '../../public/images/TeaserImage.png'
 import convoPersona from '../../public/images/ResearcherPersona.png'
 import wireframes from '../../public/images/wireframes2.png'
 import branding from '../../public/images/brandingConvo.png'
@@ -51,7 +50,6 @@ import BackButton from '../useCaseGenerics/backButton';
 import styles from "./useCase.module.css";
 
 // data
-import { text } from '../constants/cometConstants.js';
 import { takeaways, overviewTextFull, boarder, boarder2} from '../constants/convoscopeConstants';
 
 
@@ -90,7 +88,7 @@ export default function ConvoscopeUseCase(){
                 responsibilities="Interaction Design, UX Design, Visual Design, User Flows, Prototyping"
                 timeline="Q3, Q4 2023 Design Stage"
                 status="Currently in development"
-                team={<div>Ayon Bhattacharya, Co-Designer<br/>
+                team={<div>Ayon Bhattacharya, Design Mentor<br/>
                 Cayden Pierce,
                 PM + SE Lead<br/>
                 Alex Israelov, SE Lead<br/>
@@ -217,7 +215,7 @@ export default function ConvoscopeUseCase(){
             </Card>
 
             <Card
-                p1= {<div><span className={`emphasis`}>“Hey Convo”–</span> Voice interface available for users to ask burning questions.</div> }
+                p1= {<div><span className={`emphasis`}>“Hey Convo”–</span> A voice interface is available for users to ask burning questions.</div> }
                 className={`${styles.marginBottomNone} ${styles.marginTopNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
@@ -233,7 +231,7 @@ export default function ConvoscopeUseCase(){
             <SectionTopper
                 sectionTitletxt="Research"
                 sectionSubtitleTxt="An empathetic and research driven approach."
-                topParagraphHTML={<div className={'bodyText'}>I conducted user interviews, created personas, incrementally iterated on the design,
+                topParagraphHTML={<div className={'bodyText'}>I conducted user interviews, created personas, incrementally iterated on the design, and
                 integrated SME and user feedback to hone the best product possible.</div>}
             />
 
@@ -243,7 +241,7 @@ export default function ConvoscopeUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.indent} ${styles.marginTop2}`}>
-                • What  is the biggest pain point related to participating in research discussions?<br />
+                • What is the biggest pain point related to participating in research discussions?<br />
                 • What other solutions or workarounds have you tried?<br />
                 • What do you like about how you currently solve your pain point?<br />
                 • Do you feel this design was made for you? Why or why not?<br />
@@ -273,13 +271,13 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>
 
-            <Box className={styles.marginTop2} txt='During discussion, students routinely wanted access to supplemental information quickly' icon={bookOpen}>
+            <Box className={styles.marginTop2} txt='During discussion, students routinely wanted access to supplemental information quickly.' icon={bookOpen}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='Flow should not be disrupted' icon={alertIcon}>
+            <Box className={styles.marginTopSlim} txt='Flow should not be disrupted.' icon={alertIcon}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='Irrelevant information should be hidden so no time is wasted reading it' icon={eyeOffIcon}>
+            <Box className={styles.marginTopSlim} txt='Irrelevant information should be hidden so no time is wasted reading it.' icon={eyeOffIcon}>
             </Box>
-            <Box className={styles.marginTopSlim} txt='There was a desire for all information to be collected in a single location' icon={folderIcon}>
+            <Box className={styles.marginTopSlim} txt='There was a desire for all information to be collected in a single location.' icon={folderIcon}>
             </Box>
 
             {/* Persona Title */}

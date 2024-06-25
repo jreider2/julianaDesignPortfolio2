@@ -63,10 +63,8 @@ export default function AboutMeContent({ children, home }) {
             </motion.div>
             <div className={styles.flexContainer2}>
                 {/* Flexbox container 2 */}
-                <p> My <span className={styles.emphasis2}> </span>pursuit of learning
-                    how to best design useable products,
-                    combined with my experience in development,
-                    has enabled me 
+                <p><span className={styles.emphasis2}></span>My passion for learning product
+                    design, combined with my experience in development, has enabled me 
                     <span className={styles.emphasis2}> to view design through a unique lens.</span>
                 </p>
             </div>

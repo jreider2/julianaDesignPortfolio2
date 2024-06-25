@@ -514,7 +514,7 @@ export default function ConvoscopeUseCase(){
                     Increased Legibility
                 </div>
             </div>
-            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> At first Users found the contrast in the initial designs difficult to read.</>} icon={thumbsDownIcon}>
+            <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> At first users found the contrast in the initial designs difficult to read.</>} icon={thumbsDownIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -527,7 +527,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>once color and sizing was dialed in, students were able to read the interface clearly from their seats at the back of the lecture hall in MIT media lab.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>Once color and sizing were dialed in, students were able to read the interface clearly from their seats at the back of the MIT media lab.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -564,7 +564,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> Removed distracting elements, such as the transcript and the side panels, while maintaining clarity.</>}  icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> I enhanced clarity by removing distracting elements, such as the transcript and side panels.</>}  icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -577,7 +577,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>We added a button animation, and text which indicated the app was processing before any cards were created.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>I added a button animation and text, which indicated the app was processing before any cards were created.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottom}`}>
                 {/* <Image
@@ -619,7 +619,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>The icons created to replace them fit the look and feel much better. They were rounded, breathable, and identifiable at a glance without being too distracting.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>The icons selected to replace them fit the look and feel much better. They were rounded, breathable, and identifiable at a glance without being too distracting.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -648,7 +648,7 @@ export default function ConvoscopeUseCase(){
 
             {/* 5 major screens */}
             <Card
-                p1= {<div><span className={`emphasis`}>Landing Page– </span> Start a new session or view archive of past sessions.</div> }
+                p1= {<div><span className={`emphasis`}>Landing Page– </span> Start a new session or view an archive of past sessions.</div> }
             >
                 <div className={`${styles.imageWrapper2} `}>
                     <Image
@@ -741,7 +741,7 @@ export default function ConvoscopeUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div><span className={`emphasis`}>Speaker View–</span> Participants only see info the speaker selects.</div>
+                    <div><span className={`emphasis`}>Speaker View–</span> Participants only see the info that the speaker selects.</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
                     <Image
@@ -783,7 +783,7 @@ export default function ConvoscopeUseCase(){
                     Style guide
                 </div>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                I created a style that evoked academia, while also reflecting a moody otherworldly, biological atmosphere requested by the stakeholder. For example, the puffiness of the icons and rounded corners felt more based in nature than harsh edges would. In additon, the font helped<span class="emphasis">  evoke the science fiction vibes that</span> we desired.
+                I created a style that evoked academia, while also reflecting a moody, otherworldly, biological atmosphere requested by the stakeholder. For example, the puffiness of the icons and rounded corners felt more based in nature than harsh edges would. In additon, the font helped<span class="emphasis">  evoke the science fiction vibes that</span> we desired.
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
@@ -846,12 +846,12 @@ export default function ConvoscopeUseCase(){
             <SectionTopper
                 sectionTitletxt="Reflections"
                 sectionSubtitleTxt="Learn by doing."
-                topParagraphHTML={<div className={`bodyText`}>During this design project, I grew my skills an incredible amount. From components, to finding the middle ground with stakeholders,<span className={`emphasis`}> my mind is awash with possibilities </span>for the future.</div>}
+                topParagraphHTML={<div className={`bodyText`}>During this design project, I grew my skills an incredible amount. From creating components, to finding the middle ground with stakeholders,<span className={`emphasis`}> my mind is awash with possibilities </span>for the future.</div>}
             />
 
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
                 <div className={styles.sectionSubheading}>
-                Take-aways
+                Takeaways
                 </div>
 
                 <div className={`bodyText ${styles.indent} ${styles.marginTop2}`}>

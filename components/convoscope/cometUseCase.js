@@ -156,7 +156,7 @@ export default function CometUseCase(){
 
             <Card
                 className={`${styles.marginBottomNone}`}
-                p1= {<div><span className={`emphasis`}>Easy Undo–</span> If a mistake is made, it can be quickly undone using the undo button. This offers a simpler alternative to searching for less frequently used git commands and helps avoid the risk of executing unintentionally destructive commands that are sometimes easy to stumble upon.</div> }
+                p1= {<div><span className={`emphasis`}>Easy Undo–</span> If a mistake is made, it can be quickly undone using the undo button. This offers a simpler alternative to searching for less frequently used git commands and helps avoid the risk of executing unintentionally destructive commands.</div> }
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <Image

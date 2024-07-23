@@ -665,7 +665,7 @@ export default function CometUseCase(){
                         }} />
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/mergeVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -686,7 +686,7 @@ export default function CometUseCase(){
                         }} />
                 </div> */}
                 <div className={`${styles.imageWrapper2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/contextMenuVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -695,7 +695,7 @@ export default function CometUseCase(){
                     <div><span className={`emphasis`}>Changes Screen–</span> Swiftly view file updates, and stage or unstage them on this screen.</div>
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/stageUnstageVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -704,7 +704,7 @@ export default function CometUseCase(){
                     <div><span className={`emphasis`}></span> The four most commonly used action buttons are positioned together, including the CTA, whose contrasting color draws the eye.</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/commitHoverVidNew.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

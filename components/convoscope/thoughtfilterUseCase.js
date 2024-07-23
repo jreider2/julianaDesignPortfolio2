@@ -551,7 +551,7 @@ export default function ThoughtFilterUseCase(){
                 className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.imageWrapper2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/tfSuggestionsVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -561,7 +561,7 @@ export default function ThoughtFilterUseCase(){
                     <div><span className={`emphasis`}></span>The AI tool also optimizes content without keyword stuffing, and provides data and recommendations for SEO enhancements. </div>
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
-                    <video controls autoPlay loop muted width="100%" height="auto">
+                    <video controls autoplay loop muted width="100%" height="auto">
                         <source src="/video/tfInsightsVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

@@ -219,7 +219,7 @@ export default function ConvoscopeUseCase(){
                 className={`${styles.marginBottomNone} ${styles.marginTopNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
-                    <video controls autoplay loop muted width="100%" height="auto">
+                    <video controls autoPlay loop muted width="100%" height="auto">
                         <source src="/video/HeyConvoVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -589,7 +589,7 @@ export default function ConvoscopeUseCase(){
                         height: "auto",
                         objectFit: "contain"
                 }} /> */}
-                <video controls autoplay loop muted width="100%" height="auto">
+                <video controls autoPlay loop muted width="100%" height="auto">
                     <source src="/video/cardFlowStartVid.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -770,7 +770,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                         }} /> */}
 
-                    <video controls autoplay loop muted width="100%" height="auto">
+                    <video controls autoPlay loop muted width="100%" height="auto">
                         <source src="/video/SignUpFlow.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -811,7 +811,7 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
-                <video controls autoplay loop muted width="100%" height="auto">
+                <video controls autoPlay loop muted width="100%" height="auto">
                     <source src="/video/HeyConvoVid.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -823,7 +823,7 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
-                <video controls autoplay loop muted width="100%" height="auto">
+                <video controls autoPlay loop muted width="100%" height="auto">
                     <source src="/video/pulsingVid.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -835,7 +835,7 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
-                <video controls autoplay loop muted width="100%" height="auto">
+                <video controls autoPlay loop muted width="100%" height="auto">
                     <source src="/video/LoginAnimation.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

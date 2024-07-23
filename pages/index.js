@@ -7,9 +7,6 @@ import { motion } from 'framer-motion';
 import Layout, { siteTitle } from '../components/layout';
 import TeaserCard from '../components/teasercard';
 
-// images=
-import undoHover from '/public/images/undoHover.png'
-
 // styles
 import arrowStyles from '../components/arrowDown.module.css';
 import styles from '../styles/Home.module.css';

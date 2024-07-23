@@ -267,7 +267,7 @@ export default function ConvoscopeUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.marginTop2}`}>
-                    Users were much more likely to quickly find the info they needed if the output in the app was <span class="emphasis"> collected, curated, and concise.</span>
+                    Users were much more likely to quickly find the info they needed if the output in the app was <span className="emphasis"> collected, curated, and concise.</span>
                 </div>
             </div>
 
@@ -547,7 +547,7 @@ export default function ConvoscopeUseCase(){
                     Clean it up
                 </div>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                The space was cluttered and I  needed to<span class="emphasis"> make the app more breathable</span>, which would in the end make the app more usable.
+                The space was cluttered and I  needed to<span className="emphasis"> make the app more breathable</span>, which would in the end make the app more usable.
                 </div>
             </div>
             <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span>The transcript element was distracting to the people I interviewed and deemed unhelpful beyond cuing the listeners that the app was active.</>} icon={thumbsDownIcon}>
@@ -783,7 +783,7 @@ export default function ConvoscopeUseCase(){
                     Style guide
                 </div>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                I created a style that evoked academia, while also reflecting a moody, otherworldly, biological atmosphere requested by the stakeholder. For example, the puffiness of the icons and rounded corners felt more based in nature than harsh edges would. In additon, the font helped<span class="emphasis">  evoke the science fiction vibes that</span> we desired.
+                I created a style that evoked academia, while also reflecting a moody, otherworldly, biological atmosphere requested by the stakeholder. For example, the puffiness of the icons and rounded corners felt more based in nature than harsh edges would. In additon, the font helped<span className="emphasis">  evoke the science fiction vibes that</span> we desired.
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
@@ -804,10 +804,10 @@ export default function ConvoscopeUseCase(){
                     Animations
                 </div>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                Annimations were included to both evoke the sense of otherwordliness, and natural phamana, and to <span class="emphasis"> communicate to the user something was happening.</span> First example of this is the "Hey Convo" feature.
+                Annimations were included to both evoke the sense of otherwordliness, and natural phamana, and to <span className="emphasis"> communicate to the user something was happening.</span> First example of this is the "Hey Convo" feature.
                 </div>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                 In order to avoid the user disrupting their flow and resorting to using other tools, such as as search engine, it was essential to have a feature<span class="emphasis">  allowing impromptu questions.</span> The given animation convays the active listening of ConvoScope, inspired by "Hey Siri."
+                 In order to avoid the user disrupting their flow and resorting to using other tools, such as as search engine, it was essential to have a feature<span className="emphasis">  allowing impromptu questions.</span> The given animation convays the active listening of ConvoScope, inspired by "Hey Siri."
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
@@ -819,7 +819,7 @@ export default function ConvoscopeUseCase(){
 
             <div className={`sectionOutterContainer ${styles.marginTop2}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                An simpler, yet purposeful, annimation is used for the start button during a ConvoScope session. The button pulses like a beating heart to help <span class="emphasis">indicate the session is in progress,</span> even if no cards have apeared yet. The speed was carefully chosen to be slow enough to not be distracting, but fast enough to be noticed.
+                An simpler, yet purposeful, annimation is used for the start button during a ConvoScope session. The button pulses like a beating heart to help <span className="emphasis">indicate the session is in progress,</span> even if no cards have apeared yet. The speed was carefully chosen to be slow enough to not be distracting, but fast enough to be noticed.
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
@@ -831,7 +831,7 @@ export default function ConvoscopeUseCase(){
 
             <div className={`sectionOutterContainer ${styles.marginTop2}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                Another animation worth discussion is on the login screen. The main purpose here is to use an animation inspired by heavenly bodies to <span class="emphasis"> set the tone of the application</span> immediately. The same animation is used at the start of every session.
+                Another animation worth discussion is on the login screen. The main purpose here is to use an animation inspired by heavenly bodies to <span className="emphasis"> set the tone of the application</span> immediately. The same animation is used at the start of every session.
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottomNone}`}>
@@ -874,7 +874,7 @@ export default function ConvoscopeUseCase(){
             </Card>
             {/* <div className={`sectionOutterContainer ${styles.marginTopNone}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                Smart glasses require highly focused design work in a constrained environment. Finding ways of <span class="emphasis"> emphasizing hierarchy </span> through spacing, emphasis, and visual interest will be essential.
+                Smart glasses require highly focused design work in a constrained environment. Finding ways of <span className="emphasis"> emphasizing hierarchy </span> through spacing, emphasis, and visual interest will be essential.
                 </div>
             </div> */}
 

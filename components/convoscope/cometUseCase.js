@@ -286,7 +286,7 @@ export default function CometUseCase(){
                 <div className={styles.sectionSubheading}>
                     User Flows
                 </div>
-                <div className={`bodyText ${styles.marginTop2}`}>Leveraging detailed user insights, I identified the most common and essential use case flows. I also documented <span class="emphasis">  sequences in which actions were typically taken</span> so I could create an application that fit into the existing workflow.
+                <div className={`bodyText ${styles.marginTop2}`}>Leveraging detailed user insights, I identified the most common and essential use case flows. I also documented <span className="emphasis">  sequences in which actions were typically taken</span> so I could create an application that fit into the existing workflow.
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
@@ -313,7 +313,7 @@ export default function CometUseCase(){
             </div>
             <div className={`sectionOutterContainer ${styles.marginTopNone}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
-                Building out these flows in visual graphs helped me start to conceptualize the possible the information architecture of the application. I wanted to ensure the IA was intuitive and would <span class="emphasis"> minimize flow disruption.</span>
+                Building out these flows in visual graphs helped me start to conceptualize the possible the information architecture of the application. I wanted to ensure the IA was intuitive and would <span className="emphasis"> minimize flow disruption.</span>
                 </div>
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>

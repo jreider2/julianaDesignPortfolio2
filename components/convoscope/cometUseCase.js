@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 
-import eye from '../../public/images/eye.png'
-import speakerIcon from '../../public/images/SpeakerIcon.png'
 import bookOpen from '../../public/images/book-open.png'
 import alertIcon from '../../public/images/alert-triangle.png'
 import eyeOffIcon from '../../public/images/eye-off.png'

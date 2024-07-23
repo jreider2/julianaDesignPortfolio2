@@ -24,10 +24,9 @@
 }
 
 .imageWrapper {
-    /* position: relative; */
+    display: flex;
     width: var(--innerPicWidth, 51rem);
-     /*width : 100%; 100% of .headerContainer */
-    height: auto;  /* Height is set to auto to maintain aspect ratio */
+    height: auto;  /* maintain aspect ratio */
     max-height: 100%; 
     border-radius: var(--boarder-radius); 
     overflow: hidden;

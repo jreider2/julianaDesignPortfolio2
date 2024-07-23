@@ -7,19 +7,6 @@
 }
 /*END  entire page container END */
 
-.imageContainer {
-    /* max-width: 60.875rem; */
-    /* This next section is a hack for safari rendering the images properly */
-    width: var(--widest-container-width);
-    height: 0.0625rem;
-    /* border-radius: var(--boarder-radius); */
-    overflow: hidden;
-    position: relative;
-    /* Above section is a hack for safari rendering the images properly */
-    margin-top: var(--margin-4);
-    margin-bottom: var(--margin-4);
-}
-
 /* Card styles */
 .bulletContainer {
     display: flex;
@@ -36,22 +23,32 @@
     width: var(--innerTxtWidth, 51.25rem);
 }
 
+.image{
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 100%;
+    /* max-width: 36rem; */
+    /* max-height: auto; */
+    object-fit: cover;
+}
+
 .imageWrapper2{
+    display: flex;
     width: var(--innerPicWidth, 51rem);
-    height: auto;  /* Height is set to auto to maintain aspect ratio */
-    max-height: 100%; 
+    height: auto;  /* maintain aspect ratio */
+    border-radius: var(--boarder-radius); 
+    overflow: hidden;
+}
+
+.imageWrapper3{
+    display: flex;
+    width: var(--widest-container-width); /* may want to change image to: width: var(--innerPicWidth, 51rem);*/
+    height: auto;  /* maintain aspect ratio */
     border-radius: var(--boarder-radius); 
     overflow: hidden;
 }
 /* END Card styles END*/
 
-.imageWrapper3{
-    width: var(--widest-container-width); /* may want to change image at top to: width: var(--innerPicWidth, 51rem);*/
-    height: auto;  /* Height is set to auto to maintain aspect ratio */
-    max-height: 100%; 
-    border-radius: var(--boarder-radius); 
-    overflow: hidden;
-}
 
 /* speaker mode icon section */
 .speakerModsWrapper{
@@ -142,7 +139,7 @@
 
 .marginBottom{
     margin-bottom: 1rem;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .marginBottom1{
     margin-bottom: var(--margin-2);

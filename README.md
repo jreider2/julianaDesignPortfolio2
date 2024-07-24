@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Juliana Reider Bhattacharya Design Portfolio: https://www.julianareider.com/

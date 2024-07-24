@@ -14,7 +14,7 @@ export default function Card ({ className, p1, bullets, image1, image2, video1, 
             
             {video1 && (
                 <div className={styles.imageWrapper}>
-                    <video controls autoplay loop muted width="100%" height="auto">
+                    <video controls loop muted width="100%" height="auto">
                         <source src={video1} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

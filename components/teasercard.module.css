@@ -87,9 +87,7 @@
 }
 
 .card .imageContainer .image {
-  margin: 0 auto;
-  /* center the image horizontally */
-  /* width: 90%; */
+  margin: 0 auto; /* center the image horizontally */
   height: auto;
   max-width:87%;
   /* max-width: 36rem; */

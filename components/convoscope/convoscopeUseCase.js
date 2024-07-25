@@ -760,18 +760,8 @@ export default function ConvoscopeUseCase(){
                     <div><span className={`emphasis`}>Sign Up–</span> Sign Up Flow and First time Use. </div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
-                    {/* <Image
-                        src={tempImg}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} /> */}
-
                     <video controls loop muted width="100%" height="auto">
-                        <source src="/video/SignUpFlow.mp4" type="video/mp4" />
+                        <source src="/video/signUpFlow1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

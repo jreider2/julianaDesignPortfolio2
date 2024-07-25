@@ -761,7 +761,7 @@ export default function ConvoscopeUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <video controls loop muted width="100%" height="auto">
-                        <source src="/video/signUpFlow1.mp4" type="video/mp4" />
+                        <source src="/video/signUpFlow.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

@@ -1,6 +1,5 @@
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import Head from 'next/head';
-import { getSortedPostsData } from '../lib/posts';
 import { motion } from 'framer-motion';
 
 // components
@@ -59,13 +58,4 @@ export default function Home({ allPostsData }) {
     </>
 
   );
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
 }

@@ -1,5 +1,5 @@
-/* Import Global Styles */
-@import url("/styles/global.css");
+/* Import Globals Styles */
+@import url("/styles/globals.css");
 
 .fullContent {
     display: flex;

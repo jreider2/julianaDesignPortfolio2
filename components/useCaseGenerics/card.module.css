@@ -1,7 +1,5 @@
-/* Import Global Styles */
-@import url("/styles/global.css");
-
-/* Rest of the CSS code for the file */
+/* Import Globals Styles */
+@import url("/styles/globals.css");
 
 .outterContainer {
     display:flex;

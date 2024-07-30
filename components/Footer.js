@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from "next/image";
-import { motion } from 'framer-motion';
-
 import LinkedInIcon from '/public/images/linkedin.png';
 import GitHubIcon from '/public/images/github.png';
 
@@ -56,9 +54,6 @@ export default function Footer() {
                 height: "auto"
               }} />
           </a>
-          {/* <a href="https://github.com/jreider2/nextjs-blog" target="_blank">
-            <Image src={GitHubIcon} alt="github" className={styles.GitHubIcon} width={20} height={20} />
-          </a> */}
         </div>
       </div>
     </div>

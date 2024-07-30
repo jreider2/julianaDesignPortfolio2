@@ -13,7 +13,7 @@ const Nav = React.forwardRef((props, ref) => {
 
       <div className={styles.logoContainer}>
         <div className={styles.circle}></div>
-        <Link href="/">
+        <Link href="images/JulianaResume.pdf">
           <span className={styles.navLink}>juliana reider</span>
         </Link>
       </div>

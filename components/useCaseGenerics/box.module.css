@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     background: #172C5F;
-    gap: var(--margin-4, 3.5rem);
+    gap: var(--margin-4, 2.33rem);
     width: var(--innerTxtWidth, 54.125rem);
   }
   
@@ -24,7 +24,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-right: 40px; */
   }
   
   .text {
@@ -48,3 +47,9 @@
     padding: var(--margin-3) var(--margin-4);
   }
   
+
+  @media (max-width: 600px) {
+    .container {
+      gap: var(--margin-2, 2.33rem);
+    }
+  }

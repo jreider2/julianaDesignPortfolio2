@@ -87,12 +87,14 @@ export default function ConvoscopeUseCase(){
                 myRole="Lead Product Designer – "
                 responsibilities="Interaction Design, UX Design, Visual Design, User Flows, Prototyping"
                 timeline="Q3, Q4 2023 Design Stage"
-                status="Currently in development"
-                team={<div>Ayon Bhattacharya, Design Mentor<br/>
+                status="Deployed to Early Customers"
+                team={<div>Ayon Bhattacharya, Product Designer<br/>
                 Cayden Pierce,
-                PM + SE Lead<br/>
+                PM<br/>
                 Alex Israelov, SE Lead<br/>
-                Kenji Phang, SE</div>}
+                Kenji Phang, SE<br/>
+                And More...
+                </div>}
                 overviewText={overviewTextFull}
             />
 

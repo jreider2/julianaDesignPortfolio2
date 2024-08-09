@@ -79,8 +79,10 @@ export default function ThoughtFilterUseCase(){
                 responsibilities="Interaction Design, UX Design, Visual Design, User Flows, User Research, and Prototyping"
                 timeline="Q1 2024 Design Stage"
                 status="Currently in Development"
-                team={<div>Ayon Bhattacharya, SE Architect<br />
-                Carrie Pack, SME
+                team={<div>Aryik Bhattacharya, SE Architect<br />
+                Ayon Bhattacharya, PM<br />
+                Carrie Pack, Marketing SME<br />
+                Jessalyn Jones, Key Customer
                 </div>}
                 overviewText={text}
             />

@@ -360,7 +360,7 @@ export default function CometUseCase(){
 
             <div className={`sectionOutterContainer`}>
                 <div className={`bodyText ${styles.marginTopNone}`}>
-                    Next, I created wireframes to to play with the design in a more detailed manor.
+                    Next, I created wireframes to to play with the design in a more detailed manner.
                 </div>
             </div>
 
@@ -555,7 +555,7 @@ export default function CometUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek mannor instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek manner instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -735,7 +735,7 @@ export default function CometUseCase(){
             <Card className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-                But this is just the beginning of my story. <span className={`${styles.whiteTxt}`}>Check out some of my other chapters. :) </span>
+                This is just one chapter of my story. <span className={`${styles.whiteTxt}`}>Check out some of my other chapters. :) </span>
                 </div>
             </Card>
 

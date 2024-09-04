@@ -134,7 +134,7 @@ export default function ConvoscopeUseCase(){
                             • Oppositional theories + more<br />
                         </div>
                         <div>
-                            <div className={`emphasis ${styles.marginBottom}`}>Quick to Scan</div><br />
+                            <span className={`emphasis ${styles.marginBottom}`}>Quick to Scan</span><br />
                             • Cards provide visual separation<br />
                             • Limit of 7-12 words per card body<br />
                             • Typography chosen carefully for legibility<br />

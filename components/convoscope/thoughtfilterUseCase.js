@@ -224,7 +224,7 @@ export default function ThoughtFilterUseCase(){
                     <span className={overviewStyles.emphasis}>Context Switching:</span> Frequently shifting between different tasks is challenging.
                 </div> */}
             </Box>
-            <Box className={styles.marginTopSlim} txt="SEO and Keyword Optimization: users must increase keyword utilization while avoiding poaching or stuffing, and keeping up with Google's algorithm." icon={keyIcon}>
+            <Box className={styles.marginTopSlim} txt="SEO and Keyword Optimization: users must increase keyword utilization while avoiding stuffing, and keeping up with Google's algorithm." icon={keyIcon}>
                 {/* <div>
                     <span className={overviewStyles.emphasis}>SEO and Keyword Optimization:</span> must balance keyword use while avoiding poaching or stuffing, and keeping up with Google's algorithm.
                 </div> */}
@@ -260,11 +260,11 @@ export default function ThoughtFilterUseCase(){
                             objectFit: "contain"
                         }} />
             </div>
-            <div className={`sectionOutterContainer`}>
+            {/* <div className={`sectionOutterContainer`}>
                 <div className={`bodyText`}>
                 Before advancing to intricate design concepts, I began with rapid iterations of hand-drawn sketches and progressed to creating low-fidelity wireframes in Figma.
                 </div>
-            </div>
+            </div> */}
 
             {/* Iterations and deliverables Infographic*/}
             <div className={`sectionOutterContainer ${styles.marginTop5}`}>

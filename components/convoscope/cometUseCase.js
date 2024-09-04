@@ -108,7 +108,7 @@ export default function CometUseCase(){
                 // bullet2="Surfaces relevant information"
                 //image1={cometBranchDropdown}
                 //image2={dataPic1}
-                video1="/video/mergeVidNew.mp4"
+                video1="/video/branchDropdownMergeFlow.mp4"
                 bullets={null}
             >
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2} ${styles.marginTopNone}`}>
@@ -666,7 +666,7 @@ export default function CometUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls loop muted width="100%" height="auto">
-                        <source src="/video/mergeVidNew.mp4" type="video/mp4" />
+                        <source src="/video/branchDropdownMergeFlow.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

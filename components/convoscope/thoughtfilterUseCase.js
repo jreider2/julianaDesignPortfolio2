@@ -196,7 +196,7 @@ export default function ThoughtFilterUseCase(){
                 <div className={`bodyText ${styles.indent} ${styles.marginTop2}`}>
                 • <span className={`emphasis`}>Content Creation:</span> our target users typically utilize a systematic approach starting from research notes, followed by building structured outlines. <br />
                 • <span className={`emphasis`}>Content Reuse:</span> content marketers are constantly asked to refresh old content to ensure quality and relevance.<br />
-                • <span className={`emphasis`}>AI Utilization:</span> There is a notable lack of AI tools that effectively integrate keyword optimization without compromising originality.<br />
+                • <span className={`emphasis`}>AI Utilization:</span> There is a notable lack of AI tools that effectively integrate keyword optimization without compromising quality.<br />
                 </div>
             </div>
 

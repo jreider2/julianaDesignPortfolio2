@@ -13,7 +13,6 @@ import eyeIcon from '../../public/images/eyeIcon.png'
 import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import cometRepoDropdown from '../../public/images/cometRepoDropdown.png'
-import cometBranchDropdown from '../../public/images/cometBranchDropdown.png'
 import contextMenuHover from '../../public/images/contextMenuHover.png'
 import undoHover from '../../public/images/undoHover.png'
 import empathyMap from '../../public/images/empathyMapComet.png'
@@ -21,7 +20,6 @@ import commonFlow from '../../public/images/commonFlowComet.png'
 import otherCommonFlows from '../../public/images/otherCommonFlowsComet.png'
 import featurePrioritiesComet from '../../public/images/featurePrioritiesComet.png'
 import cometThemes from '../../public/images/cometThemes.png'
-import darkMode2 from '../../public/images/darkMode2.png'
 import approachableColor from '../../public/images/approachableColor.png'
 import bigCommit from '../../public/images/bigCommit.png'
 import oneFileStaged from '../../public/images/oneFileStaged.png'
@@ -108,13 +106,13 @@ export default function CometUseCase(){
                 p1= {<div><span className={`emphasis`}>Branch Management Dropdown -</span> In Comet it’s simple to find all the actions related to branch management in one place.</div> }
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
-                image1={cometBranchDropdown}
+                //image1={cometBranchDropdown}
                 //image2={dataPic1}
-                // video1="/video/cardFlowStartVid.mp4"
+                video1="/video/mergeVidNew.mp4"
                 bullets={null}
             >
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2} ${styles.marginTopNone}`}>
-                    <div>In the branch dropdown, users can view the current branch, check out any existing branch, create a new branch, or merge branches.</div>
+                    <div>In the branch dropdown, users can view the current branch, checkout any existing branch, create a new branch, or merge branches.</div>
                 </div>
             </Card>
 
@@ -689,7 +687,7 @@ export default function CometUseCase(){
                 </div> */}
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls loop muted width="100%" height="auto">
-                        <source src="/video/contextMenuVid.mp4" type="video/mp4" />
+                        <source src="/video/historyHover.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

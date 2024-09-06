@@ -228,6 +228,13 @@ export default function ConvoscopeUseCase(){
                 </div>
             </Card>
 
+            <Card className={`${styles.marginBottomNone}`}
+            >
+                <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
+                By using convoscope during research conversations, there was a <span className={`${styles.whiteTxt}`}> 137% increase in the number of insights</span> revealed per conversation.
+                </div>
+            </Card>
+
             {boarder}
 
             <SectionTopper

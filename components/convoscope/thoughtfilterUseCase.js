@@ -180,6 +180,13 @@ export default function ThoughtFilterUseCase(){
                 </div>
             </Card>
 
+            <Card className={`${styles.marginBottomNone}`}
+            >
+                <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
+                By designing Thoughtfilter, I increased the speed of content marketers writing a new article <span className={`${styles.whiteTxt}`}> by 88% on average.</span> The longer the article, the greater increase in time saved.
+                </div>
+            </Card>
+
             {boarder}
 
             <SectionTopper
@@ -327,10 +334,11 @@ export default function ThoughtFilterUseCase(){
             <SectionTopper
                 sectionTitletxt="Initial Directions"
                 sectionSubtitleTxt="Ready. Set. Brainstorm!"
-                topParagraphHTML={<div className={'bodyText'}>Time for a branding exsercise. I utilized branding exercises to <span className={`emphasis`}>define the application's visual</span> and interactive <span className={`emphasis`}>identity</span> ensuring consistency and alignment with user needs and preferences.</div>}
+                // topParagraphHTML={<div className={'bodyText'}>Time for a branding exsercise. I utilized branding exercises to <span className={`emphasis`}>define the application's visual</span> and interactive <span className={`emphasis`}>identity</span> ensuring consistency and alignment with user needs and preferences.</div>}
             />
 
-            <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+{/* temp remove until update branding image for convoscope */}
+            {/* <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
                         src={branding}
                         alt="Use Case Image"
@@ -340,14 +348,14 @@ export default function ThoughtFilterUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
-            </div>
+            </div> */}
 
             {/* Styles and design language */}
             <Card
                 className={`${styles.marginBottomNone}`}
             >
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div> <span className={`emphasis`}>Initial Directions– </span>
+                    <div> <span className={`emphasis`}></span>
                     At one point I explored a playful style, containing more saturated colors and sketchy graphics. I left this style behind in favor of more professional one, so as to avoid distracting design that would impede the use of the tool itself.</div>
                 </div>
 

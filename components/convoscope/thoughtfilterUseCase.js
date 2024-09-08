@@ -92,7 +92,7 @@ export default function ThoughtFilterUseCase(){
             <SectionTopper
                 sectionTitletxt="The Problem"
                 sectionSubtitleTxt="Freelance copywriters aim to create engaging think pieces, but often spend most of their time on repetitive long tail articles about uninspiring topics."
-                topParagraphHTML={<div className={'bodyText'}>And yet, source control is a necessary tool used everyday by most software engineers and is <span className={`emphasis`}>essential to master</span> as an SE student. Many of our users were <span className={`emphasis`}>fed up with existing tooling</span> and found git onerous. They felt git CLI was clunky when performing actions such as undoing mistakes, managing stashes, and viewing committed or staged changes.</div>}
+                topParagraphHTML={null}
             />
 
             {boarder}
@@ -111,6 +111,18 @@ export default function ThoughtFilterUseCase(){
                 //image2={dataPic1}
                 video1="/video/tfInput.mp4"
                 bullets={null}
+                className={`${styles.marginBottomNone}`}
+            ></Card>
+
+            <Card
+                p1= {<div><span className={`emphasis`}>Editing-</span> AI-generated suggestions designed to help you refine your document more efficiently.</div> }
+                // bullet1="AI listens to conversation"
+                // bullet2="Surfaces relevant information"
+                // image1={tempImg}
+                //image2={dataPic1}
+                video1="/video/tfEdit.mp4"
+                bullets={null}
+                // className={`${styles.marginBottomNone}`}
             ></Card>
 
             {/* Speaker mode icons  */}
@@ -147,17 +159,6 @@ export default function ThoughtFilterUseCase(){
                     </div> 
                 </div>
             </div>
-
-            <Card
-                p1= {<div><span className={`emphasis`}>Editing-</span> AI-generated suggestions designed to help you refine your document more efficiently.</div> }
-                // bullet1="AI listens to conversation"
-                // bullet2="Surfaces relevant information"
-                // image1={tempImg}
-                //image2={dataPic1}
-                video1="/video/tfEdit.mp4"
-                bullets={null}
-                className={`${styles.marginBottomNone}`}
-            ></Card>
 
             <Card
                 p1= {<div><span className={`emphasis`}>Project history page–</span> Easily access old content.</div> }

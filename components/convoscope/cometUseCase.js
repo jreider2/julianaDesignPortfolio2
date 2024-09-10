@@ -201,7 +201,7 @@ export default function CometUseCase(){
             <Card className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-               For novice users, there was an average <span className={`${styles.whiteTxt}`}>143% increase in speed</span> preforming common tasks. There was up to a 171% improvement on some tasks.
+               For users, there was an average <span className={`${styles.whiteTxt}`}>143% increase in speed</span> preforming common tasks. There was up to a 171% improvement on some tasks.
                 </div>
             </Card>
 

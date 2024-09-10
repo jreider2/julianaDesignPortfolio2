@@ -90,20 +90,20 @@ export default function CometUseCase(){
 
             <SectionTopper
                 sectionTitletxt="The Problem"
-                sectionSubtitleTxt="Using git CLI can be fraught, confusing, and downright annoying."
-                topParagraphHTML={<div className={'bodyText'}>And yet, source control is a necessary tool used everyday by most software engineers and is <span className={`emphasis`}>essential to master</span> as an SE student. Many of our users were <span className={`emphasis`}>fed up with existing tooling</span> and found git onerous. They felt git CLI was clunky when performing actions such as undoing mistakes, managing stashes, and viewing committed or staged changes.</div>}
+                sectionSubtitleTxt="Using git CLI can be laborious, confusing, and prone to errors."
+                topParagraphHTML={<div className={'bodyText'}>And yet, source control is <span className={`emphasis`}>essential to master</span> as an SE student, and a necessary tool used everyday by most software engineers. Many of our users felt the Git CLI was onerous and clunky when performing actions such as <span className={`emphasis`}>undoing mistakes, managing stashes, and viewing committed or staged changes.</span></div>}
             />
 
             {boarder}
 
             <SectionTopper
                 sectionTitletxt="Highlights"
-                sectionSubtitleTxt="The power you need coupled with the ease you desire."
+                sectionSubtitleTxt="The power you need, coupled with the ease you desire."
                 topParagraphHTML={<div className={'bodyText'}>With Comet, users don’t waste time memorizing commands, entering them in the wrong order, or taking time to surface useful git log or stash information. Comet results in an <span className={`emphasis`}>approachable, forgiving and straightforward </span>experience.</div>}
             />
 
             <Card
-                p1= {<div><span className={`emphasis`}>Branch Management Dropdown -</span> In Comet it’s simple to find all the actions related to branch management in one place.</div> }
+                p1= {<div><span className={`emphasis`}>Branch Management Dropdown -</span> In Comet it’s simple to find all the actions related to branch management in one place. Users can view the current branch, checkout any existing branch, create a new branch, or merge branches.</div> }
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
                 //image1={cometBranchDropdown}
@@ -111,9 +111,22 @@ export default function CometUseCase(){
                 video1="/video/branchDropdownMergeFlow.mp4"
                 bullets={null}
             >
-                <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2} ${styles.marginTopNone}`}>
-                    <div>In the branch dropdown, users can view the current branch, checkout any existing branch, create a new branch, or merge branches.</div>
+                
+                <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom1} ${styles.marginTopNone}`}>
+                    <div><span className={`emphasis`}>Repository Dropdown–</span> All actions related to reposities are located in one place as well. The use of dropdowns alows complexity to be hidden away until the user needs it.</div>
                 </div>
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                    <Image
+                        src={cometRepoDropdown}
+                        alt="Use Case Image"
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "contain"
+                        }} />
+                </div>
+            
             </Card>
 
             {/* Speaker mode icons  */}
@@ -658,7 +671,7 @@ export default function CometUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
-                    <div><span className={`emphasis`}>Drop Downs–</span>  All actions related to branches are located in one place. All actions related to reposities are located in one place as well. The use of drop downs alows this complexity to be hidden away until the user needs it.</div>
+                    <div><span className={`emphasis`}>Dropdowns–</span>  All actions related to branches are located in one place. All actions related to reposities are located in one place as well. The use of dropdowns alows this complexity to be hidden away until the user needs it.</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom1}`}>
                     <Image

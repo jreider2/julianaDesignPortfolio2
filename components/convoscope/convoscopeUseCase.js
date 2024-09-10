@@ -372,7 +372,7 @@ export default function ConvoscopeUseCase(){
                                 objectFit: "contain"
                             }} />
                     </div>
-                    <div className={`emphasis ${styles.modeTitle}`}>Weekly Demos</div>
+                    <div className={`emphasis ${styles.modeTitle}`}>Frequent Demos</div>
                     <div className={`bodyText ${styles.modeBody}`}>Presentations of current designs<br/>and prototypes</div>
                 </div>
                 <div className={styles.middleModContainner}>

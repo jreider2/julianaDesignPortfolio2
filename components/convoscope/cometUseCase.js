@@ -110,6 +110,7 @@ export default function CometUseCase(){
                 //image2={dataPic1}
                 video1="/video/branchDropdownMergeFlow.mp4"
                 bullets={null}
+                className={`${styles.marginBottomNone}`}
             >
                 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom1} ${styles.marginTopNone}`}>
@@ -128,41 +129,6 @@ export default function CometUseCase(){
                 </div>
             
             </Card>
-
-            {/* Speaker mode icons  */}
-            {/* <div className={`${styles.speakerModsWrapper}`}>
-                <div className={styles.middleModContainner}>
-                    <div className={styles.sModsPicContainer}>
-                        <Image
-                            src={speakerIcon}
-                            alt="Use Case Image"
-                            sizes="100vw"
-                            style={{
-                                width: "100%",
-                                height: "auto",
-                                objectFit: "contain"
-                            }} />
-                    </div>
-                    <div className={`emphasis ${styles.modeTitle}`}>Forem ipsum</div>
-                    <div className={`bodyText ${styles.modeBody}`}>Forem ipsum dolor<br/>Fsit amet consectetur</div>
-                </div>
-                <div className={styles.middleModContainner}>
-                    <div className={styles.sModsPicContainer}>
-                        <Image
-                            src={eye}
-                            alt="Use Case Image"
-                            sizes="100vw"
-                            style={{
-                                width: "100%",
-                                height: "auto",
-                                objectFit: "contain"
-                            }} />
-                    </div>
-                    <div className={`emphasis ${styles.modeTitle}`}>Forem ipsum</div>
-                    <div className={`bodyText ${styles.modeBody}`}>Forem ipsum dolor<br/>Forem ipsum dolor sit
-                    </div> 
-                </div>
-            </div> */}
 
             <Card
                 className={`${styles.marginBottomNone}`}
@@ -194,6 +160,19 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                </div>
+
+            </Card>
+
+            <Card
+                className={`${styles.marginBottomNone}`}
+                p1= {<div><span className={`emphasis`}>Stashing–</span> Advanced users expressed the importance of stashing in their workflow. Stashing information is visable at a glance on the Stashes Page.</div> }
+            >
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                    <video controls loop muted width="100%" height="auto">
+                        <source src="/video/StashSelectionComet.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
 
             </Card>

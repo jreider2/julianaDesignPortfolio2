@@ -70,7 +70,7 @@ export default function ThoughtFilterUseCase(){
         <div className={styles.useCaseContainer}>
             <Header 
                 heading="ThoughtFilter" 
-                subheading="First designer for a B2B content marketing SaaS tool."
+                subheading="Designer for a B2B content marketing SaaS tool."
                 // image={testVid}
                 image={projects}
                 />

@@ -91,7 +91,7 @@ export default function CometUseCase(){
             <SectionTopper
                 sectionTitletxt="The Problem"
                 sectionSubtitleTxt="Using git CLI can be laborious, confusing, and prone to errors."
-                topParagraphHTML={<div className={'bodyText'}>And yet, source control is <span className={`emphasis`}>essential to master</span> as an SE student, and a necessary tool used everyday by most software engineers. Many of our users felt the Git CLI was onerous and clunky when performing actions such as <span className={`emphasis`}>undoing mistakes, managing stashes, and viewing committed or staged changes.</span></div>}
+                topParagraphHTML={<div className={'bodyText'}>And yet, <span className={`emphasis`}>source control is essential to master</span> as an SE student, and a necessary tool used everyday by most software engineers. Many of my users felt the Git CLI was <span className={`emphasis`}>onerous and clunky</span> when performing actions such as undoing mistakes, managing stashes, and viewing committed or staged changes.</div>}
             />
 
             {boarder}
@@ -166,7 +166,7 @@ export default function CometUseCase(){
 
             <Card
                 className={`${styles.marginBottomNone}`}
-                p1= {<div><span className={`emphasis`}>Stashing–</span> Advanced users expressed the importance of stashing in their workflow. Stashing information is visable at a glance on the Stashes Page.</div> }
+                p1= {<div><span className={`emphasis`}>Stashing–</span> Advanced users expressed the importance of managing stashes in their workflow. Stashing information is visable at a glance on the Stashes Page.</div> }
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <video controls loop muted width="100%" height="auto">

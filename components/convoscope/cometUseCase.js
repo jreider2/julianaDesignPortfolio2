@@ -30,6 +30,8 @@ import tintedCodeBg from '../../public/images/tintedCodeBg.png'
 import mainMenuBright from '../../public/images/mainMenuBright.png'
 import sketches from '../../public/images/sketches.png'
 import cometHero from '../../public/images/cometTeaser.png'
+import darkMode2 from '../../public/images/darkMode2.png'
+
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -437,11 +439,11 @@ export default function CometUseCase(){
 
             {/* Styles and design language */}
             <Card
-                p1= {<div><span className={`emphasis`}>Sleek– </span>The light, bright theme, coupled with the design’s general spaciousness, imparts an air of sleek cleanliness and reflects organization and reliability. The lack of clutter was also an attempt to minimize distraction, given as this app is a means to an end.</div>}
+                p1= {<div><span className={`emphasis`}>Exlorations– </span>I explored a few different themes during the design process. Below is the dark theme I breifly considered. In the end I decided on a light theme to achieve my branding goals.</div>}
                 className={`${styles.marginBottomNone}`}
             >
                 {/* p1= {<div><span className={`emphasis`}>Sleek– </span> I opted for the light theme, over a dark one, to evoke an atmosphere of simplicity and, in turn, create an impression of ease of use. Below is the dark theme I breifly considered.</div>} */}
-                {/* <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
                     <Image
                         src={darkMode2}
                         alt="Use Case Image"
@@ -451,11 +453,15 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
-                </div> */}
+                </div>
 
                 {/* <div className={`bodyText ${styles.cardBody2}`}>
                     <div>The light, bright theme, coupled with the design’s general spaciousness, imparts an air of sleek cleanliness and reflects organization and reliability. The lack of clutter was also an attempt to minimize distraction, given as this app is a means to an end.</div>
                 </div> */}
+
+                <div className={`bodyText ${styles.cardBody2}`}>
+                    <div><span className={`emphasis`}>Sleek– </span>The light, bright theme, coupled with the design’s general spaciousness, imparts an air of sleek cleanliness and reflects organization and reliability. The lack of clutter was also an attempt to minimize distraction, given as this app is a means to an end.</div>
+                </div>
 
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
                     <Image

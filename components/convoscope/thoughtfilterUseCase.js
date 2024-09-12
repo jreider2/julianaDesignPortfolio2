@@ -294,7 +294,7 @@ export default function ThoughtFilterUseCase(){
                             }} />
                     </div>
                     <div className={`emphasis ${styles.modeTitle}`}>Design Files</div>
-                    <div className={`bodyText ${styles.modeBody}`}>Utilized Figma and FigJam for<br/>all design artifacts</div>
+                    <div className={`bodyText ${styles.modeBody}`}>Utilized Figma and FigJam<br/>to create artifacts</div>
                 </div>
                 <div className={styles.middleModContainner}>
                     <div className={`${styles.sModsPicContainer} ${styles.modHeightLimit}`}>

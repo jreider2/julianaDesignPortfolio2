@@ -862,13 +862,13 @@ export default function ConvoscopeUseCase(){
 
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
                 <div className={styles.sectionSubheading}>
-                    Smart Glasses, Here I Come
+                    Looking Forward
                 </div>
             </div>
             <Card className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-                The next iteration will involve creating a <span className={`${styles.whiteTxt}`}>smart glasses</span> interface. <span className={`${styles.whiteTxt}`}>I’m pumped for my next learning journey!</span>
+                    I’m pumped to continue my learning journey; <span className={`${styles.whiteTxt}`}>I wonder where my next steps will take me.</span>
                 </div>
             </Card>
             {/* <div className={`sectionOutterContainer ${styles.marginTopNone}`}>

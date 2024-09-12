@@ -2,7 +2,7 @@ import overviewStyles from "../useCaseGenerics/overview.module.css";
 
 const overviewTextP1= "Freelance copywriters often find themselves producing high volumes of content on uninspiring topics, diverting time from more meaningful projects.";
 const overviewTextP2= <>In response to this disconnect, I led the design of Thoughtfilter. This tool streamlines content marketing workflows through advanced AI and optimized content editing techniques.</>;
-const overviewTextP3= <>I designed the application, from ideation to the development of final prototypes. Thoughtfilter is now in development, poised to transform the daily routines of content marketers.</>
+const overviewTextP3= <>I executed the design process, from research to the development of final prototypes, and continued to iterate during development. I worked closely with a small crossfunctional team, including a product manager, a software engineer, and key users, to ensure the tool's success.</>;
 
 export const text = <>{overviewTextP1} <br/><br/> {overviewTextP2} <br/><br/> {overviewTextP3}</>;
 

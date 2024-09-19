@@ -102,15 +102,15 @@ export default function ConvoscopeUseCase(){
 
             <SectionTopper
                 sectionTitletxt="The Problem"
-                sectionSubtitleTxt="Researchers had trouble surfacing relevant information on-the-fly when discussing unfamiliar or new topics."
-                // topParagraphHTML={null}
+                sectionSubtitleTxt="Researchers had trouble efficiently surfacing relevant information on-the-fly when discussing unfamiliar or new topics."
+                topParagraphHTML={<div className={'bodyText'}>Googling questions during lab meetings resulted in valuable time spent digging through numerous sources, as well as verbose or irrelevant information. This caused a <span className={`emphasis`}>major disruption in the flow</span> of their conversations.</div>}
             />
 
             {boarder}
 
             <SectionTopper
                 sectionTitletxt="Highlights"
-                sectionSubtitleTxt="Information must be easy to access, legible and useful."
+                sectionSubtitleTxt="Information must be easy to access, concise and useful."
                 topParagraphHTML={<div className={'bodyText'}>With ConvoScope, users don’t waste time entering requests into a search tool. When activated, 
                     the tool listens to the users’ conversation and, with the help of AI, automatically outputs 
                     succinct information, aiding in a <span className={`emphasis`}>deeper understanding of the topic at hand.</span></div>}
@@ -313,7 +313,7 @@ export default function ConvoscopeUseCase(){
             <SectionTopper
                 sectionTitletxt="Ideation"
                 sectionSubtitleTxt="Honing in on an impactful solution– step by step."
-                topParagraphHTML={<div className={'bodyText'}>Before diving into the more detailed designs, I started with some quick iterations with hand drawn ideas, and moved onto low fidelity wireframes in figma.</div>}
+                topParagraphHTML={<div className={'bodyText'}>Before diving into the more detailed designs, I started with some quick iterations with hand drawn ideas, and moved onto low fidelity wireframes in figma. Developers also shared their ideas and perspectives at this stage.</div>}
             />
 
             {/* Minimal Lo-fi Designs Title */}
@@ -412,7 +412,11 @@ export default function ConvoscopeUseCase(){
                 <div className={`${styles.sectionSubheading} `}>
                     Process
                 </div>
+                <div className={`bodyText ${styles.marginTop2}`}>
+                    In reality, <span className="emphasis">handoff is not a moment, it's an ongoing event</span>. Adjustments to the design are best practice and I proactively gather feedback from colleagues and users to inform iterations.
+                </div>
             </div> {/*Process image infographic  */}
+
             <div className={`${styles.imageWrapper2} ${styles.marginSides1} ${styles.marginBottomNone} ${styles.processContainer}`}>
                     <Image
                         src={imageSrc}

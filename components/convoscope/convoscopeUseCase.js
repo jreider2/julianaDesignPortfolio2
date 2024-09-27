@@ -15,6 +15,7 @@ import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import styleTyleMain from '../../public/images/StyleTile.png'
 import tempImg from '../../public/images/mainScrene.png'
+//testing 
 import dataPic1 from '../../public/images/dataViz.png'
 import speakerHighlight from '../../public/images/speakerHighlight.png'
 import participantView from '../../public/images/participantView.png'

@@ -15,7 +15,6 @@ import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import styleTyleMain from '../../public/images/StyleTile.png'
 import tempImg from '../../public/images/mainScrene.png'
-//testing 
 import dataPic1 from '../../public/images/dataViz.png'
 import speakerHighlight from '../../public/images/speakerHighlight.png'
 import participantView from '../../public/images/participantView.png'
@@ -38,7 +37,7 @@ import heyConvo from '../../public/images/heyConvo.png'
 import landingPage from '../../public/images/landingPage.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
-import convoHero from '../../public/images/convoHero.png'
+import placeholder from '../../public/images/convoscopePlaceholder1.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -53,9 +52,14 @@ import styles from "./useCase.module.css";
 // data
 import { takeaways, overviewTextFull, boarder, boarder2} from '../constants/convoscopeConstants';
 
+const images = {
+  convoHero: () => import('../../public/images/convoHero.png'),
+  // You can add other images here later
+};
 
 export default function ConvoscopeUseCase(){
     const [imageSrc, setImageSrc] = useState(processHorizontal);
+    const [convoHeroImage, setConvoHeroImage] = useState(null);
 
     useEffect(() => {
       const handleResize = () => {
@@ -76,13 +80,18 @@ export default function ConvoscopeUseCase(){
       return () => window.removeEventListener('resize', handleResize);
     }, []);
 
+    useEffect(() => {
+      images.convoHero().then(img => setConvoHeroImage(img.default));
+    }, []);
+
     return (
         <div className={styles.useCaseContainer}>
             <Header 
                 heading="ConvoScope" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
                 // image={testVid}
-                image={convoHero}
+                image={convoHeroImage || placeholder}
+                //image={convoHeroImage}
                 />
             <Overview
                 myRole="Lead Product Designer – "

@@ -15,25 +15,6 @@ import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import styleTyleMain from '../../public/images/StyleTile.png'
 import tempImg from '../../public/images/mainScrene.png'
-import dataPic1 from '../../public/images/dataViz.png'
-import speakerHighlight from '../../public/images/speakerHighlight.png'
-import participantView from '../../public/images/participantView.png'
-import convoPersona from '../../public/images/ResearcherPersona.png'
-import wireframes from '../../public/images/wireframes2.png'
-import branding from '../../public/images/convoBranding2.png'
-import itterationsGreen from '../../public/images/itterationsGreen.png'
-import firstPassBlue from '../../public/images/firstPassBlue.png'
-import firstPassGreen from '../../public/images/firstPassGreen.png'
-import beforeContrast from '../../public/images/beforeContrast.png'
-import statsInWords from '../../public/images/statsInWords.png'
-import transcriptBefore from '../../public/images/transcriptBefore.png'
-import agentsBefore from '../../public/images/agentsBefore.png'
-import agentsAFter from '../../public/images/agentsAfter.png'
-import data1 from '../../public/images/data1.png'
-import data2 from '../../public/images/data2.png'
-import data3 from '../../public/images/data3.png'
-import data4 from '../../public/images/data4.png'
-import heyConvo from '../../public/images/heyConvo.png'
 import landingPage from '../../public/images/landingPage.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
@@ -54,12 +35,53 @@ import { takeaways, overviewTextFull, boarder, boarder2} from '../constants/conv
 
 const images = {
   convoHero: () => import('../../public/images/convoHero.png'),
+  tempImg: () => import('../../public/images/mainScrene.png'),
+  dataPic1: () => import('../../public/images/dataViz.png'),
+  speakerHighlight: () => import('../../public/images/speakerHighlight.png'),
+  participantView: () => import('../../public/images/participantView.png'),
+  convoPersona: () => import('../../public/images/ResearcherPersona.png'),
+  wireframes: () => import('../../public/images/wireframes2.png'),
+  branding: () => import('../../public/images/convoBranding2.png'),
+  firstPassGreen: () => import('../../public/images/firstPassGreen.png'),
+  firstPassBlue: () => import('../../public/images/firstPassBlue.png'),
+  itterationsGreen: () => import('../../public/images/itterationsGreen.png'),
+  beforeContrast: () => import('../../public/images/beforeContrast.png'),
+  statsInWords: () => import('../../public/images/statsInWords.png'),
+  transcriptBefore: () => import('../../public/images/transcriptBefore.png'),
+  agentsBefore: () => import('../../public/images/agentsBefore.png'),
+  agentsAfter: () => import('../../public/images/agentsAfter.png'),
+  data1: () => import('../../public/images/data1.png'),
+  data2: () => import('../../public/images/data2.png'),
+  data3: () => import('../../public/images/data3.png'),
+  data4: () => import('../../public/images/data4.png'),
+  heyConvo: () => import('../../public/images/heyConvo.png'),
   // You can add other images here later
 };
 
 export default function ConvoscopeUseCase(){
     const [imageSrc, setImageSrc] = useState(processHorizontal);
     const [convoHeroImage, setConvoHeroImage] = useState(null);
+    const [tempImage, setTempImage] = useState(null);
+    const [dataImage1, setDataImage1] = useState(null);
+    const [speakerHighlightImage, setSpeakerHighlightImage] = useState(null);
+    const [participantViewImage, setParticipantViewImage] = useState(null);
+    const [convoPersonaImage, setConvoPersonaImage] = useState(null);
+    const [wireframesImage, setWireframesImage] = useState(null);
+    const [brandingImage, setBrandingImage] = useState(null);
+    const [firstPassGreenImage, setFirstPassGreenImage] = useState(null);
+    const [firstPassBlueImage, setFirstPassBlueImage] = useState(null);
+    const [itterationsGreenImage, setItterationsGreenImage] = useState(null);
+    const [beforeContrastImage, setBeforeContrastImage] = useState(null);
+    const [statsInWordsImage, setStatsInWordsImage] = useState(null);
+    const [transcriptBeforeImage, setTranscriptBeforeImage] = useState(null);
+    const [agentsBeforeImage, setAgentsBeforeImage] = useState(null);
+    const [agentsAfterImage, setAgentsAfterImage] = useState(null);
+    const [data1Image, setData1Image] = useState(null);
+    const [data2Image, setData2Image] = useState(null);
+    const [data3Image, setData3Image] = useState(null);
+    const [data4Image, setData4Image] = useState(null);
+    const [heyConvoImage, setHeyConvoImage] = useState(null);
+    
 
     useEffect(() => {
       const handleResize = () => {
@@ -82,6 +104,26 @@ export default function ConvoscopeUseCase(){
 
     useEffect(() => {
       images.convoHero().then(img => setConvoHeroImage(img.default));
+      images.tempImg().then(img => setTempImage(img.default));
+      images.dataPic1().then(img => setDataImage1(img.default));
+      images.speakerHighlight().then(img => setSpeakerHighlightImage(img.default));
+      images.participantView().then(img => setParticipantViewImage(img.default));
+      images.convoPersona().then(img => setConvoPersonaImage(img.default));
+      images.wireframes().then(img => setWireframesImage(img.default));
+      images.branding().then(img => setBrandingImage(img.default));
+      images.firstPassGreen().then(img => setFirstPassGreenImage(img.default));
+      images.firstPassBlue().then(img => setFirstPassBlueImage(img.default));
+      images.itterationsGreen().then(img => setItterationsGreenImage(img.default));
+      images.beforeContrast().then(img => setBeforeContrastImage(img.default));
+      images.statsInWords().then(img => setStatsInWordsImage(img.default));
+      images.transcriptBefore().then(img => setTranscriptBeforeImage(img.default));
+      images.agentsBefore().then(img => setAgentsBeforeImage(img.default));
+      images.agentsAfter().then(img => setAgentsAfterImage(img.default));
+      images.data1().then(img => setData1Image(img.default));
+      images.data2().then(img => setData2Image(img.default));
+      images.data3().then(img => setData3Image(img.default));
+      images.data4().then(img => setData4Image(img.default));
+      images.heyConvo().then(img => setHeyConvoImage(img.default));
     }, []);
 
     return (
@@ -89,9 +131,7 @@ export default function ConvoscopeUseCase(){
             <Header 
                 heading="ConvoScope" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
-                // image={testVid}
                 image={convoHeroImage || placeholder}
-                //image={convoHeroImage}
                 />
             <Overview
                 myRole="Lead Product Designer – "
@@ -128,10 +168,9 @@ export default function ConvoscopeUseCase(){
 
             <Card
                 p1= {<div><span className={`emphasis`}>Main screen -</span> Cards flow in from the top, and are pushed out the bottom.</div> }
-                // bullet1="AI listens to conversation"
-                // bullet2="Surfaces relevant information"
-                image1={tempImg}
-                image2={dataPic1}
+
+                image1={tempImage} // Use the dynamically loaded tempImg
+                image2={dataImage1} // Use the dynamically loaded dataPic1
                 video1="/video/cardFlowStartVid.mp4"
                 bullets={
                 <div className={`bodyText ${styles.bulletContainer}`}>
@@ -193,15 +232,18 @@ export default function ConvoscopeUseCase(){
                 p1= {<div><span className={`emphasis`}>Speaker View–</span> In Speaker Mode, the speaker selects the cards to highlight.</div> }
             >
                 <div className={styles.imageWrapper2}>
-                    <Image
-                        src={speakerHighlight}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
+                    {speakerHighlightImage && (
+                        <Image
+                            src={speakerHighlightImage}
+                            alt="Speaker Highlight"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2}`}>
@@ -209,15 +251,18 @@ export default function ConvoscopeUseCase(){
                 </div>
 
                 <div className={styles.imageWrapper2}>
-                    <Image
-                        src={participantView}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
+                    {participantViewImage && (
+                        <Image
+                            src={participantViewImage}
+                            alt="Participant View"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2}`}>
@@ -307,15 +352,18 @@ export default function ConvoscopeUseCase(){
                 
             </div>{/* Persona image */}
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {convoPersonaImage && ( // Check if the image is loaded
                     <Image
-                        src={convoPersona}
+                        src={convoPersonaImage} // Use the dynamically loaded image
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }} 
+                    />
+                )}
             </div>
 
             {boarder} 
@@ -326,25 +374,6 @@ export default function ConvoscopeUseCase(){
                 topParagraphHTML={<div className={'bodyText'}>Before diving into the more detailed designs, I started with some quick iterations with hand drawn ideas, and moved onto low fidelity wireframes in figma. Developers also shared their ideas and perspectives at this stage.</div>}
             />
 
-            {/* Minimal Lo-fi Designs Title */}
-            {/* <div className={`sectionOutterContainer ${styles.marginTop}`}>
-                <div className={`${styles.sectionSubheading} ${styles.marginBottom}`}>
-                    Minimal Lo-fi Designs
-                </div>
-            </div> */}
-            {/* Minimal Lo-fi Designs image */}
-            {/* <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
-                    <Image
-                        src={tempImg}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
-            </div> */}
-
             {/* Wireframes Title */}
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
                 <div className={`${styles.sectionSubheading} ${styles.marginBottom}`}>
@@ -352,15 +381,17 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>{/* Wireframes image */}
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {wireframesImage && ( 
                     <Image
-                        src={wireframes}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
+                    src={wireframesImage}
+                    alt="Use Case Image"
+                    sizes="100vw"
+                    style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "contain"
+                    }} />
+                )}
             </div>
             
             {/* Iterations and deliverables Infographic*/}
@@ -449,15 +480,17 @@ export default function ConvoscopeUseCase(){
             />
 
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {brandingImage && (
                     <Image
-                        src={branding}
+                        src={brandingImage}
                         alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
+                    sizes="100vw"
+                    style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "contain"
+                    }} />
+                )}
             </div>
 
             {/* Styles and design language */}
@@ -466,27 +499,31 @@ export default function ConvoscopeUseCase(){
                 className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={firstPassGreen}
-                        alt="Use Case Image"
+                    {firstPassGreenImage && (
+                        <Image
+                            src={firstPassGreenImage}
+                            alt="Use Case Image"
                         sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}
                 </div>
 
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={firstPassBlue}
-                        alt="Use Case Image"
+                    {firstPassBlueImage && (
+                        <Image
+                            src={firstPassBlueImage}
+                            alt="Use Case Image"
                         sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
@@ -494,15 +531,17 @@ export default function ConvoscopeUseCase(){
                 </div>
                 
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={itterationsGreen}   
-                        alt="Use Case Image"
-                        sizes="100vw"
+                    {itterationsGreenImage && (
+                        <Image
+                            src={itterationsGreenImage}   
+                            alt="Use Case Image"
+                            sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
-                            objectFit: "contain"
-                        }} />
+                                objectFit: "contain"
+                            }} />
+                    )}
                 </div>
 
                 
@@ -540,28 +579,32 @@ export default function ConvoscopeUseCase(){
             <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> At first users found the contrast in the initial designs difficult to read.</>} icon={thumbsDownIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
-                    <Image
-                        src={beforeContrast}
-                        alt="Use Case Image"
-                        sizes="100vw"
+                    {beforeContrastImage && (
+                        <Image
+                            src={beforeContrastImage}
+                            alt="Use Case Image"
+                            sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
-                            objectFit: "contain"
-                        }} />
+                                objectFit: "contain"
+                            }} />
+                    )}
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>Once color and sizing were dialed in, students were able to read the interface clearly from their seats at the back of the MIT media lab.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
-                    <Image
-                        src={statsInWords}
-                        alt="Use Case Image"
-                        sizes="100vw"
+                    {statsInWordsImage && (
+                        <Image
+                            src={statsInWordsImage}
+                            alt="Use Case Image"
+                            sizes="100vw"
                         style={{
                             width: "100%",
                             height: "auto",
-                            objectFit: "contain"
-                        }} />
+                                objectFit: "contain"
+                            }} />
+                    )}
             </div>
             
             {/* Before and After: Clean it up */}
@@ -575,10 +618,10 @@ export default function ConvoscopeUseCase(){
             </div>
             <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span>The transcript element was distracting to the people I interviewed and deemed unhelpful beyond cuing the listeners that the app was active.</>} icon={thumbsDownIcon}>
             </Box>
-            {/* {Before: The transcript element was distracting to the people I interviewed and deemed unhelpful beyond cuing to the listeners that the app was processing the conversation. Other elements that were distracting were XYZ.'} */}
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {transcriptBeforeImage && (
                     <Image
-                        src={transcriptBefore}
+                        src={transcriptBeforeImage}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
@@ -586,6 +629,7 @@ export default function ConvoscopeUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                )}
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> I enhanced clarity by removing distracting elements, such as the transcript and side panels.</>}  icon={thumbsUpIcon}>
             </Box>
@@ -603,25 +647,11 @@ export default function ConvoscopeUseCase(){
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>I added a button animation and text, which indicated the app was processing before any cards were created.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2} ${styles.marginBottom}`}>
-                {/* <Image
-                    src={tempImg}
-                    alt="Use Case Image"
-                    sizes="100vw"
-                    style={{
-                        width: "100%",
-                        height: "auto",
-                        objectFit: "contain"
-                }} /> */}
                 <video controls loop muted width="100%" height="auto">
                     <source src="/video/cardFlowStartVid.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
-            {/* <div className={`sectionOutterContainer ${styles.marginTopNone} ${styles.marginBottom}`}>
-                <div className={`bodyText ${styles.marginTop2}`}>
-                This center animation deliverable took a few iterations due to quality issues encountered with export. Animated PNGs was successful in the end.
-                </div>
-            </div> */}
 
             {/* Before and After: Emjoi and Icons*/}
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
@@ -632,8 +662,9 @@ export default function ConvoscopeUseCase(){
             <Box className={`${styles.marginTop2}`} txt={<><span className={`emphasis`}>Before: </span> Our icons and use of emojis didn't quite fit the design language and proved to be distracting.</>} icon={thumbsDownIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {agentsBeforeImage && (
                     <Image
-                        src={agentsBefore}
+                        src={agentsBeforeImage}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
@@ -641,12 +672,14 @@ export default function ConvoscopeUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                )}
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>The icons selected to replace them fit the look and feel much better. They were rounded, breathable, and identifiable at a glance without being too distracting.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
+                {agentsAfterImage && (
                     <Image
-                        src={agentsAFter}
+                        src={agentsAfterImage}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
@@ -654,6 +687,7 @@ export default function ConvoscopeUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                )}
             </div>
 
             {boarder}
@@ -689,63 +723,73 @@ export default function ConvoscopeUseCase(){
                     <div><span className={`emphasis`}>Data Visualizations–</span> Make statistics and data display in a more visual format for quicker consumption. </div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={data1}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
+                    {data1Image && (
+                        <Image
+                            src={data1Image}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}  
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={data2}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
+                    {data2Image && (
+                        <Image
+                            src={data2Image}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={data3}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
+                    {data3Image && (
+                        <Image
+                            src={data3Image}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}
                 </div>
                 <div className={`${styles.imageWrapper2} `}>
-                    <Image
-                        src={data4}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
+                    {data4Image && (
+                        <Image
+                            src={data4Image}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                            }} />  
+                    )}
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
                     <div><span className={`emphasis`}>Hey Convo–</span> Ask convo anything!</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={heyConvo}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
+                    {heyConvoImage && (
+                        <Image
+                            src={heyConvoImage}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
                         }} />
+                    )}
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>

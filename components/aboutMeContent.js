@@ -4,7 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 
-import woodsPic from '/public/images/woodsGoodQuality.jpg'
+import woodsPic from '/public/images/woodsGoodQuality.webp'
 import familyPic from '/public/images/marriagePicHighQuality.jpg';
 import hillsPic from '/public/images/hillsJuliana.webp';
 import configPic from '/public/images/configJuliana.jpg';

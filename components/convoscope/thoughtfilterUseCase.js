@@ -15,7 +15,9 @@ import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import projectHistory from '../../public/images/tfProjectHistory.png'
 import wireframe from '../../public/images/tfWireframe.png'
+//temporarily not using
 import branding from '../../public/images/tfBranding.png'
+// ^^^
 import direction1 from '../../public/images/direction1.png'
 import direction2 from '../../public/images/direction2.png'
 import direction3 from '../../public/images/direction3.png'

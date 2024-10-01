@@ -935,11 +935,7 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div> */}
 
-            {/* {boarder} */}
-
             <BackButton />
-
-            {/* <TeaserCard title="Thought Filter" description="First designer for a B2B content marketing SaaS tool." image="/images/macx2.png" link={"/thoughtFilter"}></TeaserCard> */}
 
         </div>
     );

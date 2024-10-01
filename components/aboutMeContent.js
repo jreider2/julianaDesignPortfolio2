@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 import woodsPic from '/public/images/woodsGoodQuality.jpg'
 import familyPic from '/public/images/marriagePicHighQuality.jpg';
-import hillsPic from '/public/images/hillsJuliana.jpg';
+import hillsPic from '/public/images/hillsJuliana.webp';
 import configPic from '/public/images/configJuliana.jpg';
 
 import styles from "./aboutMeContent.module.css";

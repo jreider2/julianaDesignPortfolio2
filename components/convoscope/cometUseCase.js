@@ -15,7 +15,6 @@ import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import cometRepoDropdown from '../../public/images/cometRepoDropdown.png'
 import contextMenuHover from '../../public/images/contextMenuHover.png'
 import undoHover from '../../public/images/undoHover.png'
-// import empathyMap from '../../public/images/empathyMapComet.png'
 import empathyMap from '../../public/images/cometEmpathyMap.png'
 import commonFlow from '../../public/images/commonFlowComet.png'
 import otherCommonFlows from '../../public/images/otherCommonFlowsComet.png'
@@ -109,7 +108,6 @@ export default function CometUseCase(){
                 p1= {<div><span className={`emphasis`}>Branch Management Dropdown -</span> In Comet it’s simple to find all the actions related to branch management in one place. Users can view the current branch, checkout any existing branch, create a new branch, or merge branches.</div> }
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
-                //image1={cometBranchDropdown}
                 //image2={dataPic1}
                 video1="/video/branchDropdownMergeFlow.mp4"
                 bullets={null}
@@ -680,17 +678,6 @@ export default function CometUseCase(){
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
                     <div><span className={`emphasis`}>Commit History–</span> Easily manage commits on the history page. Context menu on hover provides a quick revert, view, and rewrite of one's commits.</div>
                 </div>
-                {/* <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    <Image
-                        src={contextMenuHighlight}
-                        alt="Use Case Image"
-                        sizes="100vw"
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
-                        }} />
-                </div> */}
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls loop muted width="100%" height="auto">
                         <source src="/video/historyHover.mp4" type="video/mp4" />

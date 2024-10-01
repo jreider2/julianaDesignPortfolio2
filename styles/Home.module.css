@@ -1,6 +1,6 @@
 .heroSection {
   background-color: var(--main-bg);
-  background-image: url('/images/lightCirlce_mainPage.png');
+  background-image: url('/images/lightCirlce_mainPage.webp');
   background-size: cover;
   background-position: center -45vh;
   background-repeat: no-repeat;
@@ -154,5 +154,12 @@
   }
   .heroSection .subhead2 {
     visibility: hidden;
+  }
+}
+
+/* Fallback for browsers that do not support WebP */
+@supports not (background-image: url('/images/lightCirlce_mainPage.webp')) {
+  .heroSection {
+    background-image: url('/images/lightCirlce_mainPage.png'); /* Fallback to PNG */
   }
 }

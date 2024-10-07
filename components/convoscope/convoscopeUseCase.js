@@ -132,7 +132,7 @@ export default function ConvoscopeUseCase(){
             <Header 
                 heading="ConvoScope" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
-                image={convoHeroImage || placeholder}
+                image={convoHeroImage}
                 />
             <Overview
                 myRole="Lead Product Designer – "
@@ -629,7 +629,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 )}
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> I enhanced clarity by removing distracting elements, such as the transcript and side panels.</>}  icon={thumbsUpIcon}>
@@ -643,7 +644,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>I added a button animation and text, which indicated the app was processing before any cards were created.</>} icon={thumbsUpIcon}>
             </Box>
@@ -672,7 +674,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 )}
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>The icons selected to replace them fit the look and feel much better. They were rounded, breathable, and identifiable at a glance without being too distracting.</>} icon={thumbsUpIcon}>
@@ -687,7 +690,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 )}
             </div>
 
@@ -717,7 +721,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
@@ -733,7 +738,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                     )}  
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
@@ -746,7 +752,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                     )}
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
@@ -759,7 +766,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                     )}
                 </div>
                 <div className={`${styles.imageWrapper2} `}>
@@ -772,7 +780,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                            }} />  
+                            }}
+                            placeholder="blur" />  
                     )}
                 </div>
 
@@ -789,7 +798,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                     )}
                 </div>
 
@@ -805,7 +815,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
@@ -820,7 +831,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
                 </div>                    
 
 
@@ -853,7 +865,8 @@ export default function ConvoscopeUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} />
+                        }}
+                        placeholder="blur" />
             </div>
 
             {/* animations */}

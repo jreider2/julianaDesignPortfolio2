@@ -114,7 +114,6 @@ export default function ThoughtFilterUseCase() {
               width={96}
               height={80}
               objectFit="contain"
-              placeholder="blur"
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Filter History</div>
@@ -132,7 +131,6 @@ export default function ThoughtFilterUseCase() {
               width={96}
               height={80}
               objectFit="contain"
-              placeholder="blur"
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Search History</div>
@@ -159,7 +157,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
 
@@ -257,7 +254,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
 
@@ -276,7 +272,6 @@ export default function ThoughtFilterUseCase() {
               width={96}
               height={80}
               objectFit="contain"
-              placeholder="blur"
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Design Files</div>
@@ -294,7 +289,6 @@ export default function ThoughtFilterUseCase() {
               width={96}
               height={80}
               objectFit="contain"
-              placeholder="blur"
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Engagement</div>
@@ -312,7 +306,6 @@ export default function ThoughtFilterUseCase() {
               width={96}
               height={80}
               objectFit="contain"
-              placeholder="blur"
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Collaborative Development</div>
@@ -347,7 +340,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
 
@@ -364,7 +356,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
 
@@ -381,7 +372,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
       </Card>
@@ -419,7 +409,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
       <Box
@@ -438,7 +427,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
 
@@ -462,7 +450,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
       <Box
@@ -481,7 +468,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
 
@@ -540,7 +526,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
 
@@ -566,7 +551,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
         <div className={`bodyText ${styles.cardBody2}`}>
@@ -590,7 +574,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
         <div className={`bodyText ${styles.cardBody2}`}>
@@ -605,7 +588,6 @@ export default function ThoughtFilterUseCase() {
             layout="responsive"
             width={800}
             height={600}
-            placeholder="blur"
           />
         </div>
       </Card>
@@ -620,7 +602,6 @@ export default function ThoughtFilterUseCase() {
           layout="responsive"
           width={1200}
           height={800}
-          placeholder="blur"
         />
       </div>
 

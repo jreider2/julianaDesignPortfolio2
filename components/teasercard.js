@@ -40,8 +40,7 @@ export default function TeaserCard({ title, description, image, link }) {
               width: "100%",
               height: "auto",
               objectFit: "contain"
-          }}
-          placeholder="blur" />
+          }} />
       </div>
       </Link>
     </div>

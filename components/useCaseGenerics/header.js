@@ -19,7 +19,7 @@ export default function Header ({ image, heading, subheading }) {
                         objectFit: "contain"
                     }}
                     priority
-                    placeholder="blur" />
+                    unoptimized />
             </div>
         </div>
     );

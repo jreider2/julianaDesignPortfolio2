@@ -128,7 +128,7 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }}
-                        unoptimized />
+                         />
                 </div>
             
             </Card>
@@ -146,7 +146,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized />
+                        }}
+                        placeholder="blur"  />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginTopNone}`}>
@@ -162,7 +163,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized />
+                        }} 
+                        placeholder="blur"  />
                 </div>
 
             </Card>
@@ -269,7 +271,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized />
+                        }}
+                        placeholder="blur"  />
             </div>
 
             {boarder} 
@@ -297,8 +300,9 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} 
-                        unoptimized />
+                        }}
+                        placeholder="blur"
+                         />
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -310,7 +314,8 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }}
-                        unoptimized />
+                        placeholder="blur"
+                         />
             </div>
             <div className={`sectionOutterContainer ${styles.marginTopNone}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
@@ -327,7 +332,8 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} 
-                        unoptimized/>
+                        placeholder="blur"
+                        />
             </div>
             <div className={`sectionOutterContainer ${styles.marginTopNone}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
@@ -359,7 +365,8 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} 
-                        unoptimized />
+                        placeholder="blur"
+                         />
             </div>
 
             <div className={`sectionOutterContainer`}>
@@ -387,7 +394,8 @@ export default function CometUseCase(){
                                 height: "auto",
                                 objectFit: "contain"
                             }}
-                            unoptimized />
+                            placeholder="blur"
+                             />
                     </div>
                     <div className={`emphasis ${styles.modeTitle}`}>Design Files</div>
                     <div className={`bodyText ${styles.modeBody}`}>Utilized Figma and FigJam<br/>to create artifacts</div>
@@ -403,7 +411,8 @@ export default function CometUseCase(){
                                 height: "auto",
                                 objectFit: "contain"
                             }} 
-                            unoptimized/>
+                            placeholder="blur"
+                            />
                     </div>
                     <div className={`emphasis ${styles.modeTitle}`}>Iterative Feedback</div>
                     <div className={`bodyText ${styles.modeBody}`}>Gathered continuous feedback<br/>from potential users
@@ -430,7 +439,8 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} 
-                        unoptimized/>
+                        placeholder="blur"
+                        />
             </div>
 
             <div className={`sectionOutterContainer`}>
@@ -461,7 +471,8 @@ export default function CometUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} 
-                        unoptimized />
+                        placeholder="blur"
+                         />
                 </div>
 
                 {/* <div className={`bodyText ${styles.cardBody2}`}>
@@ -481,7 +492,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
@@ -497,7 +509,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom2}`}>
@@ -532,7 +545,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span>I made the CTA smaller. This allowed for a balance to be struck. The eye was still drawn to the primary CTA without it being overly distracting.</>} icon={thumbsUpIcon}>
             </Box>
@@ -545,7 +559,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
             
             {/* Before and After: Streamling the tree design*/}
@@ -566,7 +581,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek manner instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
             </Box>
@@ -579,7 +595,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
 
 
@@ -600,7 +617,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
@@ -611,7 +629,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
 
             <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After:</span> I brightened up the colors which better reflected my themes of sleekness and approachability.</>}  icon={thumbsUpIcon}>
@@ -630,7 +649,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
             </div>
 
 
@@ -661,7 +681,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
@@ -676,7 +697,8 @@ export default function CometUseCase(){
                             width: "100%",
                             height: "auto",
                             objectFit: "contain"
-                        }} unoptimized/>
+                        }}
+                        placeholder="blur" />
                 </div>
                 <div className={`${styles.imageWrapper2}`}>
                     <video controls loop muted width="100%" height="auto">

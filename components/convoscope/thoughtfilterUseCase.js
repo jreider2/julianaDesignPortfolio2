@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
 import SectionTopper from '../useCaseGenerics/sectionTopper';
@@ -8,7 +7,6 @@ import Card from '../useCaseGenerics/card';
 import Box from '../useCaseGenerics/box';
 import NumberedList from '../useCaseGenerics/numberedList';
 import BackButton from '../useCaseGenerics/backButton';
-
 import styles from './useCase.module.css';
 
 // Data and constants

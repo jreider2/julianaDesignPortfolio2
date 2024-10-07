@@ -18,7 +18,8 @@ export default function Header ({ image, heading, subheading }) {
                         height: "auto",
                         objectFit: "contain"
                     }}
-                    priority />
+                    priority
+                    unoptimized />
             </div>
         </div>
     );

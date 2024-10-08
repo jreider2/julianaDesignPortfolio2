@@ -24,7 +24,7 @@ import approachableColor from '../../public/images/approachableColor.png'
 import bigCommit from '../../public/images/bigCommit.png'
 import oneFileStaged from '../../public/images/oneFileStaged.png'
 import historyPage from '../../public/images/history.png'
-import oldGraph from '../../public/images/oldGraph.png'
+import graphBefore from '../../public/images/graphBefore.png'
 import oldColors from '../../public/images/oldColors.png'
 import tintedCodeBg from '../../public/images/tintedCodeBg.png'
 import mainMenuBright from '../../public/images/mainMenuBright.png'
@@ -563,10 +563,10 @@ export default function CometUseCase(){
                         placeholder="blur" />
             </div>
             
-            {/* Before and After: Streamling the tree design*/}
+            {/* Before and After: Streamling the graph design*/}
             <div className={`sectionOutterContainer ${styles.marginTop}`}>
                 <div className={`${styles.sectionSubheading}`}>
-                Streamling the tree design
+                Streamling the graph design
                 </div>
             </div>
 
@@ -574,7 +574,7 @@ export default function CometUseCase(){
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image
-                        src={oldGraph}
+                        src={graphBefore}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
@@ -584,7 +584,7 @@ export default function CometUseCase(){
                         }}
                         placeholder="blur" />
             </div>
-            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the tree was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek manner instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
+            <Box className={`${styles.marginTop}`} txt={<><span className={`emphasis`}>After: </span> Based on user feedback, I learned that much of the info portrayed in the graph was ignored; mostly users wanted to know which commit was associated with which branch. Therefore, I represented the relevent data in a more simplified sleek manner instead, using color coordination as the key.</>} icon={thumbsUpIcon}>
             </Box>
             <div className={`${styles.imageWrapper3} ${styles.marginTop2}`}>
                     <Image

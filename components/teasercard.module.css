@@ -1,5 +1,4 @@
-/* Import Globals Styles */
-@import url("/globals.css");
+/* @import url("../styles/globals.css"); */
 
 .card {
   display: flex;

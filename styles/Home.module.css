@@ -92,6 +92,7 @@
   z-index: 2;
 }
 
+/* Ghost div is the target of the scroll to work arrow */
 .ghost {
   position: relative;
   z-index: 2;
@@ -156,9 +157,4 @@
   }
 }
 
-/* Fallback for browsers that do not support WebP */
-@supports not (background-image: url('/images/lightCirlce_mainPage.webp')) {
-  .heroSection {
-    background-image: url('/images/lightCirlce_mainPage.png'); /* Fallback to PNG */
-  }
-}
+/* Add back in a fallback image for the hero section */

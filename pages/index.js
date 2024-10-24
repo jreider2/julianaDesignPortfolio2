@@ -22,6 +22,7 @@ export default function Home({ allPostsData }) {
       <Layout ref={workRef} home>
         <Head>
           <title>{siteTitle}</title>
+          <link rel="preload" as="image" href="/images/lightCirlce_mainPage.webp" />
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>

@@ -1,11 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "npm run build:css && next build",
     "dev": "next dev",
     "start": "next start",
-    "build:css": "postcss styles/**/*.css -d styles/minified/",
-    "build": "npm run build:css && next build"
+    "build:css": "postcss styles/**/*.css -d styles/minified/"
   },
   "dependencies": {
     "date-fns": "^3.6.0",

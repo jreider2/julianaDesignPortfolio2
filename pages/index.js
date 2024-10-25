@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 // components
 import Layout, { siteTitle } from '../components/layout';
@@ -8,7 +9,7 @@ import TeaserCard from '../components/teasercard';
 
 // styles
 import arrowStyles from '../components/arrowDown.module.css';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/minified/Home.module.css';
 
 
 export default function Home({ allPostsData }) {
@@ -22,11 +23,19 @@ export default function Home({ allPostsData }) {
       <Layout ref={workRef} home>
         <Head>
           <title>{siteTitle}</title>
+          <link rel="preload" href="/fonts/MuseoModerno.woff2" as="font" type="font/woff2" crossorigin />
+          <link rel="preload" href="/fonts/SFProRounded.woff2" as="font" type="font/woff2" crossorigin />
           <link rel="preload" as="image" href="/images/lightCirlce_mainPage.webp" />
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
-
+            <Image
+              src="/images/lightCirlce_mainPage.webp"
+              alt="Hero Background"
+              layout="fill" // or layout="responsive" based on your design
+              objectFit="cover" // to maintain aspect ratio
+              priority // to load this image first
+            />
             <motion.h1
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}

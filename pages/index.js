@@ -9,8 +9,7 @@ import TeaserCard from '../components/teasercard';
 
 // styles
 import arrowStyles from '../components/arrowDown.module.css';
-import styles from '../styles/minified/Home.module.css';
-
+import styles from '../styles/Home.module.css';
 
 export default function Home({ allPostsData }) {
   const workRef = useRef(null);
@@ -40,8 +39,10 @@ export default function Home({ allPostsData }) {
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-            ><span className={styles.EngineersLens}>Engineer's Lens</span><br></br>
-              <span className={styles.designerVision}>Designer's Vision</span></motion.h1>
+            >
+              <span className={styles.EngineersLens}>Engineer's Lens</span><br />
+              <span className={styles.designerVision}>Designer's Vision</span>
+            </motion.h1>
 
             <motion.div className={styles.subheadContainer}
               initial={{ opacity: 0, y: 5 }}
@@ -66,6 +67,5 @@ export default function Home({ allPostsData }) {
 
       </Layout >
     </>
-
   );
 }

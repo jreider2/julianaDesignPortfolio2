@@ -22,8 +22,8 @@ export default function Home({ allPostsData }) {
       <Layout ref={workRef} home>
         <Head>
           <title>{siteTitle}</title>
-          <link rel="preload" href="/fonts/MuseoModerno.woff2" as="font" type="font/woff2" crossorigin />
-          <link rel="preload" href="/fonts/SFProRounded.woff2" as="font" type="font/woff2" crossorigin />
+          {/* <link rel="preload" href="/fonts/MuseoModerno.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          <link rel="preload" href="/fonts/SFProRounded.woff2" as="font" type="font/woff2" crossOrigin="anonymous" /> */}
           <link rel="preload" as="image" href="/images/lightCirlce_mainPage.webp" />
         </Head>
         <div className={styles.heroContainer}>

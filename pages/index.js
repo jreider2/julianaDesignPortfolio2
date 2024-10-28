@@ -31,9 +31,9 @@ export default function Home({ allPostsData }) {
             <Image
               src="/images/lightCirlce_mainPage.webp"
               alt="Hero Background"
-              layout="fill" // or layout="responsive" based on your design
-              objectFit="cover" // to maintain aspect ratio
-              priority // to load this image first
+              fill
+              style={{ objectFit: 'cover', objectPosition: 'center bottom' }}
+              priority
             />
             <motion.h1
               initial={{ opacity: 0, y: 5 }}

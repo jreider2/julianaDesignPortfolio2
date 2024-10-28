@@ -1,8 +1,5 @@
 .heroSection {
   background-color: var(--main-bg);
-  /* background-image: image-set('/images/lightCirlce_mainPage.webp', '/images/lightCirlce_mainPage.png');  */
-  background-size: cover;
-  background-position: center -45vh;
   background-repeat: no-repeat;
   padding-top: 4rem;
   margin: 0;

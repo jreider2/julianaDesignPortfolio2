@@ -31,9 +31,9 @@ export default function TeaserCard({ title, description, image, link }) {
         <Image
           className={styles.image}
           src={image}
-          alt="Use Case Image"
+          alt="Case Study Image"
           sizes="100vw"
-          layout="responsive" // Use responsive layout
+          responsive // Use responsive layout
           width={100}
           height={100}
           style={{

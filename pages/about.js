@@ -5,7 +5,7 @@ export default function About() {
   return (
     <Layout>
       {/* Content for About page */}
-      <AboutMeContent />
+      <AboutMeContent /> 
     </Layout>
   );
 }

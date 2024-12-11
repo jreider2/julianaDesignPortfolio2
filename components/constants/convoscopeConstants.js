@@ -21,7 +21,7 @@ const overviewTextP1= "Students in the MIT Media Lab wanted more information at 
 const overviewTextP2= <>I paired with researchers at MIT media lab to create a tool to aid in
     <span className={overviewStyles.emphasis}> seamlessly surfacing additional information during lab meetings.</span>
 </>;
-const overviewTextP3= <> I worked on the end-to-end design of the desktop application.<br/><br/> Our app was presented and used at MIT, 
+const overviewTextP3= <> I worked on the end-to-end design of the application.<br/><br/> Our app was presented and used at MIT, 
     <span className={overviewStyles.emphasis}> meaningfully improved the quality of research conversations, </span>
     and is currently being adapted for use with AR by Team Open Smart Glasses.
 </>

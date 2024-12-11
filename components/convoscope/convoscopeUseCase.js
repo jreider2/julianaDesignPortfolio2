@@ -18,6 +18,7 @@ import tempImg from '../../public/images/mainScrene.png'
 import landingPage from '../../public/images/landingPage.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
+import mobileScreens from '../../public/images/mobileTriScreenConvo.png'
 import placeholder from '../../public/images/convoscopePlaceholder1.png'
 //test commit 
 
@@ -132,7 +133,7 @@ export default function ConvoscopeUseCase(){
             <Header 
                 heading="ConvoScope" 
                 subheading="Designing an experimental AI interface for MIT Media Lab researchers."
-                image={convoHeroImage || placeholder}
+                image={mobileScreens || placeholder}
                 />
             <Overview
                 myRole="Lead Product Designer – "
@@ -281,6 +282,26 @@ export default function ConvoscopeUseCase(){
                         <source src="/video/HeyConvoVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
+                </div>
+            </Card>
+
+            <Card
+                p1= {<div><span className={`emphasis`}>Mobile Friendly–</span> I'm currently adapting the app to be used on the go, complete with video chat.</div> }
+                className={`${styles.marginBottomNone}`}
+            >
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                    {mobileScreens && (
+                        <Image
+                            src={mobileScreens}
+                            alt="Speaker Highlight"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
                 </div>
             </Card>
 

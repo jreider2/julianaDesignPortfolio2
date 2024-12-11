@@ -62,7 +62,7 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={styles.ghost} ref={workRef}></div>
         <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
-        <TeaserCard title="Convoscope" description="Designing an experimental AI interface with MIT Media Lab researchers." image="/images/convoscopeTeaser.webp" link={"/convoScope"}></TeaserCard>
+        <TeaserCard title="Convoscope" description="Designing an experimental AI interface with MIT Media Lab researchers." image="/images/mobileTriScreenConvo.png" link={"/convoScope"}></TeaserCard>
         <TeaserCard title="Thought Filter" description="First designer for a generative AI B2B content marketing SaaS tool." image="/images/tfTeaser.webp" link={"/thoughtFilter"}></TeaserCard>
 
       </Layout >

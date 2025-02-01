@@ -39,8 +39,8 @@ export default function ThoughtFilterUseCase() {
     <div className={styles.useCaseContainer}>
       <Header
         heading="ThoughtFilter"
-        subheading="Designer for a B2B content marketing SaaS tool."
-        image="/images/tfProjects.png"
+        subheading="Designer for a generative AI SaaS tool for freelance writers and creators."
+        image="/images/editWithAiCurvedCorners.png"
       />
       <Overview
         myRole="Product Designer – "

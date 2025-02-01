@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
 
         <TeaserCard title="Convoscope" description="Designing an experimental AI interface with MIT Media Lab researchers." image="/images/mobileTriScreenConvo.png" link={"/convoScope"}></TeaserCard>
 
-        <TeaserCard title="Thought Filter" description="First designer for a generative AI B2B content marketing SaaS tool." image="/images/tfTeaser.webp" link={"/thoughtFilter"}></TeaserCard>
+        <TeaserCard title="Thought Filter" description="First designer for a generative AI SaaS tool for freelance writers and creators." image="/images/editWithAiCurvedCorners.png" link={"/thoughtFilter"}></TeaserCard>
 
       </Layout >
     </>

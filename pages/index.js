@@ -63,7 +63,7 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={styles.ghost} ref={workRef}></div>
 
-        <TeaserCard title="Coming Soon" description="Bloom: A cryptocurrency investment and goal setting tool." image="/images/bloomCover.png" link={"/bloom"}></TeaserCard>
+        <TeaserCard title="Canopy" description="Coming Soon: A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/bloom"}></TeaserCard>
 
         <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
 

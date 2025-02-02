@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import bloomCover from '../../public/images/bloomCover.png'
+import canopyHero from '../../public/images/canopyCover.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -17,9 +17,9 @@ export default function BloomUseCase(){
     return (
         <div className={styles.useCaseContainer}>
             <Header 
-                heading="Bloom" 
+                heading="Canopy" 
                 subheading="Coming Soon: A Cryptocurrency Investment and Goal Setting Tool."
-                image={bloomCover}
+                image={canopyHero}
                 />
             {/* <Overview
                 myRole="Product Designer"

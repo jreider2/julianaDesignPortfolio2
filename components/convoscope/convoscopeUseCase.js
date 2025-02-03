@@ -18,7 +18,7 @@ import tempImg from '../../public/images/mainScrene.png'
 import landingPage from '../../public/images/landingPage.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
-import mobileScreens from '../../public/images/mobileTriScreenConvo.png'
+import mobileScreens from '../../public/images/convoscopeCover.png'
 import placeholder from '../../public/images/convoscopePlaceholder1.png'
 //test commit 
 

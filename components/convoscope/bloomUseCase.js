@@ -49,7 +49,7 @@ export default function BloomUseCase(){
             />
 
             <Card
-                p1={<p><span className={`emphasis`}> Hyperbolic discounting leads people to favor the short term  -</span> Canopy combats this by making the financial future concrete, visualizating progress, and reinforcing goals. </p>}
+                p1={<p><span className={`emphasis`}> Hyperbolic discounting leads people to favor the short term.</span> Canopy combats this by making the financial future concrete, visualizating progress, and reinforcing goals. </p>}
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
                 //image2={dataPic1}
@@ -58,7 +58,7 @@ export default function BloomUseCase(){
                 className={`${styles.marginBottomNone}`}
             >
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom1} ${styles.marginTopNone}`}>
-                    <span className={`emphasis`}>Repository Dropdown–</span> All actions related to reposities are located in one place as well. The use of dropdowns alows complexity to be hidden away until the user needs it.
+                    <span className={`emphasis`}>Utilizing the goal gradient effect</span> causes people to persist through the hard parts of the journey when they might otherwise give up.
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <Image
@@ -73,6 +73,46 @@ export default function BloomUseCase(){
                     />
                 </div>
             
+            </Card>
+
+            <Card
+                p1= {<div><span className={`emphasis`}>Building wealth is a long term project.</span> Canopy uses recurring investments and well-chosen defaults to help users stay on track. </div> }
+            >
+                <div className={styles.imageWrapper2}>
+                    {canopyHero && (
+                        <Image
+                            src={canopyHero}
+                            alt="Speaker Highlight"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
+                </div>
+
+                <div className={`bodyText ${styles.cardBody2}`}>
+                    <div><span className={`emphasis`}>Demistify and communicate.–</span> Canopy makes the process of buying crypto easy to understand and execute.</div>
+                </div>
+
+                <div className={styles.imageWrapper2}>
+                    {canopyHero && (
+                        <Image
+                            src={canopyHero}
+                            alt="Participant View"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
+                </div>
+                <br></br><br></br><br></br>
+
             </Card>
 
             <BackButton />

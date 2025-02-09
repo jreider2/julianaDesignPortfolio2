@@ -26,7 +26,6 @@ export default function Home({ allPostsData }) {
           <link rel="preload" href="/fonts/SFProRounded.woff2" as="font" type="font/woff2" crossOrigin="anonymous" /> */}
           <link rel="preload" as="image" href="/images/lightCirlce_mainPage.webp" />
         </Head>
-
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
             <Image
@@ -65,9 +64,9 @@ export default function Home({ allPostsData }) {
 
         <TeaserCard title="Canopy" description="Coming Soon: A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/bloom"}></TeaserCard>
 
-        <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
-
         <TeaserCard title="Convoscope" description="Designing an experimental AI interface with MIT Media Lab researchers." image="/images/convoscopeCover.png" link={"/convoScope"}></TeaserCard>
+
+        <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
 
         <TeaserCard title="Thought Filter" description="First designer for a generative AI SaaS tool for freelance writers and creators." image="/images/editWithAiCurvedCorners.png" link={"/thoughtFilter"}></TeaserCard>
 

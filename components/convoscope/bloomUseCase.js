@@ -76,7 +76,7 @@ export default function BloomUseCase(){
             </Card>
 
             <Card
-                p1= {<div><span className={`emphasis`}>Building wealth is a long term project.</span> Canopy uses recurring investments and well-chosen defaults to help users stay on track. </div> }
+                p1={<div><span className={`emphasis`}>Building wealth is a long term project.</span> Canopy uses recurring investments and well-chosen defaults to help users stay on track. </div> }
             >
                 <div className={styles.imageWrapper2}>
                     {canopyHero && (
@@ -94,7 +94,7 @@ export default function BloomUseCase(){
                 </div>
 
                 <div className={`bodyText ${styles.cardBody2}`}>
-                    <div><span className={`emphasis`}>Demistify and communicate.–</span> Canopy makes the process of buying crypto easy to understand and execute.</div>
+                    <span className={`emphasis`}>Demistify and communicate.</span> Canopy makes the process of buying crypto easy to understand and execute.
                 </div>
 
                 <div className={styles.imageWrapper2}>

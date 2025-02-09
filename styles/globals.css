@@ -51,7 +51,7 @@ body {
   color: var(--light-text);
   color: var(--subheading-light-text, #A7B1CF);
   font-family: var(--font-fam-body, SF Pro Text, sans-serif);
-  font-weight: 300 ;
+  font-weight: 400 ;
   line-height: 150%; /* 2.25rem */
   margin-top: var(--margin-2);
 }

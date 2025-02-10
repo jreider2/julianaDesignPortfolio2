@@ -57,7 +57,7 @@ export default function BloomUseCase(){
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
                 //image2={dataPic1}
-                video1="/video/branchDropdownMergeFlow.mp4"
+                video1="/video/canopyFlowFeb10.mp4"
                 bullets={null}
                 className={`${styles.marginBottomNone}`}
             >

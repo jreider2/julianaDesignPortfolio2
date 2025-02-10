@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+
 import canopyHero from '../../public/images/canopyCover.png'
+import goalsDiptic from '../../public/images/canopyGoalScreens.png'
+import buyFlow1 from '../../public/images/canopyBuyFlowTriptic1of2.png'
+import buyFlow2 from '../../public/images/canopyBuyFlowTriptic2of2.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
 import BackButton from '../useCaseGenerics/backButton';
 import SectionTopper from '../useCaseGenerics/sectionTopper';
 import Card from '../useCaseGenerics/card';
-import Image from 'next/image';
 import styles from "./useCase.module.css";
 
     // data
@@ -62,7 +66,7 @@ export default function BloomUseCase(){
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <Image
-                        src={canopyHero}
+                        src={goalsDiptic}
                         alt="Use Case Image"
                         sizes="100vw"
                         style={{
@@ -82,7 +86,7 @@ export default function BloomUseCase(){
                 <div className={styles.imageWrapper2}>
                     {canopyHero && (
                         <Image
-                            src={canopyHero}
+                            src={buyFlow1}
                             alt="Speaker Highlight"
                             sizes="100vw"
                             style={{
@@ -101,7 +105,7 @@ export default function BloomUseCase(){
                 <div className={styles.imageWrapper2}>
                     {canopyHero && (
                         <Image
-                            src={canopyHero}
+                            src={buyFlow2}
                             alt="Participant View"
                             sizes="100vw"
                             style={{

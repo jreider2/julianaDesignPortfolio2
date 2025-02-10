@@ -25,7 +25,7 @@ export default function BloomUseCase(){
                 />
             {<Overview
                 myRole="Product Designer"
-                timeline="Summer 2025"
+                timeline="Q4 2024 to Q1 2025"
                 status="In the oven"
                 team={<div>Team of One
                 </div>}
@@ -75,8 +75,9 @@ export default function BloomUseCase(){
             
             </Card>
 
-            <Card
+            <Card 
                 p1={<div><span className={`emphasis`}>Building wealth is a long term project.</span> Canopy uses recurring investments and well-chosen defaults to help users stay on track. </div> }
+                className={`${styles.marginBottomNone}`}
             >
                 <div className={styles.imageWrapper2}>
                     {canopyHero && (
@@ -113,6 +114,13 @@ export default function BloomUseCase(){
                 </div>
                 <br></br><br></br><br></br>
 
+            </Card>
+
+            <Card className={`${styles.marginBottomNone}`}
+            >
+                <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
+                This is just the beginning. <br></br>More Canopy <span className={`${styles.whiteTxt}`}>coming soon </span> to a computer near you.
+                </div>
             </Card>
 
             <BackButton />

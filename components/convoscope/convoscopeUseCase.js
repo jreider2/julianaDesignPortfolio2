@@ -195,6 +195,26 @@ export default function ConvoscopeUseCase(){
                     </div>}
             />
 
+            <Card
+                p1= {<div><span className={`emphasis`}>Video Sessions–</span> Convoscope augments in-person meetings, such as a lively discussion amongst friends, or a presentation in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
+                className={`${styles.marginBottom2} ${styles.marginTopNone}`}
+            >
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                    {mobileScreens && (
+                        <Image
+                            src={mobileScreens}
+                            alt="Speaker Highlight"
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "contain"
+                            }} 
+                        />
+                    )}
+                </div>
+            </Card>
+
             {/* Speaker mode icons  */}
             <div className={`${styles.speakerModsWrapper}`}>
                 <div className={styles.middleModContainner}>
@@ -282,26 +302,6 @@ export default function ConvoscopeUseCase(){
                         <source src="/video/HeyConvoVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                </div>
-            </Card>
-
-            <Card
-                p1= {<div><span className={`emphasis`}>Mobile Friendly–</span> I'm currently adapting the app to be used on the go, complete with video chat.</div> }
-                className={`${styles.marginBottomNone}`}
-            >
-                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
-                    {mobileScreens && (
-                        <Image
-                            src={mobileScreens}
-                            alt="Speaker Highlight"
-                            sizes="100vw"
-                            style={{
-                                width: "100%",
-                                height: "auto",
-                                objectFit: "contain"
-                            }} 
-                        />
-                    )}
                 </div>
             </Card>
 

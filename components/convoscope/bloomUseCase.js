@@ -123,7 +123,7 @@ export default function BloomUseCase(){
             <Card className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-                This is just the beginning. <br></br>More Canopy <span className={`${styles.whiteTxt}`}>coming soon </span> to a computer near you.
+                This is just the beginning. <br></br>More Canopy <span className={`${styles.whiteTxt}`}>coming soon </span> to a screen near you.
                 </div>
             </Card>
 

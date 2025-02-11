@@ -13,21 +13,21 @@ const Nav = React.forwardRef((props, ref) => {
 
       <div className={styles.logoContainer}>
         <div className={styles.circle}></div>
-        <Link href="images/JulianaReider.com_Resume.pdf">
+        {props.home ? 
+          <a onClick={() => scrollToWork()}>
+            <span className={styles.navLink} onClick={scrollToWork}>juliana reider</span>
+          </a> :
+          <Link href="/">
           <span className={styles.navLink}>juliana reider</span>
-        </Link>
+        </Link>}
       </div>
 
       <div className={styles.centerLinks}>
         <div className={styles.linkContainer}>
           <div className={styles.circleSmall}></div>
-          {props.home ? 
-          <a onClick={() => scrollToWork()}>
-            <span className={styles.navLink} onClick={scrollToWork}>work</span>
-          </a> :
-          <Link href="/">
-          <span className={styles.navLink}>work</span>
-        </Link>}
+          <Link href="images/JulianaReider.com_Resume.pdf">
+          <span className={styles.navLink}>resume</span>
+        </Link>
         </div>
 
         <div className={styles.linkContainer}>

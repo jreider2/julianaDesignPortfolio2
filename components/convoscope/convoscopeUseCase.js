@@ -15,7 +15,8 @@ import thumbsDownIcon from '../../public/images/thumbsDownIcon.png'
 import thumbsUpIcon from '../../public/images/thumbsUpIcon.png'
 import styleTyleMain from '../../public/images/StyleTile.png'
 import tempImg from '../../public/images/mainScrene.png'
-import landingPage from '../../public/images/landingPage.png'
+import landingPage from '../../public/images/convoHomePage.png'
+import newDataImage1 from '../../public/images/convoDataViz.png'
 import speakerView from '../../public/images/speakerView.png'
 import webpage from '../../public/images/webpage.png'
 import mobileScreens from '../../public/images/convoscopeCover.png'
@@ -56,7 +57,7 @@ const images = {
   data2: () => import('../../public/images/data2.png'),
   data3: () => import('../../public/images/data3.png'),
   data4: () => import('../../public/images/data4.png'),
-  heyConvo: () => import('../../public/images/heyConvo.png'),
+  heyConvo: () => import('../../public/images/convoHeyConvoStill.png'),
   // You can add other images here later
 };
 
@@ -171,9 +172,10 @@ export default function ConvoscopeUseCase(){
             <Card
                 p1= {<div><span className={`emphasis`}>Main screen -</span> Cards flow in from the top, and are pushed out the bottom.</div> }
 
-                image1={tempImage} // Use the dynamically loaded tempImg
-                image2={dataImage1} // Use the dynamically loaded dataPic1
-                video1="/video/cardFlowStartVid.mp4"
+                /* comment out for now */
+                // image1={tempImage} // Use the dynamically loaded tempImg
+                // image2={dataImage1} // Use the dynamically loaded dataPic1
+                video1="/video/convoscopeOverviewVideo.mp4"
                 bullets={
                 <div className={`bodyText ${styles.bulletContainer}`}>
                         <div>
@@ -187,16 +189,16 @@ export default function ConvoscopeUseCase(){
                         <div>
                             <span className={`emphasis ${styles.marginBottom}`}>Quick to Scan</span><br />
                             • Cards provide visual separation<br />
-                            • Limit of 7-12 words per card body<br />
-                            • Typography chosen carefully for legibility<br />
+                            • Limited words per card body<br />
+                            • Typography carefully chosen<br />
                             • Absence of clutter<br />
-                            • Throttled quantity of cards produced<br />
+                            • Throttled quantity of cards<br />
                         </div>
                     </div>}
             />
 
             <Card
-                p1= {<div><span className={`emphasis`}>Video Sessions–</span> Convoscope augments in-person meetings, or a presentation in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
+                p1= {<div><span className={`emphasis`}>Flexible Collaboration–</span> Convoscope augments in-person conversations, such as lab meetings and presentations in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
                 className={`${styles.marginBottom2} ${styles.marginTopNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
@@ -215,7 +217,7 @@ export default function ConvoscopeUseCase(){
                 </div>
             </Card>
 
-            {/* Speaker mode icons  */}
+            {/* remote and in person mode icons  */}
             <div className={`${styles.speakerModsWrapper}`}>
                 <div className={styles.middleModContainner}>
                     <div className={styles.sModsPicContainer}>
@@ -250,7 +252,8 @@ export default function ConvoscopeUseCase(){
                 </div>
             </div>
 
-            <Card
+            {/* commented out for now */}
+            {/* <Card
                 p1= {<div><span className={`emphasis`}>Speaker View–</span> In Speaker Mode, the speaker selects the cards to highlight.</div> }
             >
                 <div className={styles.imageWrapper2}>
@@ -291,17 +294,31 @@ export default function ConvoscopeUseCase(){
                     <div>The rationed output will help highlight the most useful information and minimize distractions.</div>
                 </div>
 
-            </Card>
+            </Card> */}
 
             <Card
                 p1= {<div><span className={`emphasis`}>“Hey Convo”–</span> A voice interface is available for users to ask burning questions.</div> }
-                className={`${styles.marginBottomNone} ${styles.marginTopNone}`}
+                className={`${styles.marginBottomNone} `}
             >
-                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                {/* commented out for now */}
+                {/* <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <video controls loop muted width="100%" height="auto">
                         <source src="/video/HeyConvoVid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
+                </div> */}
+                <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
+                    {heyConvoImage && (
+                        <Image
+                            src={heyConvoImage}
+                            alt="Use Case Image"
+                            sizes="100vw"
+                            style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "contain"
+                        }} />
+                    )}
                 </div>
             </Card>
 
@@ -729,6 +746,7 @@ export default function ConvoscopeUseCase(){
             <Card
                 p1= {<div><span className={`emphasis`}>Landing Page– </span> Start a new session or view an archive of past sessions.</div> }
             >
+                {/* commented out for now: todo, update the copy in this image */}
                 <div className={`${styles.imageWrapper2} `}>
                     <Image
                         src={landingPage}
@@ -745,9 +763,9 @@ export default function ConvoscopeUseCase(){
                     <div><span className={`emphasis`}>Data Visualizations–</span> Make statistics and data display in a more visual format for quicker consumption. </div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
-                    {data1Image && (
+                    {newDataImage1 && (
                         <Image
-                            src={data1Image}
+                            src={newDataImage1}
                             alt="Use Case Image"
                             sizes="100vw"
                             style={{
@@ -757,6 +775,9 @@ export default function ConvoscopeUseCase(){
                         }} />
                     )}  
                 </div>
+
+                {/* commented out for now */}
+                {/* </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
                     {data2Image && (
                         <Image
@@ -795,7 +816,7 @@ export default function ConvoscopeUseCase(){
                             objectFit: "contain"
                             }} />  
                     )}
-                </div>
+                </div> */}
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
                     <div><span className={`emphasis`}>Hey Convo–</span> Ask convo anything!</div>
@@ -814,7 +835,8 @@ export default function ConvoscopeUseCase(){
                     )}
                 </div>
 
-                <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
+                {/* commented out for now */}
+                {/* <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
                     <div><span className={`emphasis`}>See More Info–</span> Click the "More" button for a card to display the source webpage.</div>
                 </div>
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom}`}>
@@ -827,7 +849,7 @@ export default function ConvoscopeUseCase(){
                             height: "auto",
                             objectFit: "contain"
                         }} />
-                </div>
+                </div> */}
 
                 <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom}`}>
                     <div><span className={`emphasis`}>Speaker View–</span> Participants only see the info that the speaker selects.</div>
@@ -908,7 +930,8 @@ export default function ConvoscopeUseCase(){
                 </video>
             </div>
 
-            <div className={`sectionOutterContainer ${styles.marginTop2}`}>
+            {/* commented out for now */}
+            {/* <div className={`sectionOutterContainer ${styles.marginTop2}`}>
                 <div className={`bodyText ${styles.marginTop2}`}>
                 Another animation worth discussion is on the login screen. The main purpose here is to use an animation inspired by heavenly bodies to <span className="emphasis"> set the tone of the application</span> immediately. The same animation is used at the start of every session.
                 </div>
@@ -918,7 +941,7 @@ export default function ConvoscopeUseCase(){
                     <source src="/video/LoginAnimation.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-            </div>
+            </div> */}
 
             {boarder}
 

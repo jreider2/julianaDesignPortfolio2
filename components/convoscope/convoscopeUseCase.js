@@ -132,7 +132,7 @@ export default function ConvoscopeUseCase(){
         <div className={styles.useCaseContainer}>
             <Header 
                 heading="ConvoScope" 
-                subheading="Designing an experimental AI interface for MIT Media Lab researchers."
+                subheading="Augmenting cross-disciplinary collaboration for researchers with AI."
                 image={mobileScreens || placeholder}
                 />
             <Overview
@@ -196,7 +196,7 @@ export default function ConvoscopeUseCase(){
             />
 
             <Card
-                p1= {<div><span className={`emphasis`}>Video Sessions–</span> Convoscope augments in-person meetings, such as a lively discussion amongst friends, or a presentation in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
+                p1= {<div><span className={`emphasis`}>Video Sessions–</span> Convoscope augments in-person meetings, or a presentation in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
                 className={`${styles.marginBottom2} ${styles.marginTopNone}`}
             >
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
@@ -229,8 +229,8 @@ export default function ConvoscopeUseCase(){
                                 objectFit: "contain"
                             }} />
                     </div>
-                    <div className={`emphasis ${styles.modeTitle}`}>Speaker Mode</div>
-                    <div className={`bodyText ${styles.modeBody}`}>Participants only see cards<br/>selected by the Speaker</div>
+                    <div className={`emphasis ${styles.modeTitle}`}>Remote Collaboration</div>
+                    <div className={`bodyText ${styles.modeBody}`}>Convoscope helps remote<br/>participants stay in sync</div>
                 </div>
                 <div className={styles.middleModContainner}>
                     <div className={styles.sModsPicContainer}>
@@ -244,8 +244,8 @@ export default function ConvoscopeUseCase(){
                                 objectFit: "contain"
                             }} />
                     </div>
-                    <div className={`emphasis ${styles.modeTitle}`}>Default Mode</div>
-                    <div className={`bodyText ${styles.modeBody}`}>All participants see the<br/>full set of cards
+                    <div className={`emphasis ${styles.modeTitle}`}>In-Person Collaboration</div>
+                    <div className={`bodyText ${styles.modeBody}`}>Enhancing live collaborations<br/> with real-time insights
                     </div> 
                 </div>
             </div>

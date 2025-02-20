@@ -82,7 +82,7 @@ export default function CometUseCase(){
             <Overview
                 myRole="Product Designer – "
                 responsibilities="UX Design, Visual Design, Information Architecture, User Flows, User Research"
-                timeline="Q2 2024"
+                timeline="Q3 - Q4 2024"
                 status="MVP Design Complete"
                 team={<div>Me, Myself, and I
                 </div>}

@@ -17,9 +17,9 @@ export const takeaways = [
   ];
   
 
-const overviewTextP1= "Students in the MIT Media Lab wanted more information at their fingertips when having conversations with peers, and when listening to research presentations.";
+const overviewTextP1= "Convoscope is an AI powered app that helps researchers collaborate across disciplines by cultivating shared context.";
 const overviewTextP2= <>I paired with researchers at MIT media lab to create a tool to aid in
-    <span className={overviewStyles.emphasis}> seamlessly surfacing additional information during lab meetings.</span>
+    <span className={overviewStyles.emphasis}> seamlessly surfacing relevant information during lab meetings.</span>
 </>;
 const overviewTextP3= <> I worked on the end-to-end design of the application.<br/><br/> Our app was presented and used at MIT, 
     <span className={overviewStyles.emphasis}> meaningfully improved the quality of research conversations, </span>

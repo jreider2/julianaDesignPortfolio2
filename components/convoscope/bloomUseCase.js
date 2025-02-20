@@ -29,7 +29,7 @@ export default function BloomUseCase(){
                 />
             {<Overview
                 myRole="Product Designer"
-                timeline="Q4 2024 to Q1 2025"
+                timeline="Q1 2025"
                 status="In the oven"
                 team={<div>Team of One
                 </div>}

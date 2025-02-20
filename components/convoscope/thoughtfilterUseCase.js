@@ -45,7 +45,7 @@ export default function ThoughtFilterUseCase() {
       <Overview
         myRole="Product Designer – "
         responsibilities="Interaction Design, UX Design, Visual Design, User Flows, User Research, and Prototyping"
-        timeline="Q1 2024 Design Stage"
+        timeline="Q3 - Q4 2023 Design Stage"
         status="V0 Complete"
         team={
           <div>

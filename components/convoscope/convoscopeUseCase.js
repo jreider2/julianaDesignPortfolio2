@@ -139,7 +139,7 @@ export default function ConvoscopeUseCase(){
             <Overview
                 myRole="Lead Product Designer – "
                 responsibilities="Interaction Design, UX Design, Visual Design, User Flows, Prototyping"
-                timeline="Q3, Q4 2023 Design Stage"
+                timeline="Q1, Q2 2024 Design Stage"
                 status="Deployed to Early Customers"
                 team={<div>Ayon Bhattacharya, Product Designer<br/>
                 Cayden Pierce,
@@ -156,8 +156,8 @@ export default function ConvoscopeUseCase(){
             <SectionTopper
                 sectionTitletxt="The Problem"
                 sectionSubtitleTxt="Researchers had trouble efficiently surfacing relevant information on-the-fly when discussing new topics or when collaborating across disciplines."
-                topParagraphHTML={<div className={'bodyText'}>Imagine you’re a 🔧 mechanical engineer working with an ⚡ electrical engineer on a robotics project. You don’t understand each other. You have trouble building on each other’s work. Why? <span className={`emphasis`}>You lack a shared context</span>. <br/><br/>
-                Googling questions during collaberation sessions resulted in valuable time spent digging through numerous sources, as well as verbose or irrelevant information. This caused a <span className={`emphasis`}>major disruption in the flow</span> of their conversations.</div>}
+                // topParagraphHTML={<div className={'bodyText'}>Imagine you’re a 🔧 mechanical engineer working with an ⚡ electrical engineer on a robotics project. You don’t understand each other. You have trouble building on each other’s work. Why? <span className={`emphasis`}>You lack a shared context</span>. <br/><br/>
+                // Googling questions during collaberation sessions resulted in valuable time spent digging through numerous sources, as well as verbose or irrelevant information. This caused a <span className={`emphasis`}>major disruption in the flow</span> of their conversations.</div>}
             />
 
             {boarder}

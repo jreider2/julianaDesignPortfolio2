@@ -198,7 +198,7 @@ export default function ConvoscopeUseCase(){
                     </div>}
             />
 
-            <Card
+            {/* <Card
                 p1= {<div><span className={`emphasis`}>Flexible Collaboration–</span> Convoscope augments in-person conversations, such as lab meetings and presentations in the classroom. It also allows for remote collaboration with video chat, desktop and mobile.</div> }
                 className={`${styles.marginBottom2} ${styles.marginTopNone}`}
             >
@@ -215,8 +215,8 @@ export default function ConvoscopeUseCase(){
                             }} 
                         />
                     )}
-                </div>
-            </Card>
+                </div> 
+            </Card> */}
 
             {/* remote and in person mode icons  */}
             <div className={`${styles.speakerModsWrapper}`}>

@@ -41,7 +41,7 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  padding: 0 calc((100vw - var(--widest-container-width)) / 2);
+  /* padding: 0 calc((100vw - var(--widest-container-width)) / 2); */
   box-sizing: border-box;
   /* background-color: var(--main-bg); Add this to ensure background extends */
 }
@@ -53,8 +53,7 @@
   filter: blur(80px);
   opacity: 0.7;
   mix-blend-mode: screen;
-  animation: float 20s ease-in-out infinite;
-  z-index: 0; /* Keep blobs at the bottom layer */
+  z-index: 0;
 }
 
 /* Gradient overlay above blobs but below content */
@@ -65,7 +64,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, #172C5F 0%, rgba(23, 44, 95, 0.30) 41.65%, rgba(23, 44, 95, 0.00) 100%);
+  background: linear-gradient(180deg, #172C5F 0%, rgba(23, 44, 95, 0.10) 41.65%, rgba(23, 44, 95, 0.00) 100%);
   z-index: 1; /* Gradient overlay above blobs */
   overflow-y: visible;
 }
@@ -151,45 +150,34 @@
 }
 
 .blob1 {
-  composes: blob;
   width: 50vw;
   height: 50vw;
   background: radial-gradient(circle at center, #FFFFFF, #CCCCCC);
   left: -25vw;
   top: 20vh;
-  animation-delay: -2s;
 }
 
 .blob2 {
-  composes: blob;
+  /* position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.7;
+  mix-blend-mode: screen; */
   width: 40vw;
   height: 40vw;
   background: radial-gradient(circle at center, #FFFFFF, #DDDDDD);
   right: -20vw;
   top: 10vh;
-  animation-delay: -5s;
+  z-index: 0;
 }
 
 .blob3 {
-  composes: blob;
   width: 45vw;
   height: 45vw;
   background: radial-gradient(circle at center, #EEEEEE, #BBBBBB);
   left: 30vw;
   top: 40vh;
-  animation-delay: -7s;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  33% {
-    transform: translate(50px, -50px) rotate(120deg);
-  }
-  66% {
-    transform: translate(-20px, 60px) rotate(240deg);
-  }
+  z-index: 0;
 }
 
 @media (max-width: 1030px) {

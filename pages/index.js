@@ -28,9 +28,48 @@ export default function Home({ allPostsData }) {
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
-            <div className={styles.blob1}></div>
-            <div className={styles.blob2}></div>
-            <div className={styles.blob3}></div>
+            <motion.div 
+              className={`${styles.blob} ${styles.blob1}`}
+              animate={{
+                rotate: [0, -360],
+                x: [0, 300, 0, -300, 0],
+                y: [0, -300, 0, 300, 0],
+                scale: [1, 1.1, 1, 1.1, 1],
+              }}
+              transition={{
+                duration: 10,
+                ease: "easeInOut",
+                repeat: Infinity,
+              }}
+            />
+            <motion.div 
+              className={`${styles.blob} ${styles.blob2}`}
+              animate={{
+                rotate: [0, -360],
+                x: [0, -300, 0, 300, 0],
+                y: [0, 200, 0, 300, 0],
+                scale: [1, 1.79, 1, 1.15, 1],
+              }}
+              transition={{
+                duration: 12,
+                ease: "easeInOut",
+                repeat: Infinity,
+              }}
+            />
+            <motion.div 
+              className={`${styles.blob} ${styles.blob3}`}
+              animate={{
+                rotate: [0, -360],
+                x: [0, 250, 0, -250, 0],
+                y: [0, -250, 0, 250, 0],
+                scale: [1, 1.05, 1, 1.05, 1],
+              }}
+              transition={{
+                duration: 11,
+                ease: "easeInOut",
+                repeat: Infinity,
+              }}
+            />
             <div className={styles.contentWrapper}>
               <motion.h1
                 initial={{ opacity: 0, y: 5 }}
@@ -61,7 +100,7 @@ export default function Home({ allPostsData }) {
         <div className={styles.ghost} ref={workRef}></div>
 
         <div className={styles.teaserCardsContainer}>
-          <TeaserCard title="Canopy" description="Coming Soon: A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/bloom"}></TeaserCard>
+          <TeaserCard title="Canopy" description="A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/bloom"}></TeaserCard>
 
           <TeaserCard title="Convoscope" description="Augmenting cross-disciplinary collaboration for researchers with AI." image="/images/convoscopeCover.png" link={"/convoScope"}></TeaserCard>
 

@@ -65,9 +65,9 @@
   left: 0;
   right: 0;
   background: linear-gradient(180deg,
-    #172C5F 0%,
-    rgba(23, 44, 95, 0.20) 20%, 
-    rgba(23, 44, 95, 0.6) 50%);
+  rgba(23, 44, 95, 0.70) 0%, 
+    rgba(23, 44, 95, 0.60) 10%, 
+    rgba(23, 44, 95, 0.1) 50%);
   z-index: 1; /* Gradient overlay above blobs */
   overflow-y: visible;
 }
@@ -154,16 +154,18 @@
 
 .blob1 {
   width: 50vw;
-  height: 50vw;
-  background: radial-gradient(circle at center, #172C5F, #6F6489);
+  height: 30vw;
+  background: radial-gradient(circle at center, #B49BCD, #472A89);
+  /* background: radial-gradient(circle at center, red, #6F6489); */
   left: -25vw;
-  top: 20vh;
+  top: 2vh;
 }
 
 .blob2 {
   width: 40vw;
   height: 40vw;
   background: radial-gradient(circle at center, #0B152E, #CAAEFD);
+  /* background: radial-gradient(circle at center, white, #CAAEFD); */
   right: -20vw;
   top: 10vh;
   z-index: 0;
@@ -172,9 +174,21 @@
 .blob3 {
   width: 45vw;
   height: 45vw;
-  background: radial-gradient(circle at center, #0B152E, #454872);
+  background: radial-gradient(circle at center, #0B152E, #6D1DFF);
+  /* background: radial-gradient(circle at center, blue, #454872); */
   left: 30vw;
   top: 40vh;
+  z-index: 0;
+}
+
+.blob4 {
+  width: 20vw;
+  height: 45vw;
+  background: radial-gradient(circle at center, #B892FF, #6D1DFF
+  );
+  /* background: radial-gradient(circle at center, blue, #454872); */
+  left: 30vw;
+  top: -30vh;
   z-index: 0;
 }
 
@@ -224,9 +238,9 @@
   /* Gradient overlay above blobs but below content */
   .heroContainer::after {
   background: linear-gradient(180deg,
-    #172C5F 0%,
+    rgba(23, 44, 95, 0.10) 0%, 
     rgba(23, 44, 95, 0.10) 20%, 
-    rgba(23, 44, 95, 0.80) 50%);
+    rgba(23, 44, 95, 0.10) 50%);
   }
 
   .subheadContainer {

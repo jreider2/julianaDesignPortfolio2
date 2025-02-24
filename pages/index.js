@@ -31,12 +31,12 @@ export default function Home({ allPostsData }) {
               className={`${styles.blob} ${styles.blob1}`}
               animate={{
                 rotate: [0, -360],
-                x: [0, 300, 0, -300, 0],
-                y: [0, -300, 0, 300, 0],
-                scale: [1, 1.1, 1, 1.1, 1],
+                x: [0, 600, 600, 600, 0],
+                y: [0, -600, 0, 300, 0],
+                scale: [1, 1.1, .8, 1.3, 1],
               }}
               transition={{
-                duration: 10,
+                duration: 20,
                 ease: "easeInOut",
                 repeat: Infinity,
               }}
@@ -69,6 +69,22 @@ export default function Home({ allPostsData }) {
                 repeat: Infinity,
               }}
             />
+
+            <motion.div 
+              className={`${styles.blob} ${styles.blob4}`}
+              animate={{
+                rotate: [0, -360],
+                x: [0, 0, 0, 0, 0],
+                y: [0, 0, 0, 0, 0],
+                scale: [1, 1.5, 1, 2, 1],
+              }}
+              transition={{
+                duration: 8,
+                ease: "easeInOut",
+                repeat: Infinity,
+              }}
+            />
+            
             <div className={styles.contentWrapper}>
               <motion.h1
                 initial={{ opacity: 0, y: 5 }}
@@ -94,6 +110,8 @@ export default function Home({ allPostsData }) {
                 transition={{ delay: 2, duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
                 className={arrowStyles.arrowDown}>↓</motion.div>
             </div>
+
+
           </div>
         
         <div className={styles.ghost} ref={workRef}></div>

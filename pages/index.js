@@ -24,7 +24,6 @@ export default function Home({ allPostsData }) {
           <title>{siteTitle}</title>
           {/* <link rel="preload" href="/fonts/MuseoModerno.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           <link rel="preload" href="/fonts/SFProRounded.woff2" as="font" type="font/woff2" crossOrigin="anonymous" /> */}
-          {/* <link rel="preload" as="image" href="/images/lightCirlce_mainPage.webp" /> */}
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
@@ -62,7 +61,7 @@ export default function Home({ allPostsData }) {
                 rotate: [0, -360],
                 x: [0, 250, 0, -250, 0],
                 y: [0, -250, 0, 250, 0],
-                scale: [1, 1.05, 1, 1.05, 1],
+                scale: [1, 1.5, 1, 1.05, 1],
               }}
               transition={{
                 duration: 11,

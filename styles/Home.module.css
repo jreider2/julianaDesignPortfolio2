@@ -64,7 +64,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, #172C5F 0%, rgba(23, 44, 95, 0.10) 41.65%, rgba(23, 44, 95, 0.00) 100%);
+  background: linear-gradient(180deg,
+    #172C5F 0%,
+    rgba(23, 44, 95, 0.20) 20%, 
+    rgba(23, 44, 95, 0.6) 50%);
   z-index: 1; /* Gradient overlay above blobs */
   overflow-y: visible;
 }
@@ -128,7 +131,7 @@
 }
 
 .heroSection h2 {
-  color: var(--light-text, #D5DCF4);
+  color: #A7B1CF;
   font-family: SF Pro Rounded, sans-serif; 
   font-size: 1.25rem;
   font-style: normal;
@@ -152,20 +155,15 @@
 .blob1 {
   width: 50vw;
   height: 50vw;
-  background: radial-gradient(circle at center, #FFFFFF, #CCCCCC);
+  background: radial-gradient(circle at center, #172C5F, #6F6489);
   left: -25vw;
   top: 20vh;
 }
 
 .blob2 {
-  /* position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.7;
-  mix-blend-mode: screen; */
   width: 40vw;
   height: 40vw;
-  background: radial-gradient(circle at center, #FFFFFF, #DDDDDD);
+  background: radial-gradient(circle at center, #0B152E, #CAAEFD);
   right: -20vw;
   top: 10vh;
   z-index: 0;
@@ -174,7 +172,7 @@
 .blob3 {
   width: 45vw;
   height: 45vw;
-  background: radial-gradient(circle at center, #EEEEEE, #BBBBBB);
+  background: radial-gradient(circle at center, #0B152E, #454872);
   left: 30vw;
   top: 40vh;
   z-index: 0;
@@ -183,7 +181,7 @@
 @media (max-width: 1030px) {
   .heroSection {
     /* background-position: center -10vh; */
-    min-height: 70vh;
+    min-height: 85vh;
     margin-top: 0vh;
     /* padding-top: 10rem; */
   }
@@ -221,6 +219,14 @@
     background-position: center -10vh;
     min-height: 75vh;
     margin-top: 5vh;
+  }
+
+  /* Gradient overlay above blobs but below content */
+  .heroContainer::after {
+  background: linear-gradient(180deg,
+    #172C5F 0%,
+    rgba(23, 44, 95, 0.10) 20%, 
+    rgba(23, 44, 95, 0.80) 50%);
   }
 
   .subheadContainer {

@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 // components
 import Layout, { siteTitle } from '../components/layout';
@@ -104,11 +103,11 @@ export default function Home({ allPostsData }) {
                 <h2 className={styles.subhead2}>my methodical nature merges aesthetics with functionality.</h2>
               </motion.div>
 
-              <motion.div onClick={() => scrollToWork()}
+              {/* <motion.div onClick={() => scrollToWork()}
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
                 transition={{ delay: 2, duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
-                className={arrowStyles.arrowDown}>↓</motion.div>
+                className={arrowStyles.arrowDown}>↓</motion.div> */}
             </div>
 
 

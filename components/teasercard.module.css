@@ -98,6 +98,13 @@
   padding-top: 1.5rem;
 }
 
+@media (min-width: 1030px) {
+  .card {
+    flex: 0 1 calc(50% - 3rem);
+    box-sizing: border-box;
+  }
+}
+
 @media (max-width: 1030px) {
   /* .card {
     width: 90vw;

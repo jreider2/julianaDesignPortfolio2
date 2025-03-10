@@ -2,7 +2,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* Add this line to center the card */
   margin-bottom: 3.25rem;
   background: linear-gradient(180deg, #2A4075 0%, #1D3369 100%);

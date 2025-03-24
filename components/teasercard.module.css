@@ -2,7 +2,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* Add this line to center the card */
   margin-bottom: 3.25rem;
   background: linear-gradient(180deg, #2A4075 0%, #1D3369 100%);
@@ -98,18 +98,7 @@
   padding-top: 1.5rem;
 }
 
-@media (min-width: 1030px) {
-  .card {
-    flex: 0 1 calc(50% - 3rem);
-    box-sizing: border-box;
-  }
-}
-
 @media (max-width: 1030px) {
-  /* .card {
-    width: 90vw;
-    margin-bottom: 2rem;
-  }*/
 
   .card .imageContainer .image {
     max-width: 47vw;

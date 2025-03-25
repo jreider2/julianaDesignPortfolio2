@@ -1,16 +1,11 @@
 import overviewStyles from "../useCaseGenerics/overview.module.css";
 
-const overviewTextP1= "In recent years, regular people had their financial future eroded by inflation while holders of Bitcoin made greater than 800% returns.";
-const overviewTextP2= <>
-    <span className={overviewStyles.emphasis}> And yet, 82% of Americans have never invested in crypto.</span>
-</>;
-const overviewTextP3= <>Why? Because crypto is complex and inaccessible to many. Canopy is an exploration of how we might make help a broader audience build their financial future with crypto. 
+const overviewTextP1= "In recent years, inflation has eroded many people's financial futures, while Bitcoin investors saw returns above 800%. Yet 82% of Americans have never invested in cryptocurrency.";
+
+const overviewTextP4 = <>Canopy is designed to bridge this gap. Using behavioral science, and intuitive design, Canopy <span className={overviewStyles.emphasis}>empowers everyday people to invest in crypto</span> and confidently achieve their financial goals.
 </>
 
-const overviewTextP4 = <>Canopy uses a <span className={overviewStyles.emphasis}>high-quality design, relatable metaphors, and behavioral science</span>. to help users set and achieve their financial goals by investing in cryptocurrencies.
-</>
-
-export const text = <>{overviewTextP1} <br/><br/> {overviewTextP2} <br/><br/> {overviewTextP3} <br/><br/> {overviewTextP4}</>;
+export const text = <>{overviewTextP1} <br/><br/> {overviewTextP4}</>;
 
 
 export const takeaways = [

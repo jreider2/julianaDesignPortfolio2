@@ -36,3 +36,20 @@
     letter-spacing: 0.045rem;
 }
 
+/* highlights section topper 
+    If this is at the top of the page, we want to increse the margin-top */
+.highlightsSectionTopper {
+    margin-top: 6.5rem;
+}
+
+@media (max-width: 1030px) {
+    .highlightsSectionTopper {
+        margin-top: 6.5rem;
+    }
+}
+
+@media (max-width: 714px) {
+    .highlightsSectionTopper {
+        margin-top: 4rem;
+    }
+}

@@ -18,7 +18,7 @@ import {text} from '../constants/canopyConstants';
 import {boarder} from '../constants/convoscopeConstants';
 
 
-export default function BloomUseCase(){
+export default function CanopyUseCase(){
 
     return (
         <div className={styles.useCaseContainer}>
@@ -27,37 +27,22 @@ export default function BloomUseCase(){
                 subheading="Nurture your crypto, watch your future bloom."
                 image={canopyHero}
                 />
-            {<Overview
-                myRole="Product Designer"
-                timeline="Q1 2025"
-                status="In the oven"
-                team={<div>Team of One
-                </div>}
-                overviewText={text}
-            />}
-
-            {boarder}
-
-            <SectionTopper
-                sectionTitletxt="The Problem"
-                sectionSubtitleTxt="How can we help regular people build their financial future with crypto?"
-                topParagraphHTML={<div className={'bodyText'}><span className={`emphasis`}>Crypto is the future of finance. </span> The traditional financial system serves the interests of the wealthy. A decentralized financial system leveraging crypto rebalances power in favor of regular people. And yet, crypto is complex, intimidating, and confusing for many.</div>}
-            />
-
-            {boarder}
-
+            
+            
             <SectionTopper
                 sectionTitletxt="Highlights"
                 sectionSubtitleTxt="Unlocking the power of crypto."
-                topParagraphHTML={<div className={'bodyText'}>Canopy makes the user's goals the center of the experience. When you invest, you're building towards something. Crypto is a means to an end: The future you're building towards.</div>}
+                // topParagraphHTML={<div className={'bodyText'}>Canopy makes the user's goals the center of the experience. When you invest, you're building towards something. Crypto is a means to an end: The future you're building towards.</div>}
+                isAtTop={true}
             />
 
             <Card
-                p1={<p><span className={`emphasis`}> Hyperbolic discounting leads people to favor the short term.</span> Canopy combats this by making the financial future concrete, visualizating progress, and reinforcing goals. </p>}
+                p1={<div><span className={`emphasis`}> Hyperbolic discounting leads people to favor the short term.</span> Canopy combats this by making the financial future concrete, visualizating progress, and reinforcing goals.</div>}
                 // bullet1="AI listens to conversation"
                 // bullet2="Surfaces relevant information"
                 //image2={dataPic1}
                 video1="/video/canopyFlowFeb10.mp4"
+                autoPlay={true}
                 bullets={null}
                 className={`${styles.marginBottomNone}`}
             >
@@ -120,10 +105,40 @@ export default function BloomUseCase(){
 
             </Card>
 
+            {boarder}
+
+            <SectionTopper
+                sectionTitletxt="The Problem"
+                sectionSubtitleTxt="How can we help regular people build their financial future with crypto?"
+                topParagraphHTML={<div className={'bodyText'}><span className={`emphasis`}>Crypto is the future of finance. </span> The traditional financial system serves the interests of the wealthy. A decentralized financial system leveraging crypto rebalances power in favor of regular people. And yet, crypto is complex, intimidating, and confusing for many.</div>}
+            />
+
+            {boarder}
+
+
+            {/* <SectionTopper
+                sectionTitletxt="Overview"
+                // sectionSubtitleTxt="How can we help regular people build their financial future with crypto?"
+                // topParagraphHTML={<div className={'bodyText'}><span className={`emphasis`}>Crypto is the future of finance. </span> The traditional financial system serves the interests of the wealthy. A decentralized financial system leveraging crypto rebalances power in favor of regular people. And yet, crypto is complex, intimidating, and confusing for many.</div>}
+            /> */}
+
+            {<Overview
+                myRole="Product Designer"
+                timeline="Q1 2025"
+                status="In the oven"
+                team={<div>Team of One
+                </div>}
+                overviewText={text}
+                classNameOuterContainer={`${styles.marginTopNone}`}
+            />}
+
+
             <Card className={`${styles.marginBottomNone}`}
             >
                 <div className={`${styles.cardCallout} ${styles.marginBottom2} ${styles.marginTop}`}>
-                This is just the beginning. <br></br>More Canopy <span className={`${styles.whiteTxt}`}>coming soon </span> to a screen near you.
+                {/* That's where Canopy comes in.
+                 <br></br> */}
+                 More Canopy <span className={`${styles.whiteTxt}`}>coming soon </span> to a screen near you.
                 </div>
             </Card>
 

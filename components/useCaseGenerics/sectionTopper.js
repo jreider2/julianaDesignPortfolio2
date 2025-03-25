@@ -2,9 +2,9 @@ import React from 'react';
 
 import styles from "./sectionTopper.module.css";
 
-export default function SectionTopper ({ sectionTitletxt, sectionSubtitleTxt, topParagraphHTML }) {
+export default function SectionTopper ({ sectionTitletxt, sectionSubtitleTxt, topParagraphHTML, isAtTop = false }) {
     return (
-        <div className={styles.sectionContainer} >
+        <div className={`${styles.sectionContainer} ${isAtTop ? styles.highlightsSectionTopper : ''}`}>
             <div className={styles.titleContainer}>
                 <svg className={styles.circle}
                 xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">

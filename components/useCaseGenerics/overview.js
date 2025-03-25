@@ -1,9 +1,9 @@
 import React from 'react';
 import overviewStyles from "./overview.module.css";
 
-export default function Overview ({ myRole, responsibilities, timeline, status, team, overviewText }) {
+export default function Overview ({ myRole, responsibilities, timeline, status, team, overviewText, classNameOuterContainer}) {
     return (
-        <div className={overviewStyles.outterContainer}>
+        <div className={`${overviewStyles.outterContainer} ${classNameOuterContainer}`}>
             {/* row 1 */}
             <div className={overviewStyles.row1}>
                     <div>

@@ -116,7 +116,7 @@ export default function Home({ allPostsData }) {
         <div className={styles.ghost} ref={workRef}></div>
 
         <div className={styles.teaserCardsContainer}>
-          <TeaserCard title="Canopy" description="A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/bloom"}></TeaserCard>
+          <TeaserCard title="Canopy" description="A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/canopy"}></TeaserCard>
 
           <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
 

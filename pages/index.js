@@ -31,11 +31,11 @@ export default function Home({ allPostsData }) {
               animate={{
                 rotate: [0, -360],
                 x: [0, 600, 600, 600, 0],
-                y: [0, -600, 0, 300, 0],
+                y: [200, -600, -600, 300, 200],
                 scale: [1, 1.1, .8, 1.3, 1],
               }}
               transition={{
-                duration: 20,
+                duration: 15,
                 ease: "easeInOut",
                 repeat: Infinity,
               }}
@@ -58,7 +58,7 @@ export default function Home({ allPostsData }) {
               className={`${styles.blob} ${styles.blob3}`}
               animate={{
                 rotate: [0, -360],
-                x: [0, 250, 0, -250, 0],
+                x: [0, -250, 0, -400, 0],
                 y: [0, -250, 0, 250, 0],
                 scale: [1, 1.5, 1, 1.05, 1],
               }}
@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
               }}
             />
 
-            <motion.div 
+            {/* <motion.div 
               className={`${styles.blob} ${styles.blob4}`}
               animate={{
                 rotate: [0, -360],
@@ -82,7 +82,7 @@ export default function Home({ allPostsData }) {
                 ease: "easeInOut",
                 repeat: Infinity,
               }}
-            />
+            /> */}
             
             <div className={styles.contentWrapper}>
               <motion.h1

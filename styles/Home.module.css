@@ -49,7 +49,7 @@
 .blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(70px);
+  filter: blur(40px);
   opacity: 0.7;
   mix-blend-mode: screen;
   z-index: 0;
@@ -64,9 +64,9 @@
   left: 0;
   right: 0;
   background: linear-gradient(180deg,
-  rgba(23, 44, 95, 0.70) 0%, 
+  rgba(23, 44, 95, 0.90) 0%, /* 0.55 - change value if not enough contrast at top of page */
     rgba(23, 44, 95, 0.60) 10%, 
-    rgba(23, 44, 95, 0.1) 50%);
+    rgba(23, 44, 95, 0.9) 50%);
   z-index: 1; /* Gradient overlay above blobs */
   overflow-y: visible;
 }
@@ -177,7 +177,7 @@
 .blob3 {
   width: 45vw;
   height: 45vw;
-  background: radial-gradient(circle at center, #0B152E, #6D1DFF);
+  background: radial-gradient(circle at center, #472A89, #B49BCD);
   /* background: radial-gradient(circle at center, blue, #454872); */
   left: 30vw;
   top: 40vh;

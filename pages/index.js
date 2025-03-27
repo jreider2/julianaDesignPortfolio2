@@ -29,13 +29,13 @@ export default function Home({ allPostsData }) {
             <motion.div 
               className={`${styles.blob} ${styles.blob1}`}
               animate={{
-                rotate: [0, -360],
-                x: [0, 600, 600, 600, 0],
-                y: [200, -600, -600, 300, 200],
+                rotate: [0, 360],
+                x: [0, 200, 200, 200, 0],      
+                y: [0, -200, -200, 100, 0],
                 scale: [1, 1.1, .8, 1.3, 1],
               }}
               transition={{
-                duration: 15,
+                duration: 30,
                 ease: "easeInOut",
                 repeat: Infinity,
               }}
@@ -43,13 +43,12 @@ export default function Home({ allPostsData }) {
             <motion.div 
               className={`${styles.blob} ${styles.blob2}`}
               animate={{
-                rotate: [0, -360],
                 x: [0, -300, 0, 300, 0],
                 y: [0, 200, 0, 300, 0],
-                scale: [1, 1.79, 1, 1.15, 1],
+                scale: [1, 1, 1.79, 1.15, 1],
               }}
               transition={{
-                duration: 12,
+                duration: 24,
                 ease: "easeInOut",
                 repeat: Infinity,
               }}
@@ -57,13 +56,12 @@ export default function Home({ allPostsData }) {
             <motion.div 
               className={`${styles.blob} ${styles.blob3}`}
               animate={{
-                rotate: [0, -360],
                 x: [0, -250, 0, -400, 0],
                 y: [0, -250, 0, 250, 0],
-                scale: [1, 1.5, 1, 1.05, 1],
+                scale: [1, .8, .9, 1.02, 1],
               }}
               transition={{
-                duration: 11,
+                duration: 19,
                 ease: "easeInOut",
                 repeat: Infinity,
               }}

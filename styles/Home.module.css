@@ -49,10 +49,11 @@
 .blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(40px);
+  filter: blur(30px);
   opacity: 0.7;
   mix-blend-mode: screen;
   z-index: 0;
+  opacity: 0.3;
 }
 
 /* Gradient overlay above blobs but below content */
@@ -63,10 +64,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg,
-  rgba(23, 44, 95, 0.90) 0%, /* 0.55 - change value if not enough contrast at top of page */
+  /* 0.55 - change value if not enough contrast at top of page */
+  /* background: linear-gradient(180deg,
+  rgba(23, 44, 95, 0.90) 0%, 
     rgba(23, 44, 95, 0.60) 10%, 
-    rgba(23, 44, 95, 0.9) 50%);
+    rgba(23, 44, 95, 0.9) 50%); */
   z-index: 1; /* Gradient overlay above blobs */
   overflow-y: visible;
 }

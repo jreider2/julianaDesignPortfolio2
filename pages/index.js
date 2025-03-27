@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState, useLayoutEffect } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 
@@ -12,6 +12,17 @@ import styles from '../styles/Home.module.css';
 
 export default function Home({ allPostsData }) {
   const workRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isSafari, setIsSafari] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useLayoutEffect(() => {
+    const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    setIsMobile(isMobileDevice);
+    setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
+    setIsLoading(false);
+  }, []);
+
   const scrollToWork = () => {
     workRef.current.scrollIntoView({ behavior: 'smooth' });
   }
@@ -26,61 +37,50 @@ export default function Home({ allPostsData }) {
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
-            <motion.div 
-              className={`${styles.blob} ${styles.blob1}`}
-              animate={{
-                rotate: [0, 360],
-                x: [0, 200, 200, 200, 0],      
-                y: [0, -200, -200, 100, 0],
-                scale: [1, 1.1, .8, 1.3, 1],
-              }}
-              transition={{
-                duration: 30,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
-            />
-            <motion.div 
-              className={`${styles.blob} ${styles.blob2}`}
-              animate={{
-                x: [0, -300, 0, 300, 0],
-                y: [0, 200, 0, 300, 0],
-                scale: [1, 1, 1.79, 1.15, 1],
-              }}
-              transition={{
-                duration: 24,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
-            />
-            <motion.div 
-              className={`${styles.blob} ${styles.blob3}`}
-              animate={{
-                x: [0, -250, 0, -400, 0],
-                y: [0, -250, 0, 250, 0],
-                scale: [1, .8, .9, 1.02, 1],
-              }}
-              transition={{
-                duration: 19,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
-            />
-
-            {/* <motion.div 
-              className={`${styles.blob} ${styles.blob4}`}
-              animate={{
-                rotate: [0, -360],
-                x: [0, 0, 0, 0, 0],
-                y: [0, 0, 0, 0, 0],
-                scale: [1, 1.5, 1, 2, 1],
-              }}
-              transition={{
-                duration: 8,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
-            /> */}
+            {(!isLoading && !isMobile && !isSafari) && (
+              <>
+                <motion.div 
+                  className={`${styles.blob} ${styles.blob1}`}
+                  animate={{
+                    rotate: [0, 360],
+                    x: [0, 200, 200, 200, 0],      
+                    y: [0, -200, -200, 100, 0],
+                    scale: [1, 1.1, .8, 1.3, 1],
+                  }}
+                  transition={{
+                    duration: 30,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                  }}
+                />
+                <motion.div 
+                  className={`${styles.blob} ${styles.blob2}`}
+                  animate={{
+                    x: [0, -300, 0, 300, 0],
+                    y: [0, 200, 0, 300, 0],
+                    scale: [1, 1, 1.79, 1.15, 1],
+                  }}
+                  transition={{
+                    duration: 24,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                  }}
+                />
+                <motion.div 
+                  className={`${styles.blob} ${styles.blob3}`}
+                  animate={{
+                    x: [0, -250, 0, -400, 0],
+                    y: [0, -250, 0, 250, 0],
+                    scale: [1, .8, .9, 1.02, 1],
+                  }}
+                  transition={{
+                    duration: 19,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                  }}
+                />
+              </>
+            )}
             
             <div className={styles.contentWrapper}>
               <motion.h1
@@ -100,14 +100,23 @@ export default function Home({ allPostsData }) {
                 <h2>hi! i'm juliana, an engineer turned product designer.</h2>
                 <h2 className={styles.subhead2}>my methodical nature merges aesthetics with functionality.</h2>
               </motion.div>
-
-              {/* <motion.div onClick={() => scrollToWork()}
-                initial={{ y: 10 }}
-                animate={{ y: 0 }}
-                transition={{ delay: 2, duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
-                className={arrowStyles.arrowDown}>↓</motion.div> */}
             </div>
 
+            {/* {(!isMobile && !isSafari) ? (
+              <motion.div 
+                className={`${styles.blob} ${styles.centerBlob}`}
+                animate={{
+                  scale: [1, 1.15, 1],
+                }}
+                transition={{
+                  duration: 10,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                }}
+              />
+            ) : (
+              <div className={styles.staticCenterBlob} />
+            )} */}
 
           </div>
         

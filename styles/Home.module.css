@@ -22,6 +22,7 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  overflow: visible
 }
 
 /* Add a wrapper for the content to maintain proper width */
@@ -272,3 +273,32 @@
 }
 
 /* Add back in a fallback image for the hero section */
+
+.staticBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  background-image: url('/images/lightCirlce_mainPage.png');
+  background-size: 100%;
+  background-position: center -45vh;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* Add back the gradient overlay */
+.staticBackground::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, 
+    rgba(23, 44, 95, 0.90) 0%, 
+    rgba(23, 44, 95, 0.75) 50%, 
+    rgba(23, 44, 95, 0.95) 88%
+  );
+  z-index: 1;
+}

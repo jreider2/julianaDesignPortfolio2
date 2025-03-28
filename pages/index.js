@@ -1,4 +1,4 @@
-import { useRef, useState, useLayoutEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 
@@ -10,18 +10,32 @@ import TeaserCard from '../components/teasercard';
 import arrowStyles from '../components/arrowDown.module.css';
 import styles from '../styles/Home.module.css';
 
+// Create a custom hook
+function useDeviceCheck() {
+  const [deviceInfo, setDeviceInfo] = useState({
+    isMobile: false,
+    isSafari: false,
+    isLoading: true
+  });
+
+  useEffect(() => {
+    // Move checks here
+    const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const isSafariBrowser = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    
+    setDeviceInfo({
+      isMobile: isMobileDevice,
+      isSafari: isSafariBrowser,
+      isLoading: false
+    });
+  }, []);
+
+  return deviceInfo;
+}
+
 export default function Home({ allPostsData }) {
   const workRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(false);
-  const [isSafari, setIsSafari] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useLayoutEffect(() => {
-    const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    setIsMobile(isMobileDevice);
-    setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
-    setIsLoading(false);
-  }, []);
+  const { isMobile, isSafari, isLoading } = useDeviceCheck();
 
   const scrollToWork = () => {
     workRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -37,7 +51,7 @@ export default function Home({ allPostsData }) {
         </Head>
         <div className={styles.heroContainer}>
           <div className={styles.heroSection}>
-            {(!isLoading && !isMobile && !isSafari) && (
+            {(!isLoading && !isMobile && !isSafari) ? (
               <>
                 <motion.div 
                   className={`${styles.blob} ${styles.blob1}`}
@@ -80,6 +94,8 @@ export default function Home({ allPostsData }) {
                   }}
                 />
               </>
+            ) : (
+              !isLoading && <div className={styles.staticBackground} />
             )}
             
             <div className={styles.contentWrapper}>

@@ -39,7 +39,7 @@ export default function Footer() {
           <Link href="/" className={styles.homeLink}>
             home
           </Link>
-          <a href="images/JulianaReider.com_Resume.pdf" target="_blank" className={styles.resumeLink}>
+          <a href="images/JulianaReiderResume2025.pdf" target="_blank" className={styles.resumeLink}>
             resume
           </a>
           <a href="https://www.linkedin.com/in/juliana-reider/" target="_blank">

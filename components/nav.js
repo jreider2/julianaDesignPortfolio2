@@ -25,7 +25,7 @@ const Nav = React.forwardRef((props, ref) => {
       <div className={styles.centerLinks}>
         <div className={styles.linkContainer}>
           <div className={styles.circleSmall}></div>
-          <Link href="images/JulianaReider.com_Resume.pdf">
+          <Link href="images/JulianaReiderResume2025.pdf">
           <span className={styles.navLink}>resume</span>
         </Link>
         </div>

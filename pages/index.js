@@ -118,22 +118,6 @@ export default function Home({ allPostsData }) {
               </motion.div>
             </div>
 
-            {/* {(!isMobile && !isSafari) ? (
-              <motion.div 
-                className={`${styles.blob} ${styles.centerBlob}`}
-                animate={{
-                  scale: [1, 1.15, 1],
-                }}
-                transition={{
-                  duration: 10,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                }}
-              />
-            ) : (
-              <div className={styles.staticCenterBlob} />
-            )} */}
-
           </div>
         
         <div className={styles.ghost} ref={workRef}></div>

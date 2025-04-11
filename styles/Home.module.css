@@ -50,7 +50,7 @@
 .blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(30px);
+  filter: blur(60px);
   opacity: 0.7;
   mix-blend-mode: screen;
   z-index: 0;

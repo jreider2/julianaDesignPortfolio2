@@ -123,13 +123,33 @@ export default function Home({ allPostsData }) {
         <div className={styles.ghost} ref={workRef}></div>
 
         <div className={styles.teaserCardsContainer}>
-          <TeaserCard title="Canopy" description="A cryptocurrency investment and goal setting tool." image="/images/canopyCover.png" link={"/canopy"}></TeaserCard>
+          <TeaserCard 
+            title="Canopy" 
+            description="A cryptocurrency investment and goal setting tool." 
+            image="/images/canopyUseCaseImg.webp" 
+            link={"/canopy"}
+          />
 
-          <TeaserCard title="Comet" description="Using design to reimagine source control management." image="/images/cometTeaser.webp" link={"/comet"}></TeaserCard>
+          <TeaserCard 
+            title="Comet" 
+            description="Using design to reimagine source control management." 
+            image="/images/cometUseCaseImg.webp" 
+            link={"/comet"}
+          />
 
-          <TeaserCard title="Convoscope" description="Augmenting cross-disciplinary collaboration for researchers with AI." image="/images/convoscopeCover.png" link={"/convoScope"}></TeaserCard>
+          <TeaserCard 
+            title="Convoscope" 
+            description="Augmenting cross-disciplinary collaboration for researchers with AI." 
+            image="/images/convoUseCaseImg.webp" 
+            link={"/convoScope"}
+          />
 
-          <TeaserCard title="Thought Filter" description="First designer for a generative AI SaaS tool for freelance writers and creators." image="/images/editWithAiCurvedCorners.png" link={"/thoughtFilter"}></TeaserCard>
+          <TeaserCard 
+            title="Thought Filter" 
+            description="First designer for a generative AI SaaS tool for freelance writers and creators." 
+            image="/images/ThoughtfilterUseCaseImg.webp" 
+            link={"/thoughtFilter"}
+          />
         </div>
     </div>
       </Layout >

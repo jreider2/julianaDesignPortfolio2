@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Image from "next/image";
 
-export default function TeaserCard({ title, description, image, link }) {
+export default function TeaserCard({ title, description, image, link, titleClassName }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -15,7 +15,7 @@ export default function TeaserCard({ title, description, image, link }) {
       <Link href={link} className={styles.link}>
       <div className={styles.top_container}>
         <div className={styles.text_content}>
-          <h3>{title}</h3>
+          <h3 className={titleClassName}>{title}</h3>
           <p>{description}</p>
         </div>
         <motion.div 

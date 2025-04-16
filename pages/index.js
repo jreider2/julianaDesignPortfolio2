@@ -126,28 +126,30 @@ export default function Home({ allPostsData }) {
           <TeaserCard 
             title="Canopy" 
             description="A cryptocurrency investment and goal setting tool." 
-            image="/images/canopyUseCaseImg.webp" 
+            image="/images/canopyUseCaseImg.webp"
+            titleClassName={styles.shortTitle}
             link={"/canopy"}
           />
 
           <TeaserCard 
             title="Comet" 
             description="Using design to reimagine source control management." 
-            image="/images/cometUseCaseImg.webp" 
+            image="/images/cometUseCaseImg.webp"
+            titleClassName={styles.shortTitle}
             link={"/comet"}
           />
 
           <TeaserCard 
             title="Convoscope" 
             description="Augmenting cross-disciplinary collaboration for researchers with AI." 
-            image="/images/convoUseCaseImg.webp" 
+            image="/images/convoUseCaseImg.webp"
             link={"/convoScope"}
           />
 
           <TeaserCard 
             title="Thought Filter" 
             description="First designer for a generative AI SaaS tool for freelance writers and creators." 
-            image="/images/ThoughtfilterUseCaseImg.webp" 
+            image="/images/ThoughtfilterUseCaseImg.webp"
             link={"/thoughtFilter"}
           />
         </div>

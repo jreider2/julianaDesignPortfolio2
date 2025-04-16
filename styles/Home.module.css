@@ -98,9 +98,7 @@
 
 .EngineersLens, .designerVision {
   display: inline-block;
-  background: linear-gradient(80deg,
-   #A7B2D9 0%,
-  #F7F9FF 40%);
+  background: linear-gradient(91deg, #DEE5FF 30%, #9DA9D4 100%);
   line-height: 1.1;
   vertical-align: middle;
   font-size: 6.25rem;

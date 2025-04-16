@@ -149,7 +149,7 @@ export default function Home({ allPostsData }) {
           <TeaserCard 
             title="Thought Filter" 
             description="First designer for a generative AI SaaS tool for freelance writers and creators." 
-            image="/images/ThoughtfilterUseCaseImg.webp"
+            image="/images/thoughtfilterUseCaseImg.webp"
             link={"/thoughtFilter"}
           />
         </div>

@@ -9,9 +9,14 @@ import NumberedList from '../useCaseGenerics/numberedList';
 import BackButton from '../useCaseGenerics/backButton';
 import styles from './useCase.module.css';
 
+import switchingIcon from '../../public/images/switchingIcon.png'
+
+
 // Data and constants
 import { text, takeaways } from '../constants/thoughtFilterConstants.js';
 import { boarder, boarder2 } from '../constants/convoscopeConstants';
+
+import tfHero from '../../public/images/thoughtfilterUseCaseImg.webp'
 
 export default function ThoughtFilterUseCase() {
   const [imageSrc, setImageSrc] = useState('/images/processHorizontal2.png');
@@ -40,7 +45,7 @@ export default function ThoughtFilterUseCase() {
       <Header
         heading="ThoughtFilter"
         subheading="Designer for a generative AI SaaS tool for freelance writers and creators."
-        image="/images/editWithAiCurvedCorners.png"
+        image={tfHero}
       />
       <Overview
         myRole="Product Designer – "
@@ -113,7 +118,11 @@ export default function ThoughtFilterUseCase() {
               alt="Filter Icon"
               width={96}
               height={80}
-              objectFit="contain"
+              style={{
+                width: "100%",
+                height: "auto",
+                objectFit: "contain"
+              }}
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Filter History</div>
@@ -130,7 +139,11 @@ export default function ThoughtFilterUseCase() {
               alt="Search Icon"
               width={96}
               height={80}
-              objectFit="contain"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                objectFit: "contain"
+              }}
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Search History</div>
@@ -154,9 +167,12 @@ export default function ThoughtFilterUseCase() {
           <Image
             src="/images/tfProjects.png"
             alt="Project History"
-            layout="responsive"
             width={800}
             height={600}
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
           />
         </div>
 
@@ -216,12 +232,12 @@ export default function ThoughtFilterUseCase() {
 
       <Box
         className={styles.marginTop2}
-        txt="Context Switching: Frequently shifting between different tasks."
-        icon="/images/switchingIcon.png"
+        txt='Context Switching: Frequently shifting between different tasks.'
+        icon={switchingIcon}
       />
       <Box
         className={styles.marginTopSlim}
-        txt="SEO and Keyword Optimization: users must increase keyword utilization while avoiding stuffing, and keeping up with Google's algorithm."
+        txt="SEO and Keyword Optimization: users must increase keyword utilization while avoiding stuffing, and keeping up with Google's algorithm."
         icon="/images/keyIcon.png"
       />
       <Box
@@ -271,7 +287,11 @@ export default function ThoughtFilterUseCase() {
               alt="Figma Icon"
               width={96}
               height={80}
-              objectFit="contain"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                objectFit: "contain"
+              }}
             />
           </div>
           <div className={`emphasis ${styles.modeTitle}`}>Design Files</div>

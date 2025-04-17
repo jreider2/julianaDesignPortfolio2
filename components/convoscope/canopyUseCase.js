@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-import canopyHero from '../../public/images/canopyCover.png'
+import canopyHero from '../../public/images/canopyUseCaseImg.webp'
 import goalsDiptic from '../../public/images/canopyGoalScreens.png'
 import buyFlow1 from '../../public/images/canopyBuyFlowTriptic1of2.png'
 import buyFlow2 from '../../public/images/canopyBuyFlowTriptic2of2.png'

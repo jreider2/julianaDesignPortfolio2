@@ -10,11 +10,11 @@ export default function Card ({ className, icon, txt, children, ...props}) {
                     <Image
                         src={icon}
                         alt="error loading image"
-                        sizes="100vw"
+                        width={24}
+                        height={24}
                         style={{
                             width: "100%",
-                            height: "auto",
-                            objectFit: "contain"
+                            height: "auto"
                         }} />
                 </div>
                 {/* TEXT */}

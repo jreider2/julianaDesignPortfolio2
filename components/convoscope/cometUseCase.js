@@ -28,9 +28,8 @@ import graphBefore from '../../public/images/graphBefore.png'
 import oldColors from '../../public/images/oldColors.png'
 import tintedCodeBg from '../../public/images/tintedCodeBg.png'
 import mainMenuBright from '../../public/images/mainMenuBright.png'
-//import sketches from '../../public/images/sketches.png'
 import sketches from '../../public/images/sketches.webp'
-import cometHero from '../../public/images/cometTeaser.webp'
+import cometHero from '../../public/images/cometUseCaseImg.webp'
 import darkMode2 from '../../public/images/darkMode2.png'
 
 

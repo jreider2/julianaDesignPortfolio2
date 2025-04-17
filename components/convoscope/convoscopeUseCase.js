@@ -18,8 +18,7 @@ import tempImg from '../../public/images/mainScrene.png'
 import landingPage from '../../public/images/convoHomePage.png'
 import newDataImage1 from '../../public/images/convoDataViz.png'
 import speakerView from '../../public/images/speakerView.png'
-import webpage from '../../public/images/webpage.png'
-import mobileScreens from '../../public/images/convoscopeCover.png'
+import mobileScreens from '../../public/images/convoUseCaseImg.webp'
 import placeholder from '../../public/images/convoscopePlaceholder1.png'
 //test commit 
 

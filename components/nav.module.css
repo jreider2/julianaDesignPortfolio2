@@ -29,7 +29,7 @@
   margin-top: 24px;
   z-index: 100;
   border-radius: 300px;
-  background: var(--menu-bg-2, rgba(23, 44, 95, 0.40));
+  background: var(--menu-bg-2, rgba(23, 44, 95, 0.20));
   backdrop-filter: blur(20px);
   padding: 24px 12px;
 }

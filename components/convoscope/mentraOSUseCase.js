@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-import mentraHero from '../../public/images/mentraOSUseCaseImg.png'
+import mentraHero from '../../public/images/mentraOsUseCaseImg2.png'
 import mentraFlow1 from '../../public/images/mentraDiptic.png'
 
 import Header from '../useCaseGenerics/header';

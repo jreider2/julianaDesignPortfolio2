@@ -148,7 +148,7 @@ export default function Home({ allPostsData }) {
 
           <TeaserCard 
             title="Canopy" 
-            description="A cryptocurrency investment and goal setting tool." 
+            description="A cryptocurrency investment and goal setting tool. " 
             image="/images/canopyUseCaseImg.webp"
             titleClassName={styles.shortTitle}
             link={"/canopy"}

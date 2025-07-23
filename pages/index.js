@@ -123,13 +123,13 @@ export default function Home({ allPostsData }) {
         <div className={styles.ghost} ref={workRef}></div>
 
         <div className={styles.teaserCardsContainer}>
-          <TeaserCard 
-            title="Canopy" 
-            description="A cryptocurrency investment and goal setting tool." 
-            image="/images/canopyUseCaseImg.webp"
-            titleClassName={styles.shortTitle}
-            link={"/canopy"}
-          />
+                      <TeaserCard 
+              title="MentraOS" 
+              description="End-to-end product overhaul for a seed-stage, YC-backed startup." 
+              image="/images/cardImage.png"
+              titleClassName={styles.shortTitle}
+              link={"/MentraOS"}
+            />
 
           <TeaserCard 
             title="Comet" 
@@ -144,6 +144,14 @@ export default function Home({ allPostsData }) {
             description="Augmenting cross-disciplinary collaboration for researchers with AI." 
             image="/images/convoUseCaseImg.webp"
             link={"/convoScope"}
+          />
+
+          <TeaserCard 
+            title="Canopy" 
+            description="A cryptocurrency investment and goal setting tool." 
+            image="/images/canopyUseCaseImg.webp"
+            titleClassName={styles.shortTitle}
+            link={"/canopy"}
           />
 
           <TeaserCard 

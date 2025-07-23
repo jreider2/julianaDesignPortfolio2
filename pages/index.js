@@ -126,7 +126,7 @@ export default function Home({ allPostsData }) {
                       <TeaserCard 
               title="MentraOS" 
               description="End-to-end product overhaul for a seed-stage, YC-backed startup." 
-              image="/images/cardImage.png"
+              image="/images/mentraOSUseCaseImg.png"
               titleClassName={styles.shortTitle}
               link={"/MentraOS"}
             />

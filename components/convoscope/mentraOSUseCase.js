@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 import mentraHero from '../../public/images/mentraOSUseCaseImg.png'
-import mentraFlow1 from '../../public/images/cardImage.png'
-import mentraFlow2 from '../../public/images/cardImage.png'
+import mentraFlow1 from '../../public/images/mentraDiptic.png'
 
 import Header from '../useCaseGenerics/header';
 import Overview from '../useCaseGenerics/overview';
@@ -34,14 +33,12 @@ export default function MentraOSUseCase(){
 
             <Card
                 p1={<div><span className={`emphasis`}>Smart glasses need an app ecosystem.</span> MentraOS creates the first comprehensive app store for smart glasses, allowing users to discover new apps, install them seamlessly, and manage their entire smart glasses experience from one place.</div>}
-                video1="/video/cardFlowStartVid.mp4"
-                autoPlay={true}
                 bullets={null}
                 className={`${styles.marginBottomNone}`}
             >
-                <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom1} ${styles.marginTopNone}`}>
+                {/* <div className={`bodyText ${styles.cardBody2} ${styles.marginBottom1} ${styles.marginTopNone}`}>
                     <span className={`emphasis`}>Intuitive app discovery</span> makes it easy to find the perfect apps for your smart glasses, whether you're looking for productivity tools, entertainment, or utilities.
-                </div>
+                </div> */}
                 <div className={`${styles.imageWrapper2} ${styles.marginBottom2}`}>
                     <Image
                         src={mentraFlow1}
@@ -56,7 +53,7 @@ export default function MentraOSUseCase(){
                 </div>
             </Card>
 
-            <Card 
+            {/* <Card 
                 p1={<div><span className={`emphasis`}>Complete device management.</span> Beyond just app discovery, MentraOS provides comprehensive control over your smart glasses settings, app permissions, and device configuration.</div> }
                 className={`${styles.marginBottomNone}`}
             >
@@ -90,7 +87,7 @@ export default function MentraOSUseCase(){
                     />
                 </div>
                 <br></br><br></br><br></br>
-            </Card>
+            </Card> */}
 
             {boarder}
 
@@ -104,7 +101,7 @@ export default function MentraOSUseCase(){
 
             <Overview
                 myRole="Product Designer"
-                timeline="Q4 2024 - Q1 2025"
+                timeline="Q2 - Present 2025"
                 status="Available in the App Store"
                 team={<div>Myself<br/>Couple of Founders<br/>Handful of Engineers</div>}
                 overviewText={text}

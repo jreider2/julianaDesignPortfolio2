@@ -125,7 +125,7 @@ export default function Home({ allPostsData }) {
         <div className={styles.teaserCardsContainer}>
           {/* Teaser cards showcase my key projects and case studies */}
           <TeaserCard
-              title="MentraOS" 
+              title="Mentra" 
               description="End-to-end product overhaul for a seed-stage, YC-backed startup." 
               image="/images/mentraOsUseCaseImg2.png"
               titleClassName={styles.shortTitle}

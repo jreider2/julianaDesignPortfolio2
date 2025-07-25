@@ -20,7 +20,7 @@ export default function MentraOSUseCase(){
     return (
         <div className={styles.useCaseContainer}>
             <Header 
-                heading="MentraOS" 
+                heading="Mentra" 
                 subheading="End-to-end product overhaul for a seed-stage, YC-backed startup."
                 image={mentraHero}
                 />
@@ -32,7 +32,7 @@ export default function MentraOSUseCase(){
             />
 
             <Card
-                p1={<div><span className={`emphasis`}>Smart glasses need an app ecosystem.</span> MentraOS creates the first comprehensive app store for smart glasses, allowing users to discover new apps, install them seamlessly, and manage their entire smart glasses experience from one place.</div>}
+                p1={<div><span className={`emphasis`}>Smart glasses need an app ecosystem.</span> MentraOS is the first comprehensive app store for smart glasses, allowing users to discover new apps, install them seamlessly, and manage their entire smart glasses experience from one place.</div>}
                 bullets={null}
                 className={`${styles.marginBottomNone}`}
             >

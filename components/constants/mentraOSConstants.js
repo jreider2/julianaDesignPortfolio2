@@ -1,6 +1,6 @@
 import overviewStyles from "../useCaseGenerics/overview.module.css";
 
-const overviewTextP1 = "MentraOS is a seed-stage, YC-backed startup building the app store for smart glasses. The platform allows users to discover, install, manage, and control apps on their smart glasses, while also providing comprehensive device settings management.";
+const overviewTextP1 = "Mentra is a seed-stage, YC-backed startup building MentraOS, the app store for smart glasses. The platform allows users to discover, install, manage, and control apps on their smart glasses, while also providing comprehensive device settings management.";
 
 const overviewTextP4 = <>As the designer for this end-to-end product overhaul, I worked closely with the founding team to <span className={overviewStyles.emphasis}>create the first comprehensive smart glasses app ecosystem</span> that makes managing wearable technology intuitive and powerful.
 </>
